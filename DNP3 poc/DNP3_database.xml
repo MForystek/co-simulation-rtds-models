@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root xmlns="http://www.w3.org/1999/xhtml">  
+  <Header toolID="RTDS DNP3 Database Editor" Version="1.00-b35 2024-04-25 11:36:26"> 
+    <History> 
+      <Hitem revision="1" when="2024/12/30 08:53:16" who="forystmj" what="Created new Database, version:2.0" why="User Initiated Action"/>  
+      <Hitem revision="2" when="2024/12/30 09:51:44" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="3" when="2024/12/30 13:57:54" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="4" when="2024/12/30 13:59:23" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="5" when="2024/12/30 21:05:02" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="6" when="2024/12/30 21:06:26" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="7" when="2024/12/31 10:37:42" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="8" when="2024/12/31 10:53:41" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="9" when="2025/01/03 13:41:12" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="10" when="2025/01/03 13:41:18" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="11" when="2025/01/03 13:41:33" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="12" when="2025/01/03 13:46:11" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="13" when="2025/01/03 13:50:55" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="14" when="2025/01/03 13:57:56" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="15" when="2025/01/11 13:43:46" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="16" when="2025/01/11 13:55:41" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="17" when="2025/01/11 13:55:56" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="18" when="2025/01/11 13:56:16" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="19" when="2025/01/11 13:58:43" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="20" when="2025/01/11 14:02:52" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="21" when="2025/01/11 14:08:48" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="22" when="2025/01/12 08:32:33" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="23" when="2025/01/12 10:51:31" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+    </History> 
+  </Header>  
+  <Outstation name="Volt1" inst="1" desc="RTDS DNP3 interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="DNPv6" configVersion="2.0"> 
+    <DNPSetup NumChannels="1"> 
+      <Master inst="1" enable="true" MasterIP="*.*.*.*" Port="20002" udpPort="3671"/>  
+      <Master inst="2" enable="false" MasterIP="*.*.*.*" Port="20000" udpPort="3672"/>  
+      <Channel Nmode="TCP/UDP" inst="1" IpIndex="1"> 
+        <OutstationConfiguration> 
+          <P type="maxControlsPerRequest">16</P>  
+          <P type="maxRxFragSize">2048</P>  
+          <P type="maxTxFragSize">2048</P>  
+          <P type="allowUnsolicited">false</P>  
+          <P type="selectTimeout">10000</P>  
+          <P type="solConfirmTimeout">10000</P>  
+          <P type="unsolConfirmTimeout">10000</P>  
+          <P type="unsolRetries">3</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" masterInst="1"> 
+            <P type="remoteAddr">1</P>  
+            <P type="localAddr">2</P>  
+            <P type="responseTimeout">10000</P>  
+            <P type="keepAliveTimeout">5000</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" masterInst="1"> 
+            <P type="remoteAddr">2</P>  
+            <P type="localAddr">1025</P>  
+            <P type="responseTimeout">10000</P>  
+            <P type="keepAliveTimeout">5000</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel>  
+      <Channel Nmode="TCP/UDP" inst="2" IpIndex="1"> 
+        <OutstationConfiguration> 
+          <P type="maxControlsPerRequest">16</P>  
+          <P type="maxRxFragSize">2048</P>  
+          <P type="maxTxFragSize">2048</P>  
+          <P type="allowUnsolicited">false</P>  
+          <P type="selectTimeout">10000</P>  
+          <P type="solConfirmTimeout">10000</P>  
+          <P type="unsolConfirmTimeout">10000</P>  
+          <P type="unsolRetries">3</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" masterInst="2"> 
+            <P type="remoteAddr">1</P>  
+            <P type="localAddr">1024</P>  
+            <P type="responseTimeout">10000</P>  
+            <P type="keepAliveTimeout">5000</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" masterInst="2"> 
+            <P type="remoteAddr">2</P>  
+            <P type="localAddr">1025</P>  
+            <P type="responseTimeout">10000</P>  
+            <P type="keepAliveTimeout">5000</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel> 
+    </DNPSetup>  
+    <BinaryStatusPoints maxEvents="200"> 
+      <!--Binary Input Objects 1,2 in DNP Specification (Outputs from RTDS) BI: DNP_address user_label bitmap_name bitmap_bit_num class_num static_var event_var-->  
+      <BI DNP_address="0" user_label="CB status" bitmap_name="BRKSTS1" bitmap_bit_num="0" class_num="Class2" static_var="Group1Var2" event_var="Group2Var2"/> 
+    </BinaryStatusPoints>  
+    <DPointStatusPoints maxEvents="100"> 
+      <!--DPos Input Objects 3,4 in DNP Specification (Outputs from RTDS) DPI: point_num user_label bitmap_name bitmap_start_bit_num class_num static_var event_var--> 
+    </DPointStatusPoints>  
+    <Counters maxEvents="10"> 
+      <!--Binary Counter Input Objects 20,22 in DNP Specification (Outputs from RTDS) CNT: DNP_address variable_name default_value class_num static_var event_var--> 
+    </Counters>  
+    <FrozenCounters maxEvents="10"> 
+      <!--Frozen Binary Counter Input Objects 21,23 in DNP Specification (Outputs from RTDS) FC: DNP_address variable_name default_value class_num static_var event_var--> 
+    </FrozenCounters>  
+    <AnalogStatusPoints maxEvents="50"> 
+      <!--Analog Input Objects 30,32 in DNP Specification (Outputs from RTDS) AI: DNP_address variable_name deadband% [serializer_name] class_num static_var event_var-->  
+      <AI DNP_address="0" variable_name="Vrms0" deadband="0.01" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6" deadband_algorithm="simple"/>  
+      <AI DNP_address="1" variable_name="Vrms1" deadband="0.01" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/> 
+    </AnalogStatusPoints>  
+    <BinaryControlPoints maxEvents=""> 
+      <!--Binary Output Objects 10, 12 in DNP Specification (Inputs to RTDS) BO: DNP_address user_label bitmap_name bitmap_bit_num default_state class_num static_var event_var-->  
+      <BO DNP_address="0" user_label="BRK ctrl" bitmap_name="BRKCTRL1" bitmap_bit_num="0" default_state="On" class_num="Class2" static_var="Group10Var2" event_var="Group11Var2"/> 
+    </BinaryControlPoints>  
+    <AnalogControlPoints maxEvents=""> 
+      <!--Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS) AO: DNP_address variable_name default_value [serializer_name] class_num static_var event_var--> 
+    </AnalogControlPoints> 
+  </Outstation> 
+</root>

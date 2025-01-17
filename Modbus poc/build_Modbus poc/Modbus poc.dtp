@@ -1,0 +1,717 @@
+Test Circuit
+C
+C Compiled by: DRAFT 2.4
+C Source File:C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\Modbus poc\Modbus poc.rtfx
+C
+C==============================================================================================
+DRAFT_VERSION=2.4
+TIME_STEP= 5.0E-5 FINISH_TIME= 0.2
+NUMBER_OF_SUBSYSTEMS= 1
+CTLS_ORDER_MODE= AUTO
+MAX_UNIQUEID_CNT= 2010000001
+DISTRIBUTION_MODE= 0
+SUBSYSTEM_NUMBER= 1
+NUMBER_OF_DRAFT_VARIABLES=0
+SECTION: PRE_PROCESSOR
+    String Desc="CircuitTitle Annotation" Group="Annotation" InitValue="Test Circuit"
+END_SECTION
+
+SECTION: NODE_SECTION
+   NUMBER_OF_NODES= 9
+   INITIAL_NODE_VOLTAGES= 0.0
+      NODE= 1 VBASE= 230.000000 IBASE= 1.0 NODENAME= "A0"    
+      NODE= 2 VBASE= 230.000000 IBASE= 1.0 NODENAME= "B0"    
+      NODE= 3 VBASE= 230.000000 IBASE= 1.0 NODENAME= "C0"    
+      NODE= 4 VBASE= 0 IBASE= 0 NODENAME= "4"    
+      NODE= 5 VBASE= 0 IBASE= 0 NODENAME= "5"    
+      NODE= 6 VBASE= 0 IBASE= 0 NODENAME= "6"    
+      NODE= 7 VBASE= 230.000000 IBASE= 1.0 NODENAME= "A1"    
+      NODE= 8 VBASE= 230.000000 IBASE= 1.0 NODENAME= "B1"    
+      NODE= 9 VBASE= 230.000000 IBASE= 1.0 NODENAME= "C1"    
+   NUMBER_OF_VSC_NODES= 0
+END_SECTION
+
+SECTION: NETWORK_RLC_BRANCH
+   NUMBER_OF_BRANCHES= 6
+DRAFT_UNIQUEID=527
+1  0  1.0 0.0 0.0 / -SHR_NOD 0 A0 0 1 1.0 0
+2  0  1.0 0.0 0.0 / -SHR_NOD 0 B0 0 1 1.0 0
+3  0  1.0 0.0 0.0 / -SHR_NOD 0 C0 0 1 1.0 0
+DRAFT_UNIQUEID=547
+7  0  1.0 0.0 0.0 / -SHR_NOD 0 A1 0 1 1.0 0
+8  0  1.0 0.0 0.0 / -SHR_NOD 0 B1 0 1 1.0 0
+9  0  1.0 0.0 0.0 / -SHR_NOD 0 C1 0 1 1.0 0
+END_SECTION
+
+999      / End of Sequencer data
+C
+C ===================================================================================
+SECTION: VALVE_GROUP_DATA
+RTDS.CTL.RISC_CMODEL
+V4COMP: ModelName = box_noTS NameParam = ModbusConvsFloatTo2xInt16 SubSystem = 1
+      DRAFT_UNIQUEID=582 HIERARCHY_BOXPARENT=582 LOCATION=752 496
+      DATA_SIZES: INTDATA=0 FLOATDATA=0 CHARDATA_FRMT=1 INVARS=0 OUTVARS=0
+      CHARDATA_FRMT: <<<ModbusConvsFloatTo2xInt16>>>(((Name)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = _rtds_BRK_V2 NameParam = BRK1 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=572 LOCATION=464 272
+      DATA_SIZES: INTDATA=22 FLOATDATA=12 CHARDATA_FRMT=11 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 1 A1 4 A2 2 B1 5 B2 3 C1
+      INTDATA: 6 C2 0 Mode 1 eStsMon 0 Imon 1 Abit
+      INTDATA: 0 Amon 0 ePre 1 Bbit 0 Bmon 1 Cbit
+      INTDATA: 0 Cmon 0 eXSWI 0 XSWItyp 1 DS1bit 1 DS2bit
+      INTDATA: 0 eIntCILO 0 eOpCap
+      FLOATDATA: 0.1 ARcls 0.0 Aholdi 250 rPre 0.012 tPre 0.1 tPreRv
+      FLOATDATA: 0.1 BRcls 0.0 Bholdi 0.1 CRcls 0.0 Choldi 1E8 ARopn
+      FLOATDATA: 1E8 BRopn 1E8 CRopn
+      CHARDATA_FRMT: <<<BRK1>>>(((Name))) <<<BRKSTS1>>>(((cbSts))) <<<BRKCTRL1>>>(((Asig))) <<<IBRKA1>>>(((IAnam))) <<<BBRK1>>>(((Bsig)))
+      CHARDATA_FRMT: <<<IBRKB1>>>(((IBnam))) <<<CBRK1>>>(((Csig))) <<<IBRKC1>>>(((ICnam))) <<<DS1W1>>>(((DS1sig))) <<<DS2W1>>>(((DS2sig)))
+      CHARDATA_FRMT: <<<brkOpCap1>>>(((CBOpCap)))
+END
+RTDS.CTL.RISC_CMODEL
+V4COMP: ModelName = ESDC1Ax SubSystem = 1 Processor = 1 Priority = 2
+      DRAFT_UNIQUEID=523 LOCATION=208 112
+    DATA_SIZES: INTDATA=8 FLOATDATA=19 CHARDATA_FRMT=4 INVARS=4 OUTVARS=1
+    INTDATA: 0 PSS 0 LDComp 1 LFInit 0 incVuel 0 incVoel
+    INTDATA: 0 Mon 0 spdMult 0 Cal
+    FLOATDATA: -1.000000 Vi 0.000000 Tr 20.000000 Ka 0.200000 Ta 0.000000 Tb
+    FLOATDATA: 0.000000 Tc 5.000000 Vrmax -5.000000 Vrmin 1.000000 Ke 0.314000 Te
+    FLOATDATA: 0.063000 Kf 0.350000 Tf1 3.300000 E1 0.660200 Se1 4.500000 E2
+    FLOATDATA: 4.266200 Se2 0.01 Kvuel 0.01 Kvoel 60.000000 HTZ
+    CHARDATA_FRMT: <<<BUS0x1>>>(((Gen))) <<<excMon>>>(((ivName))) <<<VUEL>>>(((VuelName))) <<<VOEL>>>(((VoelName)))
+    INVARS: _dud_ IEEE VS _dud_ IEEE VC VGB1 IEEE VPU _dud_ IEEE W
+    OUTVARS: EF1 IEEE OUT
+END
+RTDS.CTL.RISC_CMODEL
+V4COMP: ModelName = ESDC1Ax SubSystem = 1 Processor = 1 Priority = 3
+      DRAFT_UNIQUEID=535 LOCATION=1264 112
+    DATA_SIZES: INTDATA=8 FLOATDATA=19 CHARDATA_FRMT=4 INVARS=4 OUTVARS=1
+    INTDATA: 0 PSS 0 LDComp 1 LFInit 0 incVuel 0 incVoel
+    INTDATA: 0 Mon 0 spdMult 0 Cal
+    FLOATDATA: -1.000000 Vi 0.000000 Tr 20.000000 Ka 0.200000 Ta 0.000000 Tb
+    FLOATDATA: 0.000000 Tc 5.000000 Vrmax -5.000000 Vrmin 1.000000 Ke 0.314000 Te
+    FLOATDATA: 0.063000 Kf 0.350000 Tf1 3.300000 E1 0.660200 Se1 4.500000 E2
+    FLOATDATA: 4.266200 Se2 0.01 Kvuel 0.01 Kvoel 60.000000 HTZ
+    CHARDATA_FRMT: <<<BUS1x1>>>(((Gen))) <<<excMon1>>>(((ivName))) <<<VUEL1>>>(((VuelName))) <<<VOEL1>>>(((VoelName)))
+    INVARS: _dud_ IEEE VS _dud_ IEEE VC EF11 IEEE VPU _dud_ IEEE W
+    OUTVARS: VGB11 IEEE OUT
+END
+RTDS.CTL.RISC_CMODEL
+V4COMP: ModelName = gtnet_modbus_v2 SubSystem = 1 Processor = 1 Priority = 13
+      DRAFT_UNIQUEID=573 LOCATION=720 400
+        DATA_SIZES: INTDATA=7 FLOATDATA=0 CHARDATA_FRMT=2 INVARS=0 OUTVARS=0
+        INTDATA: 1 Card 11 Port 1 gtnetModbusType 502 local_udp_tcp_port 1 ServerID
+        INTDATA: 0 Mode 1 modbusV
+        CHARDATA_FRMT: <<<GTNETModbus>>>(((Name))) <<<ModbusDatabase>>>(((Fname)))
+END
+RTDS.CTL.RISC_CMODEL
+COMP: TGOV1x 1 1 4 0
+      DRAFT_UNIQUEID=525 LOCATION=208 432
+    DATA_SIZES: INTDATA=2 FLOATDATA=9 CHARDATA_FRMT=2 INVARS=2 OUTVARS=1
+    INTDATA: 0 Lrf 0 Mon
+    FLOATDATA: 60.000000 HTZ 0.050000 R 0.050000 T1 5.00000 Vmax -5.00000 Vmin
+    FLOATDATA: 2.100000 T2 7.000000 T3 0.000000 Dt -1.0 Trate
+    CHARDATA_FRMT: <<<BUS0x1>>>(((Gen))) <<<govMon>>>(((ivName)))
+    INVARS: W1 IEEE W _dud_ IEEE prefCC
+    OUTVARS: TM1 IEEE OUT
+END
+RTDS.CTL.RISC_CMODEL
+COMP: TGOV1x 1 1 5 0
+      DRAFT_UNIQUEID=530 LOCATION=1264 432
+    DATA_SIZES: INTDATA=2 FLOATDATA=9 CHARDATA_FRMT=2 INVARS=2 OUTVARS=1
+    INTDATA: 0 Lrf 0 Mon
+    FLOATDATA: 60.000000 HTZ 0.050000 R 0.050000 T1 5.00000 Vmax -5.00000 Vmin
+    FLOATDATA: 2.100000 T2 7.000000 T3 0.000000 Dt -1.0 Trate
+    CHARDATA_FRMT: <<<BUS1x1>>>(((Gen))) <<<govMon1>>>(((ivName)))
+    INVARS: W11 IEEE W _dud_ IEEE prefCC
+    OUTVARS: TM11 IEEE OUT
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = MACV31_CB NameParam = BUS0x1 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=521 LOCATION=208 272
+      DATA_SIZES: INTDATA=96 FLOATDATA=90 CHARDATA_FRMT=43 INVARS=7 OUTVARS=4
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 1 A_1 2 B_1 3 C_1 1 cnfg 1 cfgr
+      INTDATA: 0 trfa 0 satur 0 MM 1 spdin 0 tecc
+      INTDATA: 1 vtcc 0 polep01 1 ppnum 1 trfmr 0 ldmh1
+      INTDATA: 0 ldmh2 0 exclu 0 MSW 0 spdmd 0 inh
+      INTDATA: 0 ind 1 rmpc 0 iszro 0 izro 0 ConFlag
+      INTDATA: 1 dlagp 1 itzro 1 ledim 1 ledvm 1 lednt
+      INTDATA: 1 ledit 1 mon1 1 mon2 0 mon3 0 mon4
+      INTDATA: 0 mon5 0 mon6 0 mon7 0 mon8 0 mon9
+      INTDATA: 0 mon11 0 mon12 0 mon13 0 mon14 0 mon15
+      INTDATA: 0 mon16 0 mon17 0 mon18 0 mon19 0 mon20
+      INTDATA: 0 mon21 0 mon22 0 mon23 1 LFIdent 2 Num
+      INTDATA: 0 Num2 3 Type 1 BN 1 SN 0 mon10
+      FLOATDATA: 100.000000 mmva 16.500000 Vbsll 60.000000 HTZ 23.640000 H 0.0 D
+      FLOATDATA: 1.15 upexw 0.85 loexw 1.000000 Vmagn 0.000000 Vangl 1.000000 P0
+      FLOATDATA: 0.010576 Q0 0.05 rmptc 80 Pt 10 Qt 1.0 XS1
+      FLOATDATA: 1.0 XMD0 1.0 X230 1.0 X2D 1.0 X3D 1.0 XMQ
+      FLOATDATA: 1.0 X2Q 1.0 X3Q 1.0 RS1 1.0 R2D 1.0 R3D
+      FLOATDATA: 1.0 R2Q 1.0 R3Q 0.0146 Xa 0.146000 Xd 0.0608 Xd_p
+      FLOATDATA: 0.06 Xd_pp 100.0 Gfld 100.0 Bfld 0.100000 Xq 0.0969 Xq_p
+      FLOATDATA: 0.06 Xq_pp 0.000125 Ra 8.96 Tdo_p 0.01 Tdo_pp 0.31 Tqo_p
+      FLOATDATA: 0.01 Tqo_pp 0.000125 Mrzro 0.054000 Mxzro 1.0e5 Rneut 0.015333 Xneut
+      FLOATDATA: 0.0 C1 0.0 V1 0.5 C2 0.5 V2 0.8 C3
+      FLOATDATA: 0.79 V3 1.0 C4 0.947 V4 1.2 C5 1.076 V5
+      FLOATDATA: 1.5 C6 1.2 V6 1.8 C7 1.3 V7 2.2 C8
+      CHARDATA_FRMT: <<<BUS0x1>>>(((Name))) <<<P1>>>(((nam1sfx))) <<<Q1>>>(((nam2sfx))) <<<LA1>>>(((nam3sfx))) <<<I1A>>>(((nam4sfx)))
+      CHARDATA_FRMT: <<<I1B>>>(((nam5sfx))) <<<I1C>>>(((nam6sfx))) <<<IM1C>>>(((nam7sfx))) <<<Ed1>>>(((nam8sfx))) <<<Eq1>>>(((nam9sfx)))
+      CHARDATA_FRMT: <<<nam10>>>(((nam10sfx))) <<<Id1>>>(((nam11sfx))) <<<Iq1>>>(((nam12sfx))) <<<RA1>>>(((nam13sfx))) <<<In1>>>(((nam14sfx)))
+      CHARDATA_FRMT: <<<Vn1>>>(((nam15sfx))) <<<V1A>>>(((nam16sfx))) <<<V1B>>>(((nam17sfx))) <<<V1C>>>(((nam18sfx))) <<<nam24>>>(((nam24sfx)))
+      CHARDATA_FRMT: <<<nam25>>>(((nam25sfx))) <<<PTRF1C>>>(((nam19sfx))) <<<QTRF1C>>>(((nam20sfx))) <<<ITRFA1C>>>(((nam21sfx))) <<<ITRFB1C>>>(((nam22sfx)))
+      INVARS: EF1 IEEE EFLDN TM1 IEEE TMECH _dud_ INT MODSW _dud_ IEEE HEXTN _dud_ IEEE DEXTN
+      INVARS: _dud_ IEEE WDDMP _dud_ IEEE GDWIN
+      OUTVARS: RT_4 IEEE IFLDN _dud_ IEEE TELEC W1 IEEE GWO VGB1 IEEE VTMPU
+      INTDATA: 0 mon24 0 mon25 1 stack 1 rqnp1 0 Aprc
+      INTDATA: 0 Consc 20 load 1 ieeeo2 1 defpi2 1 v1sup
+      INTDATA: 1 v2sup 0 pmc1_0 0 pmc2_0 0 pmc3_0 0 pmc4_0
+      INTDATA: 0 pmc1_2 0 pmc2_2 0 pmc3_2 0 pmc4_2 0 Sbrk
+      INTDATA: 1 Sstat1 1 SAbit 1 SBbit 1 SCbit 0 mon26
+      INTDATA: 0 mon27 0 mon28 0 mon29 0 mon30 0 mon33
+      INTDATA: 0 mon31 0 mon32 0 faccnfg 1 InjNA1 2 InjNB1
+      INTDATA: 3 InjNC1
+      FLOATDATA: 1.39 V8 3.2 C9 1.58 V9 4.2 C10 1.74 V10
+      FLOATDATA: 0.0609 SE10 0.1292 SE12 230.0 vtpri 16.50 vtsec 100.0 TMVA
+      FLOATDATA: 0.000000 trpos 0.057600 txpos 0.000000 trzro 0.057600 txzro 0.0001 tloss
+      FLOATDATA: 1.0e6 ldr1 1.0e6 ldl1 1.0 ldc1 1.0e6 ldr2 1.0e6 ldl2
+      FLOATDATA: 1.0 ldc2 0.00 tconp 0.00 tconc 0.00 tconv 1 Vi
+      FLOATDATA: 0 Ai 1.000000 Vd 0.000000 Ad 1.0e3 Sbrkof 1.0e-4 Sbrkon
+      CHARDATA_FRMT: <<<ITRFC1C>>>(((nam23sfx))) <<<PM10MACH1>>>(((nam_exT0_1sfx))) <<<PM20MACH1>>>(((nam_exT0_2sfx))) <<<PM30MACH1>>>(((nam_exT0_3sfx))) <<<PM40MACH1>>>(((nam_exT0_4sfx)))
+      CHARDATA_FRMT: <<<PM12MACH1>>>(((nam_exT2_1sfx))) <<<PM22MACH1>>>(((nam_exT2_2sfx))) <<<PM32MACH1>>>(((nam_exT2_3sfx))) <<<PM42MACH1>>>(((nam_exT2_4sfx))) <<<SBKWORD>>>(((Sswdnm)))
+      CHARDATA_FRMT: <<<MACBVA1>>>(((nam26sfx))) <<<MACBVB1>>>(((nam27sfx))) <<<MACBVC1>>>(((nam28sfx))) <<<PsiD1>>>(((nam29sfx))) <<<PsiQ1>>>(((nam30sfx)))
+      CHARDATA_FRMT: <<<MSPDRPM>>>(((nam31sfx))) <<<ELTRQNm>>>(((nam32sfx))) <<<ROTANGM>>>(((nam33sfx)))
+END
+C BEGIN user defined FDNE_INFO
+   NAME: BUS0x1
+   MODEL: generator
+   GROUP: FDNE
+   PROC:  DEFAULT
+   DSP:   FDNE_INFO hdc 1
+   SUBSYS: 1
+   PARA:
+     input EFD=fEF1 1;
+    input TM=fTM1 1;
+     output W=fW1 1;
+  output VT=fVGB1 1;
+     output IFD=fRT_4 1;
+     output P=fP1 1;
+     output Q=fQ1 1;
+     int MM=i0;
+     int inh=i0;
+     int trf=1
+C END user defined
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = MACV31_CB NameParam = BUS1x1 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=534 LOCATION=1264 272
+      DATA_SIZES: INTDATA=96 FLOATDATA=90 CHARDATA_FRMT=43 INVARS=7 OUTVARS=4
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 7 A_1 8 B_1 9 C_1 1 cnfg 1 cfgr
+      INTDATA: 0 trfa 0 satur 0 MM 1 spdin 0 tecc
+      INTDATA: 1 vtcc 0 polep01 1 ppnum 1 trfmr 0 ldmh1
+      INTDATA: 0 ldmh2 0 exclu 0 MSW 0 spdmd 0 inh
+      INTDATA: 0 ind 1 rmpc 0 iszro 0 izro 0 ConFlag
+      INTDATA: 1 dlagp 1 itzro 1 ledim 1 ledvm 1 lednt
+      INTDATA: 1 ledit 1 mon1 1 mon2 0 mon3 0 mon4
+      INTDATA: 0 mon5 0 mon6 0 mon7 0 mon8 0 mon9
+      INTDATA: 0 mon11 0 mon12 0 mon13 0 mon14 0 mon15
+      INTDATA: 0 mon16 0 mon17 0 mon18 0 mon19 0 mon20
+      INTDATA: 0 mon21 0 mon22 0 mon23 2 LFIdent 3 Num
+      INTDATA: 0 Num2 3 Type 1 BN 1 SN 0 mon10
+      FLOATDATA: 100.000000 mmva 16.500000 Vbsll 60.000000 HTZ 23.640000 H 0.0 D
+      FLOATDATA: 1.15 upexw 0.85 loexw 1.000000 Vmagn 0.000000 Vangl 8.000000 P0
+      FLOATDATA: 0.046865 Q0 0.05 rmptc 0 Pt 0 Qt 1.0 XS1
+      FLOATDATA: 1.0 XMD0 1.0 X230 1.0 X2D 1.0 X3D 1.0 XMQ
+      FLOATDATA: 1.0 X2Q 1.0 X3Q 1.0 RS1 1.0 R2D 1.0 R3D
+      FLOATDATA: 1.0 R2Q 1.0 R3Q 0.0146 Xa 0.146000 Xd 0.0608 Xd_p
+      FLOATDATA: 0.06 Xd_pp 100.0 Gfld 100.0 Bfld 0.100000 Xq 0.0969 Xq_p
+      FLOATDATA: 0.06 Xq_pp 0.000125 Ra 8.96 Tdo_p 0.01 Tdo_pp 0.31 Tqo_p
+      FLOATDATA: 0.01 Tqo_pp 0.000125 Mrzro 0.054000 Mxzro 1.0e5 Rneut 0.015333 Xneut
+      FLOATDATA: 0.0 C1 0.0 V1 0.5 C2 0.5 V2 0.8 C3
+      FLOATDATA: 0.79 V3 1.0 C4 0.947 V4 1.2 C5 1.076 V5
+      FLOATDATA: 1.5 C6 1.2 V6 1.8 C7 1.3 V7 2.2 C8
+      CHARDATA_FRMT: <<<BUS1x1>>>(((Name))) <<<P2>>>(((nam1sfx))) <<<Q2>>>(((nam2sfx))) <<<LA1>>>(((nam3sfx))) <<<I1A>>>(((nam4sfx)))
+      CHARDATA_FRMT: <<<I1B>>>(((nam5sfx))) <<<I1C>>>(((nam6sfx))) <<<IM1C>>>(((nam7sfx))) <<<Ed1>>>(((nam8sfx))) <<<Eq1>>>(((nam9sfx)))
+      CHARDATA_FRMT: <<<nam10>>>(((nam10sfx))) <<<Id1>>>(((nam11sfx))) <<<Iq1>>>(((nam12sfx))) <<<RA1>>>(((nam13sfx))) <<<In1>>>(((nam14sfx)))
+      CHARDATA_FRMT: <<<Vn1>>>(((nam15sfx))) <<<V1A>>>(((nam16sfx))) <<<V1B>>>(((nam17sfx))) <<<V1C>>>(((nam18sfx))) <<<nam24>>>(((nam24sfx)))
+      CHARDATA_FRMT: <<<nam25>>>(((nam25sfx))) <<<PTRF1C>>>(((nam19sfx))) <<<QTRF1C>>>(((nam20sfx))) <<<ITRFA1C>>>(((nam21sfx))) <<<ITRFB1C>>>(((nam22sfx)))
+      INVARS: VGB11 IEEE EFLDN TM11 IEEE TMECH _dud_ INT MODSW _dud_ IEEE HEXTN _dud_ IEEE DEXTN
+      INVARS: _dud_ IEEE WDDMP _dud_ IEEE GDWIN
+      OUTVARS: RT_3 IEEE IFLDN _dud_ IEEE TELEC W11 IEEE GWO EF11 IEEE VTMPU
+      INTDATA: 0 mon24 0 mon25 1 stack 1 rqnp1 0 Aprc
+      INTDATA: 0 Consc 20 load 1 ieeeo2 1 defpi2 1 v1sup
+      INTDATA: 1 v2sup 0 pmc1_0 0 pmc2_0 0 pmc3_0 0 pmc4_0
+      INTDATA: 0 pmc1_2 0 pmc2_2 0 pmc3_2 0 pmc4_2 0 Sbrk
+      INTDATA: 1 Sstat1 1 SAbit 1 SBbit 1 SCbit 0 mon26
+      INTDATA: 0 mon27 0 mon28 0 mon29 0 mon30 0 mon33
+      INTDATA: 0 mon31 0 mon32 0 faccnfg 7 InjNA1 8 InjNB1
+      INTDATA: 9 InjNC1
+      FLOATDATA: 1.39 V8 3.2 C9 1.58 V9 4.2 C10 1.74 V10
+      FLOATDATA: 0.0609 SE10 0.1292 SE12 230.0 vtpri 16.50 vtsec 100.0 TMVA
+      FLOATDATA: 0.000000 trpos 0.057600 txpos 0.000000 trzro 0.057600 txzro 0.0001 tloss
+      FLOATDATA: 1.0e6 ldr1 1.0e6 ldl1 1.0 ldc1 1.0e6 ldr2 1.0e6 ldl2
+      FLOATDATA: 1.0 ldc2 0.00 tconp 0.00 tconc 0.00 tconv 1 Vi
+      FLOATDATA: 0 Ai 1.000000 Vd 0.000000 Ad 1.0e3 Sbrkof 1.0e-4 Sbrkon
+      CHARDATA_FRMT: <<<ITRFC1C>>>(((nam23sfx))) <<<PM10MACH1>>>(((nam_exT0_1sfx))) <<<PM20MACH1>>>(((nam_exT0_2sfx))) <<<PM30MACH1>>>(((nam_exT0_3sfx))) <<<PM40MACH1>>>(((nam_exT0_4sfx)))
+      CHARDATA_FRMT: <<<PM12MACH1>>>(((nam_exT2_1sfx))) <<<PM22MACH1>>>(((nam_exT2_2sfx))) <<<PM32MACH1>>>(((nam_exT2_3sfx))) <<<PM42MACH1>>>(((nam_exT2_4sfx))) <<<SBKWORD>>>(((Sswdnm)))
+      CHARDATA_FRMT: <<<MACBVA1>>>(((nam26sfx))) <<<MACBVB1>>>(((nam27sfx))) <<<MACBVC1>>>(((nam28sfx))) <<<PsiD1>>>(((nam29sfx))) <<<PsiQ1>>>(((nam30sfx)))
+      CHARDATA_FRMT: <<<MSPDRPM1>>>(((nam31sfx))) <<<ELTRQNm1>>>(((nam32sfx))) <<<ROTANGM1>>>(((nam33sfx)))
+END
+C BEGIN user defined FDNE_INFO
+   NAME: BUS1x1
+   MODEL: generator
+   GROUP: FDNE
+   PROC:  DEFAULT
+   DSP:   FDNE_INFO hdc 1
+   SUBSYS: 1
+   PARA:
+     input EFD=fVGB11 1;
+    input TM=fTM11 1;
+     output W=fW11 1;
+  output VT=fEF11 1;
+     output IFD=fRT_3 1;
+     output P=fP2 1;
+     output Q=fQ2 1;
+     int MM=i0;
+     int inh=i0;
+     int trf=1
+C END user defined
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_logic NameParam = TLINE0d Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=15 FLOATDATA=2 CHARDATA_FRMT=4 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 elimCrtLag 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012 0 enDebug 0 num_normal_dt_in_SE_dt 0 num_normal_dt_in_RE_dt
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx))) <<<TLINE0d>>>(((nmLogic))) <<<TLINE0>>>(((Name)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = TLcalc NameParam = TLINE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=15 FLOATDATA=2 CHARDATA_FRMT=4 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 elimCrtLag 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012 0 enDebug 0 num_normal_dt_in_SE_dt 0 num_normal_dt_in_RE_dt
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Name))) <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx))) <<<TLINE0d>>>(((nmLogic)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_01 NameParam = TLINE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=15 FLOATDATA=2 CHARDATA_FRMT=3 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 enDebug 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 elimCrtLag 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012 0 num_normal_dt_in_SE_dt 0 num_normal_dt_in_RE_dt
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Name))) <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_02 NameParam = TLINE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=15 FLOATDATA=2 CHARDATA_FRMT=3 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 enDebug 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 elimCrtLag 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012 0 num_normal_dt_in_SE_dt 0 num_normal_dt_in_RE_dt
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Name))) <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_03 NameParam = TLINE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=13 FLOATDATA=2 CHARDATA_FRMT=3 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 enDebug 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 elimCrtLag 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Name))) <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_04 NameParam = TLINE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=15 FLOATDATA=2 CHARDATA_FRMT=3 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 enDebug 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 elimCrtLag 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012 0 num_normal_dt_in_SE_dt 0 num_normal_dt_in_RE_dt
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Name))) <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_05 NameParam = TLINE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=15 FLOATDATA=2 CHARDATA_FRMT=3 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 enDebug 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 elimCrtLag 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012 0 num_normal_dt_in_SE_dt 0 num_normal_dt_in_RE_dt
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Name))) <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_06 NameParam = TLINE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=550 LOCATION=720 272
+      DATA_SIZES: INTDATA=13 FLOATDATA=2 CHARDATA_FRMT=3 INVARS=0 OUTVARS=0
+      RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+      INTDATA: 0 Type 0 cntyp 0 pptline 0 enDebug 0 exclu
+      INTDATA: 1 rdData 0 hmnpp 1 frcpi 0 alwpi 0 raistt
+      INTDATA: 1 Ph 0 elimCrtLag 0 final_tl_berg_format_tlbclb_tloclo_or_tlines_012
+      FLOATDATA: 100 pp_var 0 final_tl_berg_percentage_line_length
+      CHARDATA_FRMT: <<<TLINE0>>>(((Name))) <<<TLINE0>>>(((Dnm1))) <<<0>>>(((final_tl_constants_file_name_cw_sufx)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = TLterm NameParam = LINERE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=549 LOCATION=880 272
+        DATA_SIZES: INTDATA=72 FLOATDATA=8 CHARDATA_FRMT=44 INVARS=0 OUTVARS=0
+        RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+        INTDATA: 7 A_1 8 B_1 9 C_1 -11 A_2 -11 B_2
+        INTDATA: -11 C_2 -11 A_3 -11 B_3 -11 C_3 -11 A_4
+        INTDATA: -11 B_4 -11 C_4 -11 A_5 -11 B_5 -11 C_5
+        INTDATA: -11 A_6 -11 B_6 -11 C_6 1 endsr 3 numc
+        INTDATA: 0 lnbkr 0 enbrl 0 dirct 1 ctpo 0 dirpq
+        INTDATA: 1 pctpo 0 stat1 0 stat2 0 mon1 0 mon2
+        INTDATA: 0 mon3 0 mon4 0 mon5 0 mon6 0 mon11
+        INTDATA: 0 mon12 0 mon13 0 mon14 0 mon15 0 mon16
+        INTDATA: 0 mon21 0 mon22 0 mon23 0 mon7 0 mon8
+        INTDATA: 0 mon9 0 mon10 0 mon17 0 mon18 0 mon19
+        INTDATA: 0 mon20 0 mon24 0 mon25 0 monv1 0 monv2
+        INTDATA: 0 monv3 0 monv4 0 monv5 0 monv6 0 cable
+        FLOATDATA: 0.01 tcnpq 1.0e6 bkrof 0.1 bkron 0.0 resi 1.0 indc
+        FLOATDATA: 10000.0 LENGTH 100.0 PERCENT_OF_LINE 0.0 holdi
+        CHARDATA_FRMT: <<<LINERE0>>>(((Name))) <<<TLINE0>>>(((Tnam1))) <<<BKWORD1>>>(((swdnm))) <<<I1RE1>>>(((nam1))) <<<I2RE1>>>(((nam2)))
+        CHARDATA_FRMT: <<<I3RE1>>>(((nam3))) <<<I4RE1>>>(((nam4))) <<<I5RE1>>>(((nam5))) <<<I6RE1>>>(((nam6))) <<<I7RE1>>>(((nam11)))
+        CHARDATA_FRMT: <<<I8RE1>>>(((nam12))) <<<I9RE1>>>(((nam13))) <<<I10RE1>>>(((nam14))) <<<I11RE1>>>(((nam15))) <<<I12RE1>>>(((nam16)))
+        CHARDATA_FRMT: <<<IARE1>>>(((nam21))) <<<IBRE1>>>(((nam22))) <<<ICRE1>>>(((nam23))) <<<PL1RE1>>>(((nam7))) <<<QL1RE1>>>(((nam8)))
+        CHARDATA_FRMT: <<<PL2RE1>>>(((nam9))) <<<QL2RE1>>>(((nam10))) <<<PL3RE1>>>(((nam17))) <<<QL3RE1>>>(((nam18))) <<<PL4RE1>>>(((nam19)))
+        INTDATA: 0 tmperr 0 bitsw 0 mon26 0 mon27 0 mon28
+        INTDATA: 0 mon29 0 mon30 0 mon31 0 mon32 0 mon33
+        INTDATA: 0 mon34 0 mon35
+        CHARDATA_FRMT: <<<QL4RE1>>>(((nam20))) <<<PTRE1>>>(((nam24))) <<<QTRE1>>>(((nam25))) <<<V1SE1>>>(((namv1))) <<<V2SE1>>>(((namv2)))
+        CHARDATA_FRMT: <<<V3SE1>>>(((namv3))) <<<V4SE1>>>(((namv4))) <<<V5SE1>>>(((namv5))) <<<V6SE1>>>(((namv6))) <<<I13SE1>>>(((nam26)))
+        CHARDATA_FRMT: <<<I14SE1>>>(((nam27))) <<<I15SE1>>>(((nam28))) <<<I16SE1>>>(((nam29))) <<<I17SE1>>>(((nam30))) <<<I18SE1>>>(((nam31)))
+        CHARDATA_FRMT: <<<QL5SE1>>>(((nam32))) <<<QL5SE1>>>(((nam33))) <<<QL6SE1>>>(((nam34))) <<<QL6SE1>>>(((nam35)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_07 NameParam = LINERE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=549 LOCATION=880 272
+        DATA_SIZES: INTDATA=73 FLOATDATA=9 CHARDATA_FRMT=44 INVARS=0 OUTVARS=0
+        RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+        INTDATA: 7 A_1 8 B_1 9 C_1 -11 A_2 -11 B_2
+        INTDATA: -11 C_2 -11 A_3 -11 B_3 -11 C_3 -11 A_4
+        INTDATA: -11 B_4 -11 C_4 -11 A_5 -11 B_5 -11 C_5
+        INTDATA: -11 A_6 -11 B_6 -11 C_6 1 endsr 3 numc
+        INTDATA: 0 lnbkr 0 enbrl 0 dirct 1 ctpo 0 dirpq
+        INTDATA: 1 pctpo 0 stat1 0 stat2 0 mon1 0 mon2
+        INTDATA: 0 mon3 0 mon4 0 mon5 0 mon6 0 mon11
+        INTDATA: 0 mon12 0 mon13 0 mon14 0 mon15 0 mon16
+        INTDATA: 0 mon21 0 mon22 0 mon23 0 mon7 0 mon8
+        INTDATA: 0 mon9 0 mon10 0 mon17 0 mon18 0 mon19
+        INTDATA: 0 mon20 0 mon24 0 mon25 0 monv1 0 monv2
+        INTDATA: 0 monv3 0 monv4 0 monv5 0 monv6 0 cable
+        FLOATDATA: 0.01 tcnpq 1.0e6 bkrof 0.1 bkron 0.0 holdi 0.0 resi
+        FLOATDATA: 1.0 indc 10000.0 LENGTH 100.0 PERCENT_OF_LINE 10000.0 ACTUAL_LEN
+        CHARDATA_FRMT: <<<LINERE0>>>(((Name))) <<<TLINE0>>>(((Tnam1))) <<<BKWORD1>>>(((swdnm))) <<<I1RE1>>>(((nam1))) <<<I2RE1>>>(((nam2)))
+        CHARDATA_FRMT: <<<I3RE1>>>(((nam3))) <<<I4RE1>>>(((nam4))) <<<I5RE1>>>(((nam5))) <<<I6RE1>>>(((nam6))) <<<I7RE1>>>(((nam11)))
+        CHARDATA_FRMT: <<<I8RE1>>>(((nam12))) <<<I9RE1>>>(((nam13))) <<<I10RE1>>>(((nam14))) <<<I11RE1>>>(((nam15))) <<<I12RE1>>>(((nam16)))
+        CHARDATA_FRMT: <<<IARE1>>>(((nam21))) <<<IBRE1>>>(((nam22))) <<<ICRE1>>>(((nam23))) <<<PL1RE1>>>(((nam7))) <<<QL1RE1>>>(((nam8)))
+        CHARDATA_FRMT: <<<PL2RE1>>>(((nam9))) <<<QL2RE1>>>(((nam10))) <<<PL3RE1>>>(((nam17))) <<<QL3RE1>>>(((nam18))) <<<PL4RE1>>>(((nam19)))
+        INTDATA: 0 tmperr 0 bitsw 0 enDebug 0 mon26 0 mon27
+        INTDATA: 0 mon28 0 mon29 0 mon30 0 mon31 0 mon32
+        INTDATA: 0 mon33 0 mon34 0 mon35
+        CHARDATA_FRMT: <<<QL4RE1>>>(((nam20))) <<<PTRE1>>>(((nam24))) <<<QTRE1>>>(((nam25))) <<<V1SE1>>>(((namv1))) <<<V2SE1>>>(((namv2)))
+        CHARDATA_FRMT: <<<V3SE1>>>(((namv3))) <<<V4SE1>>>(((namv4))) <<<V5SE1>>>(((namv5))) <<<V6SE1>>>(((namv6))) <<<I13SE1>>>(((nam26)))
+        CHARDATA_FRMT: <<<I14SE1>>>(((nam27))) <<<I15SE1>>>(((nam28))) <<<I16SE1>>>(((nam29))) <<<I17SE1>>>(((nam30))) <<<I18SE1>>>(((nam31)))
+        CHARDATA_FRMT: <<<QL5SE1>>>(((nam32))) <<<QL5SE1>>>(((nam33))) <<<QL6SE1>>>(((nam34))) <<<QL6SE1>>>(((nam35)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_08 NameParam = LINERE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=549 LOCATION=880 272
+        DATA_SIZES: INTDATA=73 FLOATDATA=9 CHARDATA_FRMT=44 INVARS=0 OUTVARS=0
+        RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+        INTDATA: 7 A_1 8 B_1 9 C_1 -11 A_2 -11 B_2
+        INTDATA: -11 C_2 -11 A_3 -11 B_3 -11 C_3 -11 A_4
+        INTDATA: -11 B_4 -11 C_4 -11 A_5 -11 B_5 -11 C_5
+        INTDATA: -11 A_6 -11 B_6 -11 C_6 1 endsr 3 numc
+        INTDATA: 0 lnbkr 0 enbrl 0 dirct 1 ctpo 0 dirpq
+        INTDATA: 1 pctpo 0 stat1 0 stat2 0 mon1 0 mon2
+        INTDATA: 0 mon3 0 mon4 0 mon5 0 mon6 0 mon11
+        INTDATA: 0 mon12 0 mon13 0 mon14 0 mon15 0 mon16
+        INTDATA: 0 mon21 0 mon22 0 mon23 0 mon7 0 mon8
+        INTDATA: 0 mon9 0 mon10 0 mon17 0 mon18 0 mon19
+        INTDATA: 0 mon20 0 mon24 0 mon25 0 monv1 0 monv2
+        INTDATA: 0 monv3 0 monv4 0 monv5 0 monv6 0 cable
+        FLOATDATA: 0.01 tcnpq 1.0e6 bkrof 0.1 bkron 0.0 holdi 0.0 resi
+        FLOATDATA: 1.0 indc 10000.0 LENGTH 100.0 PERCENT_OF_LINE 10000.0 ACTUAL_LEN
+        CHARDATA_FRMT: <<<LINERE0>>>(((Name))) <<<TLINE0>>>(((Tnam1))) <<<BKWORD1>>>(((swdnm))) <<<I1RE1>>>(((nam1))) <<<I2RE1>>>(((nam2)))
+        CHARDATA_FRMT: <<<I3RE1>>>(((nam3))) <<<I4RE1>>>(((nam4))) <<<I5RE1>>>(((nam5))) <<<I6RE1>>>(((nam6))) <<<I7RE1>>>(((nam11)))
+        CHARDATA_FRMT: <<<I8RE1>>>(((nam12))) <<<I9RE1>>>(((nam13))) <<<I10RE1>>>(((nam14))) <<<I11RE1>>>(((nam15))) <<<I12RE1>>>(((nam16)))
+        CHARDATA_FRMT: <<<IARE1>>>(((nam21))) <<<IBRE1>>>(((nam22))) <<<ICRE1>>>(((nam23))) <<<PL1RE1>>>(((nam7))) <<<QL1RE1>>>(((nam8)))
+        CHARDATA_FRMT: <<<PL2RE1>>>(((nam9))) <<<QL2RE1>>>(((nam10))) <<<PL3RE1>>>(((nam17))) <<<QL3RE1>>>(((nam18))) <<<PL4RE1>>>(((nam19)))
+        INTDATA: 0 tmperr 0 bitsw 0 enDebug 0 mon26 0 mon27
+        INTDATA: 0 mon28 0 mon29 0 mon30 0 mon31 0 mon32
+        INTDATA: 0 mon33 0 mon34 0 mon35
+        CHARDATA_FRMT: <<<QL4RE1>>>(((nam20))) <<<PTRE1>>>(((nam24))) <<<QTRE1>>>(((nam25))) <<<V1SE1>>>(((namv1))) <<<V2SE1>>>(((namv2)))
+        CHARDATA_FRMT: <<<V3SE1>>>(((namv3))) <<<V4SE1>>>(((namv4))) <<<V5SE1>>>(((namv5))) <<<V6SE1>>>(((namv6))) <<<I13SE1>>>(((nam26)))
+        CHARDATA_FRMT: <<<I14SE1>>>(((nam27))) <<<I15SE1>>>(((nam28))) <<<I16SE1>>>(((nam29))) <<<I17SE1>>>(((nam30))) <<<I18SE1>>>(((nam31)))
+        CHARDATA_FRMT: <<<QL5SE1>>>(((nam32))) <<<QL5SE1>>>(((nam33))) <<<QL6SE1>>>(((nam34))) <<<QL6SE1>>>(((nam35)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = TLterm NameParam = LINESE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=548 LOCATION=560 272
+        DATA_SIZES: INTDATA=72 FLOATDATA=8 CHARDATA_FRMT=44 INVARS=0 OUTVARS=0
+        RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+        INTDATA: 4 A_1 5 B_1 6 C_1 -11 A_2 -11 B_2
+        INTDATA: -11 C_2 -11 A_3 -11 B_3 -11 C_3 -11 A_4
+        INTDATA: -11 B_4 -11 C_4 -11 A_5 -11 B_5 -11 C_5
+        INTDATA: -11 A_6 -11 B_6 -11 C_6 0 endsr 3 numc
+        INTDATA: 0 lnbkr 0 enbrl 0 dirct 1 ctpo 0 dirpq
+        INTDATA: 1 pctpo 0 stat1 0 stat2 0 mon1 0 mon2
+        INTDATA: 0 mon3 0 mon4 0 mon5 0 mon6 0 mon11
+        INTDATA: 0 mon12 0 mon13 0 mon14 0 mon15 0 mon16
+        INTDATA: 0 mon21 0 mon22 0 mon23 0 mon7 0 mon8
+        INTDATA: 0 mon9 0 mon10 0 mon17 0 mon18 0 mon19
+        INTDATA: 0 mon20 0 mon24 0 mon25 0 monv1 0 monv2
+        INTDATA: 0 monv3 0 monv4 0 monv5 0 monv6 0 cable
+        FLOATDATA: 0.01 tcnpq 1.0e6 bkrof 0.1 bkron 0.0 resi 1.0 indc
+        FLOATDATA: 10000.0 LENGTH 100.0 PERCENT_OF_LINE 0.0 holdi
+        CHARDATA_FRMT: <<<LINESE0>>>(((Name))) <<<TLINE0>>>(((Tnam1))) <<<BKWORD1>>>(((swdnm))) <<<I1SE1>>>(((nam1))) <<<I2SE1>>>(((nam2)))
+        CHARDATA_FRMT: <<<I3SE1>>>(((nam3))) <<<I4SE1>>>(((nam4))) <<<I5SE1>>>(((nam5))) <<<I6SE1>>>(((nam6))) <<<I7SE1>>>(((nam11)))
+        CHARDATA_FRMT: <<<I8SE1>>>(((nam12))) <<<I9SE1>>>(((nam13))) <<<I10SE1>>>(((nam14))) <<<I11SE1>>>(((nam15))) <<<I12SE1>>>(((nam16)))
+        CHARDATA_FRMT: <<<IASE1>>>(((nam21))) <<<IBSE1>>>(((nam22))) <<<ICSE1>>>(((nam23))) <<<PL1SE1>>>(((nam7))) <<<QL1SE1>>>(((nam8)))
+        CHARDATA_FRMT: <<<PL2SE1>>>(((nam9))) <<<QL2SE1>>>(((nam10))) <<<PL3SE1>>>(((nam17))) <<<QL3SE1>>>(((nam18))) <<<PL4SE1>>>(((nam19)))
+        INTDATA: 0 tmperr 0 bitsw 0 mon26 0 mon27 0 mon28
+        INTDATA: 0 mon29 0 mon30 0 mon31 0 mon32 0 mon33
+        INTDATA: 0 mon34 0 mon35
+        CHARDATA_FRMT: <<<QL4SE1>>>(((nam20))) <<<PTSE1>>>(((nam24))) <<<QTSE1>>>(((nam25))) <<<V1SE1>>>(((namv1))) <<<V2SE1>>>(((namv2)))
+        CHARDATA_FRMT: <<<V3SE1>>>(((namv3))) <<<V4SE1>>>(((namv4))) <<<V5SE1>>>(((namv5))) <<<V6SE1>>>(((namv6))) <<<I13SE1>>>(((nam26)))
+        CHARDATA_FRMT: <<<I14SE1>>>(((nam27))) <<<I15SE1>>>(((nam28))) <<<I16SE1>>>(((nam29))) <<<I17SE1>>>(((nam30))) <<<I18SE1>>>(((nam31)))
+        CHARDATA_FRMT: <<<QL5SE1>>>(((nam32))) <<<QL5SE1>>>(((nam33))) <<<QL6SE1>>>(((nam34))) <<<QL6SE1>>>(((nam35)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_07 NameParam = LINESE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=548 LOCATION=560 272
+        DATA_SIZES: INTDATA=73 FLOATDATA=9 CHARDATA_FRMT=44 INVARS=0 OUTVARS=0
+        RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+        INTDATA: 4 A_1 5 B_1 6 C_1 -11 A_2 -11 B_2
+        INTDATA: -11 C_2 -11 A_3 -11 B_3 -11 C_3 -11 A_4
+        INTDATA: -11 B_4 -11 C_4 -11 A_5 -11 B_5 -11 C_5
+        INTDATA: -11 A_6 -11 B_6 -11 C_6 0 endsr 3 numc
+        INTDATA: 0 lnbkr 0 enbrl 0 dirct 1 ctpo 0 dirpq
+        INTDATA: 1 pctpo 0 stat1 0 stat2 0 mon1 0 mon2
+        INTDATA: 0 mon3 0 mon4 0 mon5 0 mon6 0 mon11
+        INTDATA: 0 mon12 0 mon13 0 mon14 0 mon15 0 mon16
+        INTDATA: 0 mon21 0 mon22 0 mon23 0 mon7 0 mon8
+        INTDATA: 0 mon9 0 mon10 0 mon17 0 mon18 0 mon19
+        INTDATA: 0 mon20 0 mon24 0 mon25 0 monv1 0 monv2
+        INTDATA: 0 monv3 0 monv4 0 monv5 0 monv6 0 cable
+        FLOATDATA: 0.01 tcnpq 1.0e6 bkrof 0.1 bkron 0.0 holdi 0.0 resi
+        FLOATDATA: 1.0 indc 10000.0 LENGTH 100.0 PERCENT_OF_LINE 10000.0 ACTUAL_LEN
+        CHARDATA_FRMT: <<<LINESE0>>>(((Name))) <<<TLINE0>>>(((Tnam1))) <<<BKWORD1>>>(((swdnm))) <<<I1SE1>>>(((nam1))) <<<I2SE1>>>(((nam2)))
+        CHARDATA_FRMT: <<<I3SE1>>>(((nam3))) <<<I4SE1>>>(((nam4))) <<<I5SE1>>>(((nam5))) <<<I6SE1>>>(((nam6))) <<<I7SE1>>>(((nam11)))
+        CHARDATA_FRMT: <<<I8SE1>>>(((nam12))) <<<I9SE1>>>(((nam13))) <<<I10SE1>>>(((nam14))) <<<I11SE1>>>(((nam15))) <<<I12SE1>>>(((nam16)))
+        CHARDATA_FRMT: <<<IASE1>>>(((nam21))) <<<IBSE1>>>(((nam22))) <<<ICSE1>>>(((nam23))) <<<PL1SE1>>>(((nam7))) <<<QL1SE1>>>(((nam8)))
+        CHARDATA_FRMT: <<<PL2SE1>>>(((nam9))) <<<QL2SE1>>>(((nam10))) <<<PL3SE1>>>(((nam17))) <<<QL3SE1>>>(((nam18))) <<<PL4SE1>>>(((nam19)))
+        INTDATA: 0 tmperr 0 bitsw 0 enDebug 0 mon26 0 mon27
+        INTDATA: 0 mon28 0 mon29 0 mon30 0 mon31 0 mon32
+        INTDATA: 0 mon33 0 mon34 0 mon35
+        CHARDATA_FRMT: <<<QL4SE1>>>(((nam20))) <<<PTSE1>>>(((nam24))) <<<QTSE1>>>(((nam25))) <<<V1SE1>>>(((namv1))) <<<V2SE1>>>(((namv2)))
+        CHARDATA_FRMT: <<<V3SE1>>>(((namv3))) <<<V4SE1>>>(((namv4))) <<<V5SE1>>>(((namv5))) <<<V6SE1>>>(((namv6))) <<<I13SE1>>>(((nam26)))
+        CHARDATA_FRMT: <<<I14SE1>>>(((nam27))) <<<I15SE1>>>(((nam28))) <<<I16SE1>>>(((nam29))) <<<I17SE1>>>(((nam30))) <<<I18SE1>>>(((nam31)))
+        CHARDATA_FRMT: <<<QL5SE1>>>(((nam32))) <<<QL5SE1>>>(((nam33))) <<<QL6SE1>>>(((nam34))) <<<QL6SE1>>>(((nam35)))
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = tln_mdl_08 NameParam = LINESE0 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=548 LOCATION=560 272
+        DATA_SIZES: INTDATA=73 FLOATDATA=9 CHARDATA_FRMT=44 INVARS=0 OUTVARS=0
+        RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+        INTDATA: 4 A_1 5 B_1 6 C_1 -11 A_2 -11 B_2
+        INTDATA: -11 C_2 -11 A_3 -11 B_3 -11 C_3 -11 A_4
+        INTDATA: -11 B_4 -11 C_4 -11 A_5 -11 B_5 -11 C_5
+        INTDATA: -11 A_6 -11 B_6 -11 C_6 0 endsr 3 numc
+        INTDATA: 0 lnbkr 0 enbrl 0 dirct 1 ctpo 0 dirpq
+        INTDATA: 1 pctpo 0 stat1 0 stat2 0 mon1 0 mon2
+        INTDATA: 0 mon3 0 mon4 0 mon5 0 mon6 0 mon11
+        INTDATA: 0 mon12 0 mon13 0 mon14 0 mon15 0 mon16
+        INTDATA: 0 mon21 0 mon22 0 mon23 0 mon7 0 mon8
+        INTDATA: 0 mon9 0 mon10 0 mon17 0 mon18 0 mon19
+        INTDATA: 0 mon20 0 mon24 0 mon25 0 monv1 0 monv2
+        INTDATA: 0 monv3 0 monv4 0 monv5 0 monv6 0 cable
+        FLOATDATA: 0.01 tcnpq 1.0e6 bkrof 0.1 bkron 0.0 holdi 0.0 resi
+        FLOATDATA: 1.0 indc 10000.0 LENGTH 100.0 PERCENT_OF_LINE 10000.0 ACTUAL_LEN
+        CHARDATA_FRMT: <<<LINESE0>>>(((Name))) <<<TLINE0>>>(((Tnam1))) <<<BKWORD1>>>(((swdnm))) <<<I1SE1>>>(((nam1))) <<<I2SE1>>>(((nam2)))
+        CHARDATA_FRMT: <<<I3SE1>>>(((nam3))) <<<I4SE1>>>(((nam4))) <<<I5SE1>>>(((nam5))) <<<I6SE1>>>(((nam6))) <<<I7SE1>>>(((nam11)))
+        CHARDATA_FRMT: <<<I8SE1>>>(((nam12))) <<<I9SE1>>>(((nam13))) <<<I10SE1>>>(((nam14))) <<<I11SE1>>>(((nam15))) <<<I12SE1>>>(((nam16)))
+        CHARDATA_FRMT: <<<IASE1>>>(((nam21))) <<<IBSE1>>>(((nam22))) <<<ICSE1>>>(((nam23))) <<<PL1SE1>>>(((nam7))) <<<QL1SE1>>>(((nam8)))
+        CHARDATA_FRMT: <<<PL2SE1>>>(((nam9))) <<<QL2SE1>>>(((nam10))) <<<PL3SE1>>>(((nam17))) <<<QL3SE1>>>(((nam18))) <<<PL4SE1>>>(((nam19)))
+        INTDATA: 0 tmperr 0 bitsw 0 enDebug 0 mon26 0 mon27
+        INTDATA: 0 mon28 0 mon29 0 mon30 0 mon31 0 mon32
+        INTDATA: 0 mon33 0 mon34 0 mon35
+        CHARDATA_FRMT: <<<QL4SE1>>>(((nam20))) <<<PTSE1>>>(((nam24))) <<<QTSE1>>>(((nam25))) <<<V1SE1>>>(((namv1))) <<<V2SE1>>>(((namv2)))
+        CHARDATA_FRMT: <<<V3SE1>>>(((namv3))) <<<V4SE1>>>(((namv4))) <<<V5SE1>>>(((namv5))) <<<V6SE1>>>(((namv6))) <<<I13SE1>>>(((nam26)))
+        CHARDATA_FRMT: <<<I14SE1>>>(((nam27))) <<<I15SE1>>>(((nam28))) <<<I16SE1>>>(((nam29))) <<<I17SE1>>>(((nam30))) <<<I18SE1>>>(((nam31)))
+        CHARDATA_FRMT: <<<QL5SE1>>>(((nam32))) <<<QL5SE1>>>(((nam33))) <<<QL6SE1>>>(((nam34))) <<<QL6SE1>>>(((nam35)))
+END
+RTDS.CTL.RISC_CMODEL
+V4COMP: ModelName = FLOAT2IEEE754 SubSystem = 1 Processor = 1 Priority = 11
+      DRAFT_UNIQUEID=577 HIERARCHY_BOXPARENT=582 LOCATION=208 80
+      DATA_SIZES: INTDATA=4 FLOATDATA=2 CHARDATA_FRMT=0 INVARS=5 OUTVARS=3
+      INTDATA: 0 mode1 0 mode2 0 encode 1 eSngd
+      FLOATDATA: 1.0 scale 0.0 offset
+      INVARS: _dud_ INT INI Vrms1 IEEE INF1 _dud_ IEEE INF2 _dud_ INT INI1 _dud_ INT INI2
+      OUTVARS: Vrms1pt2 INT OUT1 Vrms1pt1 INT OUT2 _dud_ IEEE OUT3
+END
+RTDS.CTL.RISC_CMODEL
+V4COMP: ModelName = FLOAT2IEEE754 SubSystem = 1 Processor = 1 Priority = 12
+      DRAFT_UNIQUEID=579 HIERARCHY_BOXPARENT=582 LOCATION=80 80
+      DATA_SIZES: INTDATA=4 FLOATDATA=2 CHARDATA_FRMT=0 INVARS=5 OUTVARS=3
+      INTDATA: 0 mode1 0 mode2 0 encode 1 eSngd
+      FLOATDATA: 1.0 scale 0.0 offset
+      INVARS: _dud_ INT INI Vrms0 IEEE INF1 _dud_ IEEE INF2 _dud_ INT INI1 _dud_ INT INI2
+      OUTVARS: Vrms0pt2 INT OUT1 Vrms0pt1 INT OUT2 _dud_ IEEE OUT3
+END
+RTDS.CTL.RISC_CMODEL
+COMP: RCONST 1 -1 1 0 2 0
+      DRAFT_UNIQUEID=569 LOCATION=560 560
+      DATA_SIZES: INTDATA=0 FLOATDATA=1 CHARDATA=0 INVARS=0 OUTVARS=1
+      FLOATDATA: 15 Val
+      OUTVARS: RT_2 FCONS OUT
+END
+RTDS.CTL.RISC_CMODEL
+COMP: RCONST 1 -1 1 0 2 0
+      DRAFT_UNIQUEID=571 LOCATION=464 432
+      DATA_SIZES: INTDATA=0 FLOATDATA=1 CHARDATA=0 INVARS=0 OUTVARS=1
+      FLOATDATA: 10.0 Val
+      OUTVARS: RT_1 FCONS OUT
+END
+RTDS.CTL.RISC_CMODEL
+COMP: freq_cb 1 1 6 0
+      DRAFT_UNIQUEID=556 LOCATION=426 98
+      DATA_SIZES: INTDATA=2 FLOATDATA=1 CHARDATA=0 INVARS=1 OUTVARS=1
+      INTDATA: 0 mo 0 pu
+      FLOATDATA: 60.0 Sc
+      INVARS: A0 IEEE N
+      OUTVARS: Freq0 IEEE Out
+END
+RTDS.CTL.RISC_CMODEL
+COMP: freq_cb 1 1 7 0
+      DRAFT_UNIQUEID=565 LOCATION=1008 80
+      DATA_SIZES: INTDATA=2 FLOATDATA=1 CHARDATA=0 INVARS=1 OUTVARS=1
+      INTDATA: 0 mo 0 pu
+      FLOATDATA: 60.0 Sc
+      INVARS: A1 IEEE N
+      OUTVARS: Freq1 IEEE Out
+END
+RTDS.CTL.RISC_CMODEL
+V4COMP: ModelName = rampg_cb SubSystem = 1 Processor = 1 Priority = 8
+      DRAFT_UNIQUEID=568 LOCATION=464 560
+    DATA_SIZES: INTDATA=0 FLOATDATA=5 CHARDATA_FRMT=0 INVARS=1 OUTVARS=1
+    FLOATDATA: 1.0 T 80 Xic 80 Yic 1000 Rmphi 80 Rmplo
+    INVARS: RT_2 IEEE Inp
+    OUTVARS: Q_IN IEEE Out
+END
+RTDS.CTL.RISC_CMODEL
+COMP: rms_meter 1 1 9 0
+      DRAFT_UNIQUEID=551 LOCATION=330 98
+    DATA_SIZES: INTDATA=4 FLOATDATA=1 CHARDATA=0 INVARS=4 OUTVARS=1
+    INTDATA: 0 Mode 1 pu 0 LL 0 unit
+    FLOATDATA: 230.0 Sc
+    INVARS: A0 IEEE NA B0 IEEE NB C0 IEEE NC _dud_ IEEE N1
+    OUTVARS: Vrms0 IEEE Out
+END
+RTDS.CTL.RISC_CMODEL
+COMP: rms_meter 1 1 10 0
+      DRAFT_UNIQUEID=560 LOCATION=1104 80
+    DATA_SIZES: INTDATA=4 FLOATDATA=1 CHARDATA=0 INVARS=4 OUTVARS=1
+    INTDATA: 0 Mode 1 pu 0 LL 0 unit
+    FLOATDATA: 230.0 Sc
+    INVARS: A1 IEEE NA B1 IEEE NB C1 IEEE NC _dud_ IEEE N1
+    OUTVARS: Vrms1 IEEE Out
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = _dyLoad112 NameParam = DL1 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=528 LOCATION=432 368
+            DATA_SIZES: INTDATA=32 FLOATDATA=52 CHARDATA_FRMT=25 INVARS=4 OUTVARS=0
+            RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+            INTDATA: 1 A_1 2 B_1 3 C_1 0 NNN 0 Vmeas
+            INTDATA: 1 constF 0 type 1 bal 2 btype 1 cc
+            INTDATA: 0 pPmon 0 pQmon 1 useVG 0 YD 0 pIA
+            INTDATA: 0 pIB 0 pIC 0 gnd 2 loc 0 gndYD
+            INTDATA: 0 gORinj 0 SorC 0 Fract 0 FreqSrc 1 WMON
+            INTDATA: 0 LFIdent 1 HidePQ 0 EnLoadShed 1 InjA_1 2 InjB_1
+            INTDATA: 3 InjC_1 0 InjNNN
+            FLOATDATA: 230.000000 Vbus 0.8 Vmin 60.000000 freq 0.01 T 0.003 Tm
+            FLOATDATA: 80 Pinit 0.0001 Pmin 1000 Pmax 10 Qinit 0.001 Qmin
+            FLOATDATA: 1000 Qmax 32.593167299852546 Cs 2.0 FreqDevMax 100 Pinit1 100 Pinit2
+            FLOATDATA: 100 Pinit3 100 Qinit1 100 Qinit2 100 Qinit3 0.1 Cts
+            FLOATDATA: -10.0 Qinitneg 52900.0 V2 376.99111843077515 W 1.5384615384615385E-4 tmp 661.25 Rp
+            FLOATDATA: 14.03216081593544 Lp 651.0769230769231 Rs 0.21587939716823756 Ls 0.5014333430746546 Cp 132.79056191361394 Vph
+            FLOATDATA: 1983.75 RpD 1953.2307692307693 RsD 42.096482447806316 LpD 0.6476381915047127 LsD 10.864389099950849 CsD
+            FLOATDATA: 0.16714444769155154 CpD 100 Po 100 Qo 10.0 TS 0.01 Tf
+            FLOATDATA: 20 ZP 40 IP 40 PP 20 ZQ 40 IQ
+            FLOATDATA: 40 PQ 0.0 Ainit 50.0 PIPG 0.01 PIIT 0.0015 Ft
+            FLOATDATA: 1.000000 P_L0 0.010000 Q_L0
+            CHARDATA_FRMT: <<<DL1>>>(((name))) <<<Pmon>>>(((nPmon))) <<<Qmon>>>(((nQmon))) <<<IA>>>(((nIA))) <<<IB>>>(((nIB)))
+            CHARDATA_FRMT: <<<IC>>>(((nIC))) <<<RLDload>>>(((UMODEL))) <<<RL1load>>>(((UMODEL000))) <<<RL1lodI>>>(((UMODEL001))) <<<RC1load>>>(((UMODEL010)))
+            CHARDATA_FRMT: <<<RC1lodI>>>(((UMODEL011))) <<<RLDload>>>(((UMODEL100))) <<<RLIload>>>(((UMODEL101))) <<<RCDload>>>(((UMODEL110))) <<<RXIload>>>(((UMODEL111)))
+            CHARDATA_FRMT: <<<Pordcc>>>(((Pordcc))) <<<Qordcc>>>(((Qordcc))) <<<ZPcc>>>(((ZPcc))) <<<IPcc>>>(((IPcc))) <<<PPcc>>>(((PPcc)))
+            CHARDATA_FRMT: <<<ZQcc>>>(((ZQcc))) <<<IQcc>>>(((IQcc))) <<<PQcc>>>(((PQcc))) <<<FreqLoad>>>(((nFreq))) <<<ShedPar>>>(((NmLoadShed)))
+            INVARS: Q_IN IEEE Pset RT_1 IEEE Qset _dud_ IEEE Vext _dud_ IEEE Fext
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = _dyLoad112 NameParam = DL2 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=544 LOCATION=1008 368
+            DATA_SIZES: INTDATA=32 FLOATDATA=52 CHARDATA_FRMT=25 INVARS=4 OUTVARS=0
+            RISC: 0 1 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+            INTDATA: 7 A_1 8 B_1 9 C_1 0 NNN 0 Vmeas
+            INTDATA: 1 constF 0 type 1 bal 2 btype 0 cc
+            INTDATA: 0 pPmon 0 pQmon 1 useVG 0 YD 0 pIA
+            INTDATA: 0 pIB 0 pIC 0 gnd 2 loc 0 gndYD
+            INTDATA: 0 gORinj 0 SorC 0 Fract 0 FreqSrc 1 WMON
+            INTDATA: 0 LFIdent 1 HidePQ 0 EnLoadShed 7 InjA_1 8 InjB_1
+            INTDATA: 9 InjC_1 0 InjNNN
+            FLOATDATA: 230.000000 Vbus 0.8 Vmin 60.000000 freq 0.01 T 0.003 Tm
+            FLOATDATA: 80 Pinit 0.0001 Pmin 100 Pmax 10 Qinit 0.001 Qmin
+            FLOATDATA: 100.000000 Qmax 32.593167299852546 Cs 2.0 FreqDevMax 100 Pinit1 100 Pinit2
+            FLOATDATA: 100 Pinit3 100 Qinit1 100 Qinit2 100 Qinit3 0.1 Cts
+            FLOATDATA: -10.0 Qinitneg 52900.0 V2 376.99111843077515 W 1.5384615384615385E-4 tmp 661.25 Rp
+            FLOATDATA: 14.03216081593544 Lp 651.0769230769231 Rs 0.21587939716823756 Ls 0.5014333430746546 Cp 132.79056191361394 Vph
+            FLOATDATA: 1983.75 RpD 1953.2307692307693 RsD 42.096482447806316 LpD 0.6476381915047127 LsD 10.864389099950849 CsD
+            FLOATDATA: 0.16714444769155154 CpD 100 Po 100 Qo 10.0 TS 0.01 Tf
+            FLOATDATA: 20 ZP 40 IP 40 PP 20 ZQ 40 IQ
+            FLOATDATA: 40 PQ 0.0 Ainit 50.0 PIPG 0.01 PIIT 0.0015 Ft
+            FLOATDATA: 8.000000 P_L0 0.010000 Q_L0
+            CHARDATA_FRMT: <<<DL2>>>(((name))) <<<Pmon1>>>(((nPmon))) <<<Qmon1>>>(((nQmon))) <<<IA1>>>(((nIA))) <<<IB1>>>(((nIB)))
+            CHARDATA_FRMT: <<<IC1>>>(((nIC))) <<<RLDload>>>(((UMODEL))) <<<RL1load>>>(((UMODEL000))) <<<RL1lodI>>>(((UMODEL001))) <<<RC1load>>>(((UMODEL010)))
+            CHARDATA_FRMT: <<<RC1lodI>>>(((UMODEL011))) <<<RLDload>>>(((UMODEL100))) <<<RLIload>>>(((UMODEL101))) <<<RCDload>>>(((UMODEL110))) <<<RXIload>>>(((UMODEL111)))
+            CHARDATA_FRMT: <<<Pordcc1>>>(((Pordcc))) <<<Qordcc1>>>(((Qordcc))) <<<ZPcc1>>>(((ZPcc))) <<<IPcc1>>>(((IPcc))) <<<PPcc1>>>(((PPcc)))
+            CHARDATA_FRMT: <<<ZQcc1>>>(((ZQcc))) <<<IQcc1>>>(((IQcc))) <<<PQcc1>>>(((PQcc))) <<<FreqLoad1>>>(((nFreq))) <<<ShedPar1>>>(((NmLoadShed)))
+            INVARS: _dud_ IEEE Pset _dud_ IEEE Qset _dud_ IEEE Vext _dud_ IEEE Fext
+END
+RTDS.RISC.
+COMP: risc_net rnet_ssxx 0 0 1
+      DRAFT_UNIQUEID=null LOCATION=0 0
+      RISC: 0 0 STACK_T0 GENERIC 1 0 1 0 0 40 1 1 1
+      IDATA: 0        0       0        0         0
+       IDATA: 7   2     7   3     7
+       IDATA: 4   7     5   7     6
+      IDATA: 7   0     7   0     7
+      IDATA: 0 0 1 1 0 0
+      IDATA: 0  0    0  0
+      IDATA: 4     0 0  0 0
+END
+RTDS.PSYS.RISC_CMODEL
+V4COMP: ModelName = netsolCB NameParam = 1::_1 Board = 0 ABC = 0 SubSystem = 1
+      DRAFT_UNIQUEID=null LOCATION=0 0
+        DATA_SIZES: INTDATA=0 FLOATDATA=0 CHARDATA_FRMT=0 INVARS=0 OUTVARS=0
+        RISC: 0 0 STACK_T0 GENERIC 1 0 1 0 0 0 0 1 2
+END
+END_SECTION
+
+END_FILE

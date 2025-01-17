@@ -1,0 +1,254 @@
+OPENED 'GTNETModbus-modbus.log' file for writing.
+Verbose setting set to 'TRUE'
+Element 'Outstation' with attribute 'inst' = '1' found
+Element 'Outstation' with attribute 'inst' = '2' found
+Element 'Outstation' with attribute 'inst' = '3' found
+Element 'Outstation' with attribute 'inst'= '4' not found
+While parsing the XML file 'ModbusDatabase.xml', a total number of '3' oustations were found. 
+ memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '2124'
+ malloc(sizeof(struct sMODBUSSetup) '12'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * sizeof(struct sMaster) '96'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * sizeof(struct sChannel) '104'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * sizeof(struct sOutstationConfiguration) '8'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * MAX_NUM_MODBUSv2_SESSIONSv2 * sizeof(struct sSessions) '32'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * MAX_NUM_MODBUSv2_SESSIONSv2 * sizeof(struct sLinkLayer) '192'
+ malloc(sizeof(struct sDiscreteInputs) '4'
+ malloc(NUM_MODBUSv2_DINPTS * sizeof(struct sRDI) '120000'
+ malloc(sizeof(struct sInputRegisters) '4'
+ malloc(NUM_MODBUSv2_IREGS * sizeof(struct sRIR) '7000'
+ malloc(sizeof(struct sCoils) '4'
+ malloc(NUM_MODBUSv2_CILS * sizeof(struct sWCO) '128000'
+ malloc(sizeof(struct sHoldingRegisters) '4'
+ malloc(NUM_MODBUSv2_HREGS * sizeof(struct sWHR) '15000'
+ malloc(sizeof(struct sExceptionStatus) '4'
+ malloc(NUM_MODBUSv2_EXCSS * sizeof(struct sEXC) '448'
+ malloc(sizeof(struct sRDI) '60'
+ malloc(sizeof(struct sRIR) '56'
+ malloc(sizeof(struct sWCO) '64'
+ malloc(sizeof(struct sWHR) '120'
+ malloc(sizeof(struct sEXC) '56'
+Element 'Outstation' with attribute 'inst' = '1' found
+Outstation->name: BUS0
+Outstation->inst: 1
+Outstation->desc: RTDS MODBUS interface
+Outstation->type: Generic IED
+Outstation->manufacturer: RTDS Technologies
+Outstation->componentVersion: MODBUSv2
+Outstation->configVersion: 2.0
+Validated GTNET MDOBUS XML configVersion GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '2' found
+Outstation->name: BUS1
+Outstation->inst: 2
+Outstation->desc: RTDS MODBUS interface
+Outstation->type: Generic IED
+Outstation->manufacturer: RTDS Technologies
+Outstation->componentVersion: MODBUSv2
+Outstation->configVersion: 2.0
+Validated GTNET MDOBUS XML configVersion GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '3' found
+Outstation->name: BRK1
+Outstation->inst: 3
+Outstation->desc: RTDS MODBUS interface
+Outstation->type: Generic IED
+Outstation->manufacturer: RTDS Technologies
+Outstation->componentVersion: MODBUSv2
+Outstation->configVersion: 2.0
+Validated GTNET MDOBUS XML configVersion GTNET IED 3
+
+GTNET parameters:
+-----------------------------
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 MODBUSSetup configuration
+------------------------------------
+MODBUSSetup->NumChannels: 1
+Element 'Client' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Client[0].enable: 1
+Outstation->MODBUSSetup->Client[0].inst: 1
+Outstation->MODBUSSetup->Client[0].ClientIP: *.*.*.*
+Outstation->MODBUSSetup->Client[0].tcpPort: 5020
+
+Element 'Channel' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Channel[0].Mode: TCP
+Outstation->MODBUSSetup->Channel[0].inst: 1
+Outstation->MODBUSSetup->Channel[0].IpIndex: 1
+Outstation->MODBUSSetup->Channel[0].OutstationConfiguration->rxFrameTimeout_ms: 4000
+Outstation->MODBUSSetup->Channel[0].Sessions->NumSessions: 1
+Element 'LinkLayer' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].inst: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].serverInst: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].conformityLevel: 0
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].serverAddress: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxDI_Read: 2000
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxCoil_Read: 2000
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxCoil_Write: 1968
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxIReg_Read: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHReg_Read: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHreg_Write: 123
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHReg_Read_FC23: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHreg_Write_FC23: 121
+
+------------------------------------
+Validated ModbusSetup element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 DiscreteInputs 
+------------------------------------
+------------------------------------
+Validated DiscreteInputs element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 InputRegisters 
+------------------------------------
+RIR:0 Modbus_address:0 bitmap_name:Vrms0pt1
+RIR:1 Modbus_address:1 bitmap_name:Vrms0pt2
+------------------------------------
+Validated InputRegisters element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 Coils 
+------------------------------------
+------------------------------------
+Validated Coils element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 HoldingRegisters 
+------------------------------------
+------------------------------------
+Validated HoldingRegisters element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 ExceptionStatus 
+------------------------------------
+------------------------------------
+Validated ExceptionStatus element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 MODBUSSetup configuration
+------------------------------------
+MODBUSSetup->NumChannels: 1
+Element 'Client' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Client[0].enable: 1
+Outstation->MODBUSSetup->Client[0].inst: 1
+Outstation->MODBUSSetup->Client[0].ClientIP: *.*.*.*
+Outstation->MODBUSSetup->Client[0].tcpPort: 5021
+
+Element 'Channel' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Channel[0].Mode: TCP
+Outstation->MODBUSSetup->Channel[0].inst: 1
+Outstation->MODBUSSetup->Channel[0].IpIndex: 2
+Outstation->MODBUSSetup->Channel[0].OutstationConfiguration->rxFrameTimeout_ms: 4000
+Outstation->MODBUSSetup->Channel[0].Sessions->NumSessions: 1
+Element 'LinkLayer' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].inst: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].serverInst: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].conformityLevel: 0
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].serverAddress: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxDI_Read: 2000
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxCoil_Read: 2000
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxCoil_Write: 1968
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxIReg_Read: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHReg_Read: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHreg_Write: 123
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHReg_Read_FC23: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHreg_Write_FC23: 121
+
+------------------------------------
+Validated ModbusSetup element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 DiscreteInputs 
+------------------------------------
+------------------------------------
+Validated DiscreteInputs element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 InputRegisters 
+------------------------------------
+RIR:0 Modbus_address:0 bitmap_name:Vrms1pt1
+RIR:1 Modbus_address:1 bitmap_name:Vrms1pt2
+------------------------------------
+Validated InputRegisters element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 Coils 
+------------------------------------
+------------------------------------
+Validated Coils element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 HoldingRegisters 
+------------------------------------
+------------------------------------
+Validated HoldingRegisters element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 ExceptionStatus 
+------------------------------------
+------------------------------------
+Validated ExceptionStatus element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '3' found
+
+Outstation 3 MODBUSSetup configuration
+------------------------------------
+MODBUSSetup->NumChannels: 1
+Element 'Client' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Client[0].enable: 1
+Outstation->MODBUSSetup->Client[0].inst: 1
+Outstation->MODBUSSetup->Client[0].ClientIP: *.*.*.*
+Outstation->MODBUSSetup->Client[0].tcpPort: 5022
+
+Element 'Channel' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Channel[0].Mode: TCP
+Outstation->MODBUSSetup->Channel[0].inst: 1
+Outstation->MODBUSSetup->Channel[0].IpIndex: 3
+Outstation->MODBUSSetup->Channel[0].OutstationConfiguration->rxFrameTimeout_ms: 4000
+Outstation->MODBUSSetup->Channel[0].Sessions->NumSessions: 1
+Element 'LinkLayer' with attribute 'inst' = '1' found
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].inst: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].serverInst: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].conformityLevel: 0
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].serverAddress: 1
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxDI_Read: 2000
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxCoil_Read: 2000
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxCoil_Write: 1968
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxIReg_Read: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHReg_Read: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHreg_Write: 123
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHReg_Read_FC23: 125
+Outstation->MODBUSSetup->Channel[0].Sessions->LinkLayer[0].maxHreg_Write_FC23: 121
+
+------------------------------------
+Validated ModbusSetup element for GTNET IED 3
+Element 'Outstation' with attribute 'inst' = '3' found
+
+Outstation 3 DiscreteInputs 
+------------------------------------
+RDI:0 Modbus_address:0 bitmap_name:BRKSTS1 bitmap_bit_num:0
+------------------------------------
+Validated DiscreteInputs element for GTNET IED 3
+Element 'Outstation' with attribute 'inst' = '3' found
+
+Outstation 3 InputRegisters 
+------------------------------------
+------------------------------------
+Validated InputRegisters element for GTNET IED 3
+Element 'Outstation' with attribute 'inst' = '3' found
+
+Outstation 3 Coils 
+------------------------------------
+WCO:0 Modbus_address:0 bitmap_name:BRKCTRL1 bitmap_bit_num:0 default_state:1
+------------------------------------
+Validated Coils element for GTNET IED 3
+Element 'Outstation' with attribute 'inst' = '3' found
+
+Outstation 3 HoldingRegisters 
+------------------------------------
+------------------------------------
+Validated HoldingRegisters element for GTNET IED 3
+Element 'Outstation' with attribute 'inst' = '3' found
+
+Outstation 3 ExceptionStatus 
+------------------------------------
+------------------------------------
+Validated ExceptionStatus element for GTNET IED 3

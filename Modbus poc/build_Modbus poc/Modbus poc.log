@@ -1,0 +1,57 @@
+MESSAGES:
+
+Compiling Modbus poc for RTDS rack 1...
+Nodes and Wires...
+
+RTDSPC version = 6.6
+=======================
+
+Using configuration file: C:\Users\forystmj\Documents\RSCAD\HDWR\config_file_03.txt
+OPENED 'GTNETModbus-modbus.log' file for writing.
+While parsing the XML file 'ModbusDatabase.xml', a total number of '3' oustations were found. 
+ memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '2124'
+ malloc(sizeof(struct sMODBUSSetup) '12'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * sizeof(struct sMaster) '96'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * sizeof(struct sChannel) '104'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * sizeof(struct sOutstationConfiguration) '8'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * MAX_NUM_MODBUSv2_SESSIONSv2 * sizeof(struct sSessions) '32'
+ malloc(MAX_NUM_MODBUSv2_CHANNELSv2 * MAX_NUM_MODBUSv2_SESSIONSv2 * sizeof(struct sLinkLayer) '192'
+ malloc(sizeof(struct sDiscreteInputs) '4'
+ malloc(NUM_MODBUSv2_DINPTS * sizeof(struct sRDI) '120000'
+ malloc(sizeof(struct sInputRegisters) '4'
+ malloc(NUM_MODBUSv2_IREGS * sizeof(struct sRIR) '7000'
+ malloc(sizeof(struct sCoils) '4'
+ malloc(NUM_MODBUSv2_CILS * sizeof(struct sWCO) '128000'
+ malloc(sizeof(struct sHoldingRegisters) '4'
+ malloc(NUM_MODBUSv2_HREGS * sizeof(struct sWHR) '15000'
+ malloc(sizeof(struct sExceptionStatus) '4'
+ malloc(NUM_MODBUSv2_EXCSS * sizeof(struct sEXC) '448'
+ malloc(sizeof(struct sRDI) '60'
+ malloc(sizeof(struct sRIR) '56'
+ malloc(sizeof(struct sWCO) '64'
+ malloc(sizeof(struct sWHR) '120'
+ malloc(sizeof(struct sEXC) '56'
+Validated GTNET MDOBUS XML configVersion GTNET IED 1
+Validated GTNET MDOBUS XML configVersion GTNET IED 2
+Validated GTNET MDOBUS XML configVersion GTNET IED 3
+Validated ModbusSetup element for GTNET IED 1
+Validated DiscreteInputs element for GTNET IED 1
+Validated InputRegisters element for GTNET IED 1
+Validated Coils element for GTNET IED 1
+Validated HoldingRegisters element for GTNET IED 1
+Validated ExceptionStatus element for GTNET IED 1
+Validated ModbusSetup element for GTNET IED 2
+Validated DiscreteInputs element for GTNET IED 2
+Validated InputRegisters element for GTNET IED 2
+Validated Coils element for GTNET IED 2
+Validated HoldingRegisters element for GTNET IED 2
+Validated ExceptionStatus element for GTNET IED 2
+Validated ModbusSetup element for GTNET IED 3
+Validated DiscreteInputs element for GTNET IED 3
+Validated InputRegisters element for GTNET IED 3
+Validated Coils element for GTNET IED 3
+Validated HoldingRegisters element for GTNET IED 3
+Validated ExceptionStatus element for GTNET IED 3
+End of process. Peak memory usage = 14057472 bytes
+
+Compile completed successfully.

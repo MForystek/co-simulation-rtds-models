@@ -1,0 +1,133 @@
+OPENED 'GTNET_DNP-dnp.log' file for writing.
+Verbose setting set to 'TRUE'
+Element 'Outstation' with attribute 'inst' = '1' found
+Element 'Outstation' with attribute 'inst'= '2' not found
+While parsing the XML file 'DNP3_database.xml', a total number of '1' oustations were found. 
+ memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '716'
+ malloc(sizeof(struct sDNPSetup) '12'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sMaster) '104'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sChannel) '104'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sOutstationConfiguration) '64'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * MAX_NUM_DNPv6_SESSIONSv2 * sizeof(struct sSessions) '32'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * MAX_NUM_DNPv6_SESSIONSv2 * sizeof(struct sLinkLayer) '96'
+ malloc(sizeof(struct sBinaryStatusPoints) '8'
+ malloc(MAX_NUM_DNPv6_BI_POINTSv2 * sizeof(struct sBI) '24960'
+ malloc(sizeof(struct sDPointStatusPoints) '8'
+ malloc(MAX_NUM_DNPv6_DPI_POINTSv2 * sizeof(struct sDPI) '12480'
+ malloc(sizeof(struct sCounters) '8'
+ malloc(MAX_NUM_DNPv6_CNT_POINTSv2 * sizeof(struct sCNT) '864'
+ malloc(sizeof(struct sFcounters) '8'
+ malloc(MAX_NUM_DNPv6_FC_POINTSv2 * sizeof(struct sFC) '848'
+ malloc(sizeof(struct sAnalogStatusPoints) '8'
+ malloc(MAX_NUM_DNPv6_AI_POINTSv2 * sizeof(struct sAI) '13200'
+ malloc(sizeof(struct sBinaryControlPoints) '8'
+ malloc(MAX_NUM_DNPv6_BO_POINTSv2 * sizeof(struct sBO) '12672'
+ malloc(sizeof(struct sAnalogControlPoints) '8'
+ malloc(MAX_NUM_DNPv6_AO_POINTSv2 * sizeof(struct sAO) '2600'
+ malloc(sizeof(struct sBI) '260'
+ malloc(sizeof(struct sDPI) '260'
+ malloc(sizeof(struct sCNT) '216'
+ malloc(sizeof(struct sFC) '212'
+ malloc(sizeof(struct sAI) '264'
+ malloc(sizeof(struct sBO) '264'
+ malloc(sizeof(struct sAO) '260'
+Element 'Outstation' with attribute 'inst' = '1' found
+Outstation->name: Volt1
+Outstation->inst: 1
+Outstation->desc: RTDS DNP3 interface
+Outstation->type: Generic IED
+Outstation->manufacturer: RTDS Technologies
+Outstation->componentVersion: DNPv6
+Outstation->configVersion: 2.0
+Validated GTNET DNP XML configVersion GTNET IED 1
+
+GTNET parameters:
+-----------------------------
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 DNPSetup configuration
+------------------------------------
+DNPSetup->NumChannels: 1
+Element 'Master' with attribute 'inst' = '1' found
+Outstation->DNPSetup->Master[0].enable: 1
+Outstation->DNPSetup->Master[0].inst: 1
+Outstation->DNPSetup->Master[0].MasterIP: *.*.*.*
+Outstation->DNPSetup->Master[0].tcpPort: 20002
+Outstation->DNPSetup->Master[0].udpPort: 3671
+
+Element 'Channel' with attribute 'inst' = '1' found
+Outstation->DNPSetup->Channel[0].Nmode: TCP/UDP
+Outstation->DNPSetup->Channel[0].inst: 1
+Outstation->DNPSetup->Channel[0].IpIndex: 1
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->maxControlsPerRequest: 16
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->maxRxFragSize: 2048
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->maxTxFragSize: 2048
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->allowUnsolicited: 0
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->selectTimeout: 10000
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->solConfirmTimeout: 10000
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->unsolConfirmTimeout: 10000
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->unsolRetries: 3
+Outstation->DNPSetup->Channel[0].Sessions->NumSessions: 1
+Element 'LinkLayer' with attribute 'inst' = '1' found
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].inst: 1
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].masterInst: 1
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].remoteAddr: 1
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].localAddr: 2
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].responseTimeout: 10000
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].keepAliveTimeout: 5000
+
+------------------------------------
+Validated DNPSetup element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 BinaryStatusPoints 
+------------------------------------
+Outstation->BinaryStatusPoints->maxEvents: 200
+BI:0 DNP_address:0 user_label:CB status bitmap_name:BRKSTS1 bitmap_bit_num:0 class_num:Class2 static_var:Group1Var2 event_var:Group2Var2
+------------------------------------
+Validated BinaryStatusPoints element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 DPointStatusPoints 
+------------------------------------
+Outstation->DPointStatusPoints->maxEvents: 100
+------------------------------------
+Validated DPointStatusPoints element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 Counters 
+------------------------------------
+Outstation->Counters->maxEvents: 10
+------------------------------------
+Validated Counters element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 FrozenCounters 
+------------------------------------
+Outstation->FrozenCounters->maxEvents: 10
+------------------------------------
+Validated FrozenCounters element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 AnalogStatusPoints 
+------------------------------------
+Outstation->AnalogStatusPoints->maxEvents: 50
+AI:0 DNP_address:0 variable_name:Vrms0 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:1 DNP_address:1 variable_name:Vrms1 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+------------------------------------
+Validated AnalogStatusPoints element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 BinaryControlPoints 
+------------------------------------
+Outstation->BinaryControlPoints->maxEvents: 
+BO:0 DNP_address:0 user_label:BRK ctrl bitmap_name:BRKCTRL1 bitmap_bit_num:0 default_state:1 class_num:Class2 static_var:Group10Var2 event_var:Group11Var2
+------------------------------------
+Validated BinaryControlPoints element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '1' found
+
+Outstation 1 AnalogControlPoints 
+------------------------------------
+Outstation->AnalogControlPoints->maxEvents: 
+------------------------------------
+Validated AnalogControlPoints element for GTNET IED 1

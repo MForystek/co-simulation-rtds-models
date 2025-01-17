@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root xmlns="http://www.w3.org/1999/xhtml">  
+  <Header toolID="RTDS MODBUS Database Editor" Version="1.00-b48 2023-05-25 10:56:55"> 
+    <History> 
+      <Hitem revision="1" when="2024/10/09 22:51:40" who="SentryPC" what="Created new Database, version:2.0" why="User Initiated Action"/>  
+      <Hitem revision="2" when="2024/10/09 22:55:36" who="SentryPC" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="3" when="2024/10/09 22:56:20" who="SentryPC" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="4" when="2024/10/09 23:00:20" who="SentryPC" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="5" when="2024/10/12 22:24:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="6" when="2024/10/12 22:25:33" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="7" when="2024/10/12 22:25:43" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="8" when="2024/10/12 22:26:04" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="9" when="2024/10/12 22:30:08" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="10" when="2024/10/12 22:30:35" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="11" when="2024/10/12 22:31:16" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="12" when="2024/10/12 22:31:26" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="13" when="2024/10/12 22:36:30" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="14" when="2024/10/13 00:22:06" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="15" when="2024/10/13 00:22:13" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="16" when="2024/10/13 00:22:33" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="17" when="2024/10/13 00:23:38" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="18" when="2024/10/13 00:24:25" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="19" when="2024/10/13 00:25:09" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="20" when="2024/10/13 00:26:33" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="21" when="2024/10/13 00:27:17" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="22" when="2024/10/13 00:27:27" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="23" when="2024/10/13 00:27:50" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="24" when="2024/10/13 00:28:05" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="25" when="2024/10/13 00:29:08" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="26" when="2024/10/13 00:29:13" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="27" when="2024/10/13 00:41:12" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="28" when="2024/10/13 00:42:28" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="29" when="2024/10/13 00:45:45" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="30" when="2024/10/15 11:55:38" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="31" when="2024/10/15 11:56:31" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="32" when="2024/10/15 11:57:19" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="33" when="2024/10/15 14:04:37" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="34" when="2024/10/15 14:04:48" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="35" when="2025/01/03 13:22:54" who="forystmj" what="Database has been modified" why="User Saved Changes"/> 
+    </History> 
+  </Header>  
+  <Outstation name="BUS0" inst="1" desc="RTDS MODBUS interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="MODBUSv2" configVersion="2.0"> 
+    <ModbusSetup NumChannels="1"> 
+      <Client inst="1" enable="true" ClientIP="*.*.*.*" Port="5020"/>  
+      <Client inst="2" enable="false" ClientIP="*.*.*.*" Port="503"/>  
+      <Channel Mode="TCP" inst="1" IpIndex="1"> 
+        <OutstationConfiguration> 
+          <P type="rxFrameTimeout_ms">4000</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" serverInst="1"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" serverInst="1"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel>  
+      <Channel Mode="TCP" inst="2" IpIndex="1"> 
+        <OutstationConfiguration> 
+          <P type="rxFrameTimeout_ms">4000</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" serverInst="2"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" serverInst="2"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel> 
+    </ModbusSetup>  
+    <DiscreteInputs/>  
+    <InputRegisters>
+      <RIR Modbus_address="0" bitmap_name="Vrms0pt1" desc="Voltage level at Bus 0 higher bits"/>
+      <RIR Modbus_address="1" bitmap_name="Vrms0pt2" desc="Voltage level at Bus 0 lower bits"/>
+    </InputRegisters>  
+    <Coils/>  
+    <HoldingRegisters/>  
+    <ExceptionStatus/> 
+  </Outstation>  
+  <Outstation name="BUS1" inst="2" desc="RTDS MODBUS interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="MODBUSv2" configVersion="2.0"> 
+    <ModbusSetup NumChannels="1"> 
+      <Client inst="1" enable="true" ClientIP="*.*.*.*" Port="5020"/>  
+      <Client inst="2" enable="false" ClientIP="*.*.*.*" Port="503"/>  
+      <Channel Mode="TCP" inst="1" IpIndex="2"> 
+        <OutstationConfiguration> 
+          <P type="rxFrameTimeout_ms">4000</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" serverInst="1"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" serverInst="1"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel>  
+      <Channel Mode="TCP" inst="2" IpIndex="2"> 
+        <OutstationConfiguration> 
+          <P type="rxFrameTimeout_ms">4000</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" serverInst="2"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" serverInst="2"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel> 
+    </ModbusSetup>  
+    <DiscreteInputs/>  
+    <InputRegisters>
+      <RIR Modbus_address="0" bitmap_name="Vrms1pt1" desc="Voltage level at Bus 1 higher bits"/>
+      <RIR Modbus_address="1" bitmap_name="Vrms1pt2" desc="Voltage level at Bus 1 lower bits"/>
+    </InputRegisters>  
+    <Coils/>  
+    <HoldingRegisters/>  
+    <ExceptionStatus/> 
+  </Outstation>  
+  <Outstation name="BRK1" inst="3" desc="RTDS MODBUS interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="MODBUSv2" configVersion="2.0"> 
+    <ModbusSetup NumChannels="1"> 
+      <Client inst="1" enable="true" ClientIP="*.*.*.*" Port="5020"/>  
+      <Client inst="2" enable="false" ClientIP="*.*.*.*" Port="503"/>  
+      <Channel Mode="TCP" inst="1" IpIndex="3"> 
+        <OutstationConfiguration> 
+          <P type="rxFrameTimeout_ms">4000</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" serverInst="1"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" serverInst="1"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel>  
+      <Channel Mode="TCP" inst="2" IpIndex="3"> 
+        <OutstationConfiguration> 
+          <P type="rxFrameTimeout_ms">4000</P> 
+        </OutstationConfiguration>  
+        <Sessions NumSessions="1"> 
+          <LinkLayer inst="1" serverInst="2"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer>  
+          <LinkLayer inst="2" serverInst="2"> 
+            <P type="conformityLevel">0x82</P>  
+            <P type="serverAddress">1</P>  
+            <P type="maxDI_Read">2000</P>  
+            <P type="maxCoil_Read">2000</P>  
+            <P type="maxCoil_Write">1968</P>  
+            <P type="maxIReg_Read">125</P>  
+            <P type="maxHReg_Read">125</P>  
+            <P type="maxHreg_Write">123</P>  
+            <P type="maxHReg_Read_FC23">125</P>  
+            <P type="maxHreg_Write_FC23">121</P> 
+          </LinkLayer> 
+        </Sessions> 
+      </Channel> 
+    </ModbusSetup>  
+    <DiscreteInputs>
+      <RDI Modbus_address="0" bitmap_name="BRKSTS1" bitmap_bit_num="0" desc="Circuit Breaker status (On - closed, Off - opened)"/>
+    </DiscreteInputs>  
+    <InputRegisters/>  
+    <Coils>
+      <WCO Modbus_address="0" bitmap_name="BRKCTRL1" bitmap_bit_num="0" default_state="On" desc="Circuit Breaker control (On - close, Off - open)"/>
+    </Coils>  
+    <HoldingRegisters/>  
+    <ExceptionStatus/> 
+  </Outstation> 
+</root>

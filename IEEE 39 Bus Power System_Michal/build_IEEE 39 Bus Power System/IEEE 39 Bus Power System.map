@@ -1,0 +1,513 @@
+
+ T-Line "T1" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 629.30800  mode1 = 449.50600  mode2 = 449.50600  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 4.17 + j48.92 ohms
+                                      = 49.09 /_85.13 degree
+           Shunt Capacitive Reactance = 1703.57 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 62.49 + j171.22 ohms
+                                      = 182.26 /_69.95 degree
+           Shunt Capacitive Reactance = 3042.00 ohms
+
+ T-Line "T10" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 150.99000  mode1 = 107.85000  mode2 = 107.85000  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.95 + j13.33 ohms
+                                      = 13.36 /_85.91 degree
+           Shunt Capacitive Reactance = 8064.28 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 14.28 + j46.66 ohms
+                                      = 48.79 /_72.98 degree
+           Shunt Capacitive Reactance = 14400.07 ohms
+
+ T-Line "T11" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 119.73700  mode1 = 85.52700  mode2 = 85.52700  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.71 + j10.95 ohms
+                                      = 10.97 /_86.27 degree
+           Shunt Capacitive Reactance = 10533.46 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 10.71 + j38.33 ohms
+                                      = 39.79 /_74.38 degree
+           Shunt Capacitive Reactance = 18809.33 ohms
+
+ T-Line "T12" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 125.33000  mode1 = 89.52100  mode2 = 89.52100  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.83 + j9.76 ohms
+                                      = 9.80 /_85.12 degree
+           Shunt Capacitive Reactance = 8569.40 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 12.50 + j34.16 ohms
+                                      = 36.37 /_69.90 degree
+           Shunt Capacitive Reactance = 15301.99 ohms
+
+ T-Line "T13" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 70.34300  mode1 = 50.24500  mode2 = 50.24500  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.48 + j5.47 ohms
+                                      = 5.50 /_85.03 degree
+           Shunt Capacitive Reactance = 15260.14 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 7.14 + j19.16 ohms
+                                      = 20.45 /_69.56 degree
+           Shunt Capacitive Reactance = 27249.45 ohms
+
+ T-Line "T14" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 436.38600  mode1 = 311.70400  mode2 = 311.70400  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 2.74 + j43.20 ohms
+                                      = 43.29 /_86.37 degree
+           Shunt Capacitive Reactance = 3129.04 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 41.06 + j151.22 ohms
+                                      = 156.70 /_74.81 degree
+           Shunt Capacitive Reactance = 5587.39 ohms
+
+ T-Line "T15" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 643.21700  mode1 = 459.44100  mode2 = 459.44100  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.19 + j29.76 ohms
+                                      = 29.78 /_87.71 degree
+           Shunt Capacitive Reactance = 991.90 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 17.85 + j104.15 ohms
+                                      = 105.67 /_80.27 degree
+           Shunt Capacitive Reactance = 1771.21 ohms
+
+ T-Line "T16" parameters at 60.00 Hz (Pi-Section Model)
+ Travel time(usecs) mode0 = 65.75000  mode1 = 46.96400  mode2 = 46.96400  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.48 + j5.12 ohms
+                                      = 5.14 /_84.69 degree
+           Shunt Capacitive Reactance = 16327.70 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 7.14 + j17.91 ohms
+                                      = 19.28 /_68.26 degree
+           Shunt Capacitive Reactance = 29155.58 ohms
+
+ T-Line "T17" parameters at 60.00 Hz (Pi-Section Model)
+ Travel time(usecs) mode0 = 65.75000  mode1 = 46.96400  mode2 = 46.96400  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.48 + j5.12 ohms
+                                      = 5.14 /_84.69 degree
+           Shunt Capacitive Reactance = 16327.70 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 7.14 + j17.91 ohms
+                                      = 19.28 /_68.26 degree
+           Shunt Capacitive Reactance = 29155.58 ohms
+
+ T-Line "T18" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 154.91700  mode1 = 110.65500  mode2 = 110.65500  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.07 + j12.02 ohms
+                                      = 12.07 /_84.91 degree
+           Shunt Capacitive Reactance = 6908.23 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 16.07 + j42.08 ohms
+                                      = 45.04 /_69.10 degree
+           Shunt Capacitive Reactance = 12335.76 ohms
+
+ T-Line "T19" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 330.95400  mode1 = 236.39600  mode2 = 236.39600  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 2.14 + j25.83 ohms
+                                      = 25.92 /_85.26 degree
+           Shunt Capacitive Reactance = 3252.14 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 32.14 + j90.40 ohms
+                                      = 95.94 /_70.43 degree
+           Shunt Capacitive Reactance = 5807.23 ohms
+
+ T-Line "T2" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 508.50800  mode1 = 363.22000  mode2 = 363.22000  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.19 + j29.76 ohms
+                                      = 29.78 /_87.71 degree
+           Shunt Capacitive Reactance = 1587.05 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 17.85 + j104.15 ohms
+                                      = 105.67 /_80.27 degree
+           Shunt Capacitive Reactance = 2833.93 ohms
+
+ T-Line "T20" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 148.88800  mode1 = 106.34800  mode2 = 106.34800  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.07 + j11.19 ohms
+                                      = 11.24 /_84.53 degree
+           Shunt Capacitive Reactance = 6960.75 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 16.07 + j39.16 ohms
+                                      = 42.33 /_67.69 degree
+           Shunt Capacitive Reactance = 12429.49 ohms
+
+ T-Line "T21" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 128.34200  mode1 = 91.67300  mode2 = 91.67300  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.83 + j10.59 ohms
+                                      = 10.63 /_85.50 degree
+           Shunt Capacitive Reactance = 8869.46 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 12.50 + j37.08 ohms
+                                      = 39.13 /_71.37 degree
+           Shunt Capacitive Reactance = 15837.88 ohms
+
+ T-Line "T22" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 285.92400  mode1 = 204.23200  mode2 = 204.23200  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.90 + j23.21 ohms
+                                      = 23.29 /_85.31 degree
+           Shunt Capacitive Reactance = 3915.40 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 28.57 + j81.23 ohms
+                                      = 86.11 /_70.63 degree
+           Shunt Capacitive Reactance = 6991.61 ohms
+
+ T-Line "T23" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 217.80300  mode1 = 155.57300  mode2 = 155.57300  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.95 + j16.07 ohms
+                                      = 16.10 /_86.61 degree
+           Shunt Capacitive Reactance = 4671.46 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 14.28 + j56.24 ohms
+                                      = 58.02 /_75.75 degree
+           Shunt Capacitive Reactance = 8341.62 ohms
+
+ T-Line "T24" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 74.38400  mode1 = 53.13100  mode2 = 53.13100  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.36 + j7.02 ohms
+                                      = 7.03 /_87.09 degree
+           Shunt Capacitive Reactance = 17504.24 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 5.36 + j24.58 ohms
+                                      = 25.16 /_77.71 degree
+           Shunt Capacitive Reactance = 31256.41 ohms
+
+ T-Line "T25" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 122.13100  mode1 = 87.23600  mode2 = 87.23600  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.83 + j9.76 ohms
+                                      = 9.80 /_85.12 degree
+           Shunt Capacitive Reactance = 9024.20 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 12.50 + j34.16 ohms
+                                      = 36.37 /_69.90 degree
+           Shunt Capacitive Reactance = 16114.08 ohms
+
+ T-Line "T26" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 276.99900  mode1 = 197.85600  mode2 = 197.85600  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.55 + j20.59 ohms
+                                      = 20.65 /_85.70 degree
+           Shunt Capacitive Reactance = 3701.14 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 23.21 + j72.07 ohms
+                                      = 75.71 /_72.15 degree
+           Shunt Capacitive Reactance = 6608.97 ohms
+
+ T-Line "T27" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 222.53800  mode1 = 158.95600  mode2 = 158.95600  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.95 + j16.66 ohms
+                                      = 16.69 /_86.73 degree
+           Shunt Capacitive Reactance = 4640.48 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 14.28 + j58.32 ohms
+                                      = 60.05 /_76.24 degree
+           Shunt Capacitive Reactance = 8286.35 ohms
+
+ T-Line "T28" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 156.33200  mode1 = 111.66600  mode2 = 111.66600  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.71 + j11.43 ohms
+                                      = 11.45 /_86.42 degree
+           Shunt Capacitive Reactance = 6447.90 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 10.71 + j39.99 ohms
+                                      = 41.40 /_75.00 degree
+           Shunt Capacitive Reactance = 11513.81 ohms
+
+ T-Line "T29" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 417.43100  mode1 = 298.16500  mode2 = 298.16500  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 2.62 + j41.66 ohms
+                                      = 41.74 /_86.40 degree
+           Shunt Capacitive Reactance = 3297.19 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 39.28 + j145.81 ohms
+                                      = 151.00 /_74.92 degree
+           Shunt Capacitive Reactance = 5887.66 ohms
+
+ T-Line "T3" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 231.43100  mode1 = 165.30800  mode2 = 165.30800  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.55 + j17.97 ohms
+                                      = 18.04 /_85.08 degree
+           Shunt Capacitive Reactance = 4627.85 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 23.21 + j62.90 ohms
+                                      = 67.05 /_69.75 degree
+           Shunt Capacitive Reactance = 8263.78 ohms
+
+ T-Line "T30" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 478.03200  mode1 = 341.45100  mode2 = 341.45100  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 3.81 + j38.44 ohms
+                                      = 38.63 /_84.34 degree
+           Shunt Capacitive Reactance = 2320.25 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 57.13 + j134.56 ohms
+                                      = 146.18 /_66.99 degree
+           Shunt Capacitive Reactance = 4143.17 ohms
+
+ T-Line "T31" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 220.39400  mode1 = 157.42400  mode2 = 157.42400  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.67 + j17.50 ohms
+                                      = 17.58 /_84.56 degree
+           Shunt Capacitive Reactance = 4967.80 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 25.00 + j61.24 ohms
+                                      = 66.14 /_67.80 degree
+           Shunt Capacitive Reactance = 8870.79 ohms
+
+ T-Line "T32" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 714.14900  mode1 = 510.10700  mode2 = 510.10700  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 5.12 + j56.42 ohms
+                                      = 56.65 /_84.82 degree
+           Shunt Capacitive Reactance = 1525.61 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 76.77 + j197.46 ohms
+                                      = 211.86 /_68.75 degree
+           Shunt Capacitive Reactance = 2724.23 ohms
+
+ T-Line "T33" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 941.76900  mode1 = 672.69200  mode2 = 672.69200  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 6.78 + j74.39 ohms
+                                      = 74.70 /_84.79 degree
+           Shunt Capacitive Reactance = 1156.74 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 101.77 + j260.37 ohms
+                                      = 279.55 /_68.65 degree
+           Shunt Capacitive Reactance = 2065.55 ohms
+
+ T-Line "T34" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 227.71200  mode1 = 162.65100  mode2 = 162.65100  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.67 + j17.97 ohms
+                                      = 18.05 /_84.70 degree
+           Shunt Capacitive Reactance = 4780.26 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 25.00 + j62.90 ohms
+                                      = 67.69 /_68.33 degree
+           Shunt Capacitive Reactance = 8535.91 ohms
+
+ T-Line "T4" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 131.59000  mode1 = 93.99300  mode2 = 93.99300  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 8.33 + j10.24 ohms
+                                      = 13.20 /_50.86 degree
+           Shunt Capacitive Reactance = 8152.62 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 124.98 + j35.83 ohms
+                                      = 130.01 /_16.00 degree
+           Shunt Capacitive Reactance = 14557.84 ohms
+
+ T-Line "T5" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 255.02100  mode1 = 182.15800  mode2 = 182.15800  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.55 + j25.35 ohms
+                                      = 25.40 /_86.51 degree
+           Shunt Capacitive Reactance = 5376.16 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 23.21 + j88.73 ohms
+                                      = 91.72 /_75.34 degree
+           Shunt Capacitive Reactance = 9600.02 ohms
+
+ T-Line "T6" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 198.02800  mode1 = 141.44900  mode2 = 141.44900  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 1.31 + j15.83 ohms
+                                      = 15.88 /_85.27 degree
+           Shunt Capacitive Reactance = 5567.26 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 19.64 + j55.41 ohms
+                                      = 58.78 /_70.48 degree
+           Shunt Capacitive Reactance = 9941.28 ohms
+
+ T-Line "T7" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 153.91400  mode1 = 109.93900  mode2 = 109.93900  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.95 + j15.23 ohms
+                                      = 15.26 /_86.42 degree
+           Shunt Capacitive Reactance = 8869.45 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 14.28 + j53.32 ohms
+                                      = 55.20 /_75.00 degree
+           Shunt Capacitive Reactance = 15837.90 ohms
+
+ T-Line "T8" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 156.80000  mode1 = 112.00000  mode2 = 112.00000  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.95 + j15.35 ohms
+                                      = 15.38 /_86.45 degree
+           Shunt Capacitive Reactance = 8612.76 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 14.28 + j53.74 ohms
+                                      = 55.61 /_75.12 degree
+           Shunt Capacitive Reactance = 15379.49 ohms
+
+ T-Line "T9" parameters at 60.00 Hz (Pi-Section Model)
+ Travel time(usecs) mode0 = 39.44800  mode1 = 28.17700  mode2 = 28.17700  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.24 + j3.09 ohms
+                                      = 3.10 /_85.60 degree
+           Shunt Capacitive Reactance = 27426.27 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 3.57 + j10.83 ohms
+                                      = 11.40 /_71.75 degree
+           Shunt Capacitive Reactance = 48973.81 ohms
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=7.500000 MW(R=114.443447 ohms)
+	Qinit=88.000000 MVar(L=3.561896 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=320.000000 MW(R=302.744637 ohms)
+	Qinit=153.000000 MVar(L=0.383961 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and C in series:
+	Pinit=329.000000 MW(R=358.324376 ohms)
+	Qinit=32.300000 MVar(C=75.402528 uF)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and C in series:
+	Pinit=158.000000 MW(R=727.109109 ohms)
+	Qinit=30.000000 MVar(C=19.213440 uF)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=628.000000 MW(R=18.762793 ohms)
+	Qinit=103.000000 MVar(L=0.008163 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=274.000000 MW(R=369.337267 ohms)
+	Qinit=115.000000 MVar(L=0.411187 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=247.500000 MW(R=430.598146 ohms)
+	Qinit=84.600000 MVar(L=0.390424 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=308.600000 MW(R=354.086719 ohms)
+	Qinit=92.200000 MVar(L=0.280617 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=224.000000 MW(R=508.771876 ohms)
+	Qinit=47.200000 MVar(L=0.284371 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=139.000000 MW(R=843.675421 ohms)
+	Qinit=17.000000 MVar(L=0.273702 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=281.000000 MW(R=395.057066 ohms)
+	Qinit=75.500000 MVar(L=0.281559 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and C in series:
+	Pinit=206.000000 MW(R=567.602348 ohms)
+	Qinit=27.600000 MVar(C=34.880511 uF)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=283.500000 MW(R=416.095069 ohms)
+	Qinit=26.900000 MVar(L=0.104727 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=322.000000 MW(R=369.622323 ohms)
+	Qinit=2.400000 MVar(L=0.007308 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=1104.000000 MW(R=102.553625 ohms)
+	Qinit=250.000000 MVar(L=0.061601 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=500.000000 MW(R=209.657361 ohms)
+	Qinit=184.000000 MVar(L=0.204657 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and C in series:
+	Pinit=233.800000 MW(R=450.887044 ohms)
+	Qinit=84.000000 MVar(C=16.374436 uF)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=522.000000 MW(R=204.742141 ohms)
+	Qinit=176.000000 MVar(L=0.183113 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+
+
+RISC CONTROLS COMPONENTS(proc 0) --> NovaCor Core #1 
+numberOfModels = 6
+
+Subsystem 1, Network Solution on core 1 Statistics:
+Number of nodes: 90
+Number of passed G values: 54
+Number of switched G overlays: 0
+Number of columns dynamically decomposed: 54
+
+
+
+RISC CONTROLS COMPONENTS(proc 1) --> NovaCor Core #2 
+numberOfModels = 165

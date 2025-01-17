@@ -1,0 +1,17 @@
+!RTDS_REVISION = 3
+Line Summary:
+  {
+  Line Length = 100.0
+  Steady State Frequency = 60.0
+  }
+RLC Options:
+  {
+  Data Entry Format                      = 0
+  Positive Sequence Series Resistance    = 0.018547
+  Positive Sequence Series Ind Reactance = 0.37661
+  Positive Sequence Series Cap Reactance = 0.2279
+  Zero Sequence Series Resistance        = 0.3618376
+  Zero Sequence Series Ind Reactance     = 1.227747
+  Zero Sequence Series Cap Reactance     = 0.34514
+  Number of Phases                       = 3
+  }

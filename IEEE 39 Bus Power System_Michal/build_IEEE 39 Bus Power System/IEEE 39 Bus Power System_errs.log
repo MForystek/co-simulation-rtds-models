@@ -1,0 +1,8 @@
+SUBSYSTEM_INDEX=0 COMPONENT_NAME=gtnetskt UNIQUE_ID=1508 SEVERITY=4 ERROR_MESSAGE= ERROR- "A request has been made to retrieve
+      the information for GTNETX2_SKT card number 1
+      on fiber port number: 13
+      in subsystem number: 1
+      However no such GTNETX2_SKT card was found at the specified location.
+      Please verify the available peripheral cards in the Config File.
+      Noted in function: p8_storeGTIO_FromCardInDM_RW - 0
+"""

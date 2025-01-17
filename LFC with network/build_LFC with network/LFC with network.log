@@ -1,0 +1,51 @@
+MESSAGES:
+
+Compiling LFC with network for RTDS rack 1...
+Nodes and Wires...
+
+RTDSPC version = 6.6
+=======================
+
+Using configuration file: C:\Users\forystmj\Documents\RSCAD\HDWR\config_file_03.txt
+OPENED 'GTNET_DNP-dnp.log' file for writing.
+While parsing the XML file 'DNP3_database.xml', a total number of '1' oustations were found. 
+ memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '716'
+ malloc(sizeof(struct sDNPSetup) '12'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sMaster) '104'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sChannel) '104'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sOutstationConfiguration) '64'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * MAX_NUM_DNPv6_SESSIONSv2 * sizeof(struct sSessions) '32'
+ malloc(MAX_NUM_DNPv6_CHANNELSv2 * MAX_NUM_DNPv6_SESSIONSv2 * sizeof(struct sLinkLayer) '96'
+ malloc(sizeof(struct sBinaryStatusPoints) '8'
+ malloc(MAX_NUM_DNPv6_BI_POINTSv2 * sizeof(struct sBI) '24960'
+ malloc(sizeof(struct sDPointStatusPoints) '8'
+ malloc(MAX_NUM_DNPv6_DPI_POINTSv2 * sizeof(struct sDPI) '12480'
+ malloc(sizeof(struct sCounters) '8'
+ malloc(MAX_NUM_DNPv6_CNT_POINTSv2 * sizeof(struct sCNT) '864'
+ malloc(sizeof(struct sFcounters) '8'
+ malloc(MAX_NUM_DNPv6_FC_POINTSv2 * sizeof(struct sFC) '848'
+ malloc(sizeof(struct sAnalogStatusPoints) '8'
+ malloc(MAX_NUM_DNPv6_AI_POINTSv2 * sizeof(struct sAI) '13200'
+ malloc(sizeof(struct sBinaryControlPoints) '8'
+ malloc(MAX_NUM_DNPv6_BO_POINTSv2 * sizeof(struct sBO) '12672'
+ malloc(sizeof(struct sAnalogControlPoints) '8'
+ malloc(MAX_NUM_DNPv6_AO_POINTSv2 * sizeof(struct sAO) '2600'
+ malloc(sizeof(struct sBI) '260'
+ malloc(sizeof(struct sDPI) '260'
+ malloc(sizeof(struct sCNT) '216'
+ malloc(sizeof(struct sFC) '212'
+ malloc(sizeof(struct sAI) '264'
+ malloc(sizeof(struct sBO) '264'
+ malloc(sizeof(struct sAO) '260'
+Validated GTNET DNP XML configVersion GTNET IED 1
+Validated DNPSetup element for GTNET IED 1
+Validated BinaryStatusPoints element for GTNET IED 1
+Validated DPointStatusPoints element for GTNET IED 1
+Validated Counters element for GTNET IED 1
+Validated FrozenCounters element for GTNET IED 1
+Validated AnalogStatusPoints element for GTNET IED 1
+Validated BinaryControlPoints element for GTNET IED 1
+Validated AnalogControlPoints element for GTNET IED 1
+End of process. Peak memory usage = 23826432 bytes
+
+Compile completed successfully.
