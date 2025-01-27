@@ -511,3 +511,315 @@ Number of columns dynamically decomposed: 54
 
 RISC CONTROLS COMPONENTS(proc 1) --> NovaCor Core #2 
 numberOfModels = 165
+
+
+RISC CONTROLS COMPONENTS(proc 2) --> NovaCor Core #3 
+numberOfModels = 133
+
+
+RISC-based MAC_V3 Machine model named: BUS31x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS31x1" 
+      Initial Mechanical Torque required: 0.524107 PU
+      Initial Field Voltage required:     2.229448 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.350000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 2.600000 pu
+               Damper Leakage Reactance:  X3d= 0.258496 pu
+                      Damper Resistance:  R3d= 0.031732 pu
+                Field Leakage Reactance:  X2d= 0.414332 pu
+                       Field resistance:  R2d= 0.001255 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.350000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 2.470000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.168484 pu
+                  2nd Damper Resistance:  R3q= 0.065797 pu
+           1st damper Leakage Reactance:  X2q= 3.062661 pu
+                  1st Damper resistance:  R2q= 0.010096 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS34x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS34x1" 
+      Initial Mechanical Torque required: 0.511451 PU
+      Initial Field Voltage required:     3.991441 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.540000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 6.160000 pu
+               Damper Leakage Reactance:  X3d= 0.652020 pu
+                      Damper Resistance:  R3d= 0.074479 pu
+                Field Leakage Reactance:  X2d= 0.924432 pu
+                       Field resistance:  R2d= 0.003609 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.540000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 5.660000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.414469 pu
+                  2nd Damper Resistance:  R3q= 0.045016 pu
+           1st damper Leakage Reactance:  X2q= 5.308631 pu
+                  1st Damper resistance:  R2q= 0.204814 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS38x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS38x1" 
+      Initial Mechanical Torque required: 0.833595 PU
+      Initial Field Voltage required:     2.017686 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.298000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 1.808000 pu
+               Damper Leakage Reactance:  X3d= 0.332556 pu
+                      Damper Resistance:  R3d= 0.031616 pu
+                Field Leakage Reactance:  X2d= 0.331254 pu
+                       Field resistance:  R2d= 0.001218 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.298000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 1.752000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.293365 pu
+                  2nd Damper Resistance:  R3q= 0.024726 pu
+           1st damper Leakage Reactance:  X2q= 0.384697 pu
+                  1st Damper resistance:  R2q= 0.003148 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS39x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS39x1" 
+      Initial Mechanical Torque required: 1.003656 PU
+      Initial Field Voltage required:     1.064361 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.045000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 0.155000 pu
+               Damper Leakage Reactance:  X3d= 0.007260 pu
+                      Damper Resistance:  R3d= 0.001182 pu
+                Field Leakage Reactance:  X2d= 0.017922 pu
+                       Field resistance:  R2d= 0.000069 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.045000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 0.145000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.005594 pu
+                  2nd Damper Resistance:  R3q= 0.001783 pu
+           1st damper Leakage Reactance:  X2q= 0.069722 pu
+                  1st Damper resistance:  R2q= 0.001063 pu
+
+
+
+RISC CONTROLS COMPONENTS(proc 3) --> NovaCor Core #4 
+numberOfModels = 31
+
+
+RISC-based MAC_V3 Machine model named: BUS32x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS32x1" 
+      Initial Mechanical Torque required: 0.653282 PU
+      Initial Field Voltage required:     2.246158 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.304000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 2.191000 pu
+               Damper Leakage Reactance:  X3d= 0.386201 pu
+                      Damper Resistance:  R3d= 0.031996 pu
+                Field Leakage Reactance:  X2d= 0.262911 pu
+                       Field resistance:  R2d= 0.001176 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.304000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 2.066000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.192159 pu
+                  2nd Damper Resistance:  R3q= 0.032425 pu
+           1st damper Leakage Reactance:  X2q= 0.861127 pu
+                  1st Damper resistance:  R2q= 0.005646 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS35x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS35x1" 
+      Initial Mechanical Torque required: 0.653724 PU
+      Initial Field Voltage required:     2.239158 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.224000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 2.316000 pu
+               Damper Leakage Reactance:  X3d= 0.471457 pu
+                      Damper Resistance:  R3d= 0.039152 pu
+                Field Leakage Reactance:  X2d= 0.319595 pu
+                       Field resistance:  R2d= 0.000976 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.224000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 2.186000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.220143 pu
+                  2nd Damper Resistance:  R3q= 0.025807 pu
+           1st damper Leakage Reactance:  X2q= 1.466557 pu
+                  1st Damper resistance:  R2q= 0.045554 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS37x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS37x1" 
+      Initial Mechanical Torque required: 0.543556 PU
+      Initial Field Voltage required:     1.845560 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.280000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 2.620000 pu
+               Damper Leakage Reactance:  X3d= 0.396456 pu
+                      Damper Resistance:  R3d= 0.035871 pu
+                Field Leakage Reactance:  X2d= 0.335759 pu
+                       Field resistance:  R2d= 0.001201 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.280000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 2.520000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.203226 pu
+                  2nd Damper Resistance:  R3q= 0.026607 pu
+           1st damper Leakage Reactance:  X2q= 1.770259 pu
+                  1st Damper resistance:  R2q= 0.057329 pu
+
+
+
+RISC CONTROLS COMPONENTS(proc 4) --> NovaCor Core #5 
+numberOfModels = 29
+
+
+RISC-based MAC_V3 Machine model named: BUS30x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS30x1" 
+      Initial Mechanical Torque required: 0.253667 PU
+      Initial Field Voltage required:     1.441182 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.125000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 0.875000 pu
+               Damper Leakage Reactance:  X3d= 0.381538 pu
+                      Damper Resistance:  R3d= 0.029923 pu
+                Field Leakage Reactance:  X2d= 0.236062 pu
+                       Field resistance:  R2d= 0.000291 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.125000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 0.565000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.367143 pu
+                  2nd Damper Resistance:  R3q= 0.023897 pu
+           1st damper Leakage Reactance:  X2q= 0.285196 pu
+                  1st Damper resistance:  R2q= 0.001548 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS33x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS33x1" 
+      Initial Mechanical Torque required: 0.635367 PU
+      Initial Field Voltage required:     2.106069 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.295000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 2.325000 pu
+               Damper Leakage Reactance:  X3d= 0.084018 pu
+                      Damper Resistance:  R3d= 0.011790 pu
+                Field Leakage Reactance:  X2d= 0.170956 pu
+                       Field resistance:  R2d= 0.001274 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.295000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 2.285000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.057286 pu
+                  2nd Damper Resistance:  R3q= 0.061739 pu
+           1st damper Leakage Reactance:  X2q= 3.472262 pu
+                  1st Damper resistance:  R2q= 0.010465 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS36x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS36x1" 
+      Initial Mechanical Torque required: 0.563806 PU
+      Initial Field Voltage required:     2.069826 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.322000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 2.628000 pu
+               Damper Leakage Reactance:  X3d= 0.134516 pu
+                      Damper Resistance:  R3d= 0.015738 pu
+                Field Leakage Reactance:  X2d= 0.199763 pu
+                       Field resistance:  R2d= 0.001430 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.322000 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 2.598000 pu
+           2nd Damper Leakage Reactance:  X3q= 0.082126 pu
+                  2nd Damper Resistance:  R3q= 0.070287 pu
+           1st damper Leakage Reactance:  X2q= 3.858331 pu
+                  1st Damper resistance:  R2q= 0.011739 pu
+

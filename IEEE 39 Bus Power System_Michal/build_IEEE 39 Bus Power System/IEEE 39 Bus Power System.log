@@ -7,18 +7,6 @@ RTDSPC version = 6.6
 =======================
 
 Using configuration file: C:\Users\forystmj\Documents\RSCAD\HDWR\config_file_03.txt
+End of process. Peak memory usage = 21757952 bytes
 
-ERROR-1 : A request has been made to retrieve
-      the information for GTNETX2_SKT card number 1
-      on fiber port number: 13
-      in subsystem number: 1
-      However no such GTNETX2_SKT card was found at the specified location.
-      Please verify the available peripheral cards in the Config File.
-      Noted in function: p8_storeGTIO_FromCardInDM_RW - 0
-
-Severity = 4,  Subsystem Number = 1 
-
-RSCAD Terminated! 
- 
-
-Compile completed with errors.
+Compile completed successfully.

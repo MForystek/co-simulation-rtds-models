@@ -47,7 +47,7 @@ Slider Desc="Pset" Group="Subsystem #1|Loads|DL2" Type=IEEE Units="MW" InitValue
 Slider Desc="Qset" Group="Subsystem #1|Loads|DL2" Type=IEEE Units="MVAR" InitValue=10.000000 Min=0.001000 Max=100.000000 Rack=1 Adr=54004058 ComponentUUID=544
 String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\DNP3 poc\Dnp3poc poc.rtfx"
 String Desc="Draft file modification date" Group="Time tags" InitValue="2025/01/12 10:51:43"
-String Desc="Compile date" Group="Time tags" InitValue="2025/01/17 13:29:50"
+String Desc="Compile date" Group="Time tags" InitValue="2025/02/08 00:32:10"
 
 
 CHECKSUM_INFORMATION:

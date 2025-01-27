@@ -93,7 +93,7 @@ V4COMP: ModelName = ESDC1Ax SubSystem = 1 Processor = 1 Priority = 3
     OUTVARS: VGB11 IEEE OUT
 END
 RTDS.CTL.RISC_CMODEL
-V4COMP: ModelName = dnp_v6 SubSystem = 1 Processor = 1 Priority = 13
+V4COMP: ModelName = dnp_v6 SubSystem = 1 Processor = 1 Priority = 11
       DRAFT_UNIQUEID=585 LOCATION=720 400
       DATA_SIZES: INTDATA=35 FLOATDATA=0 CHARDATA_FRMT=2 INVARS=0 OUTVARS=1
       INTDATA: 12 Port 1 Card 1 gtnettype 1 NumChannels 1 Trans
