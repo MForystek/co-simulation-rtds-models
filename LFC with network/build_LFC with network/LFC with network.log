@@ -46,6 +46,6 @@ Validated FrozenCounters element for GTNET IED 1
 Validated AnalogStatusPoints element for GTNET IED 1
 Validated BinaryControlPoints element for GTNET IED 1
 Validated AnalogControlPoints element for GTNET IED 1
-End of process. Peak memory usage = 24875008 bytes
+End of process. Peak memory usage = 24248320 bytes
 
 Compile completed successfully.
