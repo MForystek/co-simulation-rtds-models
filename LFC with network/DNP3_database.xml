@@ -25,7 +25,9 @@
       <Hitem revision="20" when="2025/01/30 09:46:27" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="21" when="2025/02/09 16:40:23" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="22" when="2025/02/11 10:51:40" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
-      <Hitem revision="23" when="2025/02/11 10:59:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="23" when="2025/02/11 10:59:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="24" when="2025/02/19 01:26:00" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="25" when="2025/02/19 01:26:31" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
     </History> 
   </Header>  
   <Outstation name="Speeds" inst="1" desc="RTDS DNP3 interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="DNPv6" configVersion="2.0"> 
@@ -125,7 +127,8 @@
       <!--Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS) AO: DNP_address variable_name default_value [serializer_name] class_num static_var event_var-->  
       <AO DNP_address="0" variable_name="ACE1_1" default_value="0.029" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
       <AO DNP_address="1" variable_name="ACE2_1" default_value="0.029" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="2" variable_name="ACE3_1" default_value="0.019" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/> 
+      <AO DNP_address="2" variable_name="ACE3_1" default_value="0.019" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="3" variable_name="ShedParRemote" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
     </AnalogControlPoints> 
   </Outstation> 
 </root>
