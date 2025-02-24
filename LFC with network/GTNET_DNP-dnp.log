@@ -1,9 +1,10 @@
 OPENED 'GTNET_DNP-dnp.log' file for writing.
 Verbose setting set to 'TRUE'
 Element 'Outstation' with attribute 'inst' = '1' found
-Element 'Outstation' with attribute 'inst'= '2' not found
-While parsing the XML file 'DNP3_database.xml', a total number of '1' oustations were found. 
- memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '716'
+Element 'Outstation' with attribute 'inst' = '2' found
+Element 'Outstation' with attribute 'inst'= '3' not found
+While parsing the XML file 'DNP3_database.xml', a total number of '2' oustations were found. 
+ memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '1432'
  malloc(sizeof(struct sDNPSetup) '12'
  malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sMaster) '104'
  malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sChannel) '104'
@@ -32,7 +33,7 @@ While parsing the XML file 'DNP3_database.xml', a total number of '1' oustations
  malloc(sizeof(struct sBO) '264'
  malloc(sizeof(struct sAO) '260'
 Element 'Outstation' with attribute 'inst' = '1' found
-Outstation->name: Speeds
+Outstation->name: Main
 Outstation->inst: 1
 Outstation->desc: RTDS DNP3 interface
 Outstation->type: Generic IED
@@ -40,6 +41,15 @@ Outstation->manufacturer: RTDS Technologies
 Outstation->componentVersion: DNPv6
 Outstation->configVersion: 2.0
 Validated GTNET DNP XML configVersion GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '2' found
+Outstation->name: Attack
+Outstation->inst: 2
+Outstation->desc: RTDS DNP3 interface
+Outstation->type: Generic IED
+Outstation->manufacturer: RTDS Technologies
+Outstation->componentVersion: DNPv6
+Outstation->configVersion: 2.0
+Validated GTNET DNP XML configVersion GTNET IED 2
 
 GTNET parameters:
 -----------------------------
@@ -52,7 +62,7 @@ Element 'Master' with attribute 'inst' = '1' found
 Outstation->DNPSetup->Master[0].enable: 1
 Outstation->DNPSetup->Master[0].inst: 1
 Outstation->DNPSetup->Master[0].MasterIP: *.*.*.*
-Outstation->DNPSetup->Master[0].tcpPort: 20002
+Outstation->DNPSetup->Master[0].tcpPort: 20000
 Outstation->DNPSetup->Master[0].udpPort: 3671
 
 Element 'Channel' with attribute 'inst' = '1' found
@@ -149,3 +159,99 @@ AO:2 DNP_address:2 variable_name:ACE3_1 default_value:0.019 serializer_name: cla
 AO:3 DNP_address:3 variable_name:ShedParRemote default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
 ------------------------------------
 Validated AnalogControlPoints element for GTNET IED 1
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 DNPSetup configuration
+------------------------------------
+DNPSetup->NumChannels: 1
+Element 'Master' with attribute 'inst' = '1' found
+Outstation->DNPSetup->Master[0].enable: 1
+Outstation->DNPSetup->Master[0].inst: 1
+Outstation->DNPSetup->Master[0].MasterIP: *.*.*.*
+Outstation->DNPSetup->Master[0].tcpPort: 20001
+Outstation->DNPSetup->Master[0].udpPort: 3671
+
+Element 'Channel' with attribute 'inst' = '1' found
+Outstation->DNPSetup->Channel[0].Nmode: TCP/UDP
+Outstation->DNPSetup->Channel[0].inst: 1
+Outstation->DNPSetup->Channel[0].IpIndex: 2
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->maxControlsPerRequest: 16
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->maxRxFragSize: 2048
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->maxTxFragSize: 2048
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->allowUnsolicited: 0
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->selectTimeout: 10000
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->solConfirmTimeout: 10000
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->unsolConfirmTimeout: 10000
+Outstation->DNPSetup->Channel[0].OutstationConfiguration->unsolRetries: 3
+Outstation->DNPSetup->Channel[0].Sessions->NumSessions: 1
+Element 'LinkLayer' with attribute 'inst' = '1' found
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].inst: 1
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].masterInst: 1
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].remoteAddr: 1
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].localAddr: 2
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].responseTimeout: 10000
+Outstation->DNPSetup->Channel[0].Sessions->LinkLayer[0].keepAliveTimeout: 5000
+
+------------------------------------
+Validated DNPSetup element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 BinaryStatusPoints 
+------------------------------------
+Outstation->BinaryStatusPoints->maxEvents: 200
+------------------------------------
+Validated BinaryStatusPoints element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 DPointStatusPoints 
+------------------------------------
+Outstation->DPointStatusPoints->maxEvents: 100
+------------------------------------
+Validated DPointStatusPoints element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 Counters 
+------------------------------------
+Outstation->Counters->maxEvents: 10
+------------------------------------
+Validated Counters element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 FrozenCounters 
+------------------------------------
+Outstation->FrozenCounters->maxEvents: 10
+------------------------------------
+Validated FrozenCounters element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 AnalogStatusPoints 
+------------------------------------
+Outstation->AnalogStatusPoints->maxEvents: 50
+AI:0 DNP_address:0 variable_name:FREQ1 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:1 DNP_address:1 variable_name:FREQ2 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:2 DNP_address:2 variable_name:FREQ3 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:3 DNP_address:3 variable_name:FREQ4 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:4 DNP_address:4 variable_name:FREQ5 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:5 DNP_address:5 variable_name:FREQ6 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:6 DNP_address:6 variable_name:FREQ7 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:7 DNP_address:7 variable_name:FREQ8 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:8 DNP_address:8 variable_name:FREQ9 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:9 DNP_address:9 variable_name:FREQ10 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+------------------------------------
+Validated AnalogStatusPoints element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 BinaryControlPoints 
+------------------------------------
+Outstation->BinaryControlPoints->maxEvents: 
+------------------------------------
+Validated BinaryControlPoints element for GTNET IED 2
+Element 'Outstation' with attribute 'inst' = '2' found
+
+Outstation 2 AnalogControlPoints 
+------------------------------------
+Outstation->AnalogControlPoints->maxEvents: 
+AO:0 DNP_address:0 variable_name:Load4_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:1 DNP_address:1 variable_name:Load20_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+------------------------------------
+Validated AnalogControlPoints element for GTNET IED 2

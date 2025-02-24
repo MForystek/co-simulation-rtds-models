@@ -9,24 +9,26 @@ Output Desc="ACE1_1" Group="Subsystem #1|CTLs|Vars" Units="" Type=DOUBLE Min=0.0
 Output Desc="ACE2_1" Group="Subsystem #1|CTLs|Vars" Units="" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020308 ComponentUUID=1379
 Output Desc="ACE3_1" Group="Subsystem #1|CTLs|Vars" Units="" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020310 ComponentUUID=1379
 Output Desc="ShedParRemote" Group="Subsystem #1|CTLs|Vars" Units="" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020318 ComponentUUID=1379
-Output Desc="EF1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020320 ComponentUUID=312
-Output Desc="EF2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020328 ComponentUUID=429
-Output Desc="EF3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020330 ComponentUUID=557
-Output Desc="EF4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020338 ComponentUUID=149
-Output Desc="EF5" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020340 ComponentUUID=139
-Output Desc="EF6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020348 ComponentUUID=199
-Output Desc="EF7" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020350 ComponentUUID=254
-Output Desc="EF8" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020358 ComponentUUID=508
-Output Desc="EF9" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020360 ComponentUUID=67
-Output Desc="TM1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020368 ComponentUUID=313
-Output Desc="TM2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020370 ComponentUUID=430
-Output Desc="TM3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020378 ComponentUUID=558
-Output Desc="TM4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020380 ComponentUUID=150
-Output Desc="TM5" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020388 ComponentUUID=140
-Output Desc="TM6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020390 ComponentUUID=200
-Output Desc="TM7" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020398 ComponentUUID=255
-Output Desc="TM8" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203A0 ComponentUUID=509
-Output Desc="TM9" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203A8 ComponentUUID=68
+Output Desc="Load4_P" Group="Subsystem #1|CTLs|Vars" Units="" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020320 ComponentUUID=1379
+Output Desc="Load20_P" Group="Subsystem #1|CTLs|Vars" Units="" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020328 ComponentUUID=1379
+Output Desc="EF1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020330 ComponentUUID=312
+Output Desc="EF2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020338 ComponentUUID=429
+Output Desc="EF3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020340 ComponentUUID=557
+Output Desc="EF4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020348 ComponentUUID=149
+Output Desc="EF5" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020350 ComponentUUID=139
+Output Desc="EF6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020358 ComponentUUID=199
+Output Desc="EF7" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020360 ComponentUUID=254
+Output Desc="EF8" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020368 ComponentUUID=508
+Output Desc="EF9" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020370 ComponentUUID=67
+Output Desc="TM1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020378 ComponentUUID=313
+Output Desc="TM2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020380 ComponentUUID=430
+Output Desc="TM3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020388 ComponentUUID=558
+Output Desc="TM4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020390 ComponentUUID=150
+Output Desc="TM5" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020398 ComponentUUID=140
+Output Desc="TM6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203A0 ComponentUUID=200
+Output Desc="TM7" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203A8 ComponentUUID=255
+Output Desc="TM8" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203B0 ComponentUUID=509
+Output Desc="TM9" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203B8 ComponentUUID=68
 Output Desc="W1" Group="Subsystem #1|Machines|BUS30x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020700 ComponentUUID=307
 Output Desc="VGB1" Group="Subsystem #1|Machines|BUS30x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020708 ComponentUUID=307
 Output Desc="P1" Group="Subsystem #1|Machines|BUS30x1" Units="MW     " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020710 ComponentUUID=307
@@ -75,37 +77,38 @@ Output Desc="TL_12_T21" Group="Subsystem #1|TLINES|T21" Units="MW" Type=DOUBLE M
 Output Desc="TL_21_T21" Group="Subsystem #1|TLINES|T21" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020678 ComponentUUID=696
 Output Desc="TL_23_T05" Group="Subsystem #1|TLINES|T5" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020760 ComponentUUID=674
 Output Desc="TL_32_T05" Group="Subsystem #1|TLINES|T5" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020768 ComponentUUID=674
-Output Desc="FREQ1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203B0 ComponentUUID=904
-Output Desc="FREQ2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203B8 ComponentUUID=909
-Output Desc="FREQ4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203C0 ComponentUUID=914
-Output Desc="FREQ3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203C8 ComponentUUID=922
-Output Desc="FREQ7" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203D0 ComponentUUID=924
-Output Desc="FREQ6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203D8 ComponentUUID=932
-Output Desc="FREQ9" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203E0 ComponentUUID=934
-Output Desc="FREQ8" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203E8 ComponentUUID=942
-Output Desc="FREQ5" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203F0 ComponentUUID=947
-Output Desc="FREQ10" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203F8 ComponentUUID=953
-Output Desc="ShedPar" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020400 ComponentUUID=1929
+Output Desc="FREQ1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203C0 ComponentUUID=904
+Output Desc="FREQ2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203C8 ComponentUUID=909
+Output Desc="FREQ4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203D0 ComponentUUID=914
+Output Desc="FREQ3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203D8 ComponentUUID=922
+Output Desc="FREQ7" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203E0 ComponentUUID=924
+Output Desc="FREQ6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203E8 ComponentUUID=932
+Output Desc="FREQ9" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203F0 ComponentUUID=934
+Output Desc="FREQ8" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510203F8 ComponentUUID=942
+Output Desc="FREQ5" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020400 ComponentUUID=947
+Output Desc="FREQ10" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020408 ComponentUUID=953
+Output Desc="ShedPar" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020410 ComponentUUID=1929
 Output Desc="EF10" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020590 ComponentUUID=406
 Output Desc="TM10" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020598 ComponentUUID=408
-Output Desc="ACE1_3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020408 ComponentUUID=163
-Output Desc="ACE1_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020410 ComponentUUID=214
-Output Desc="ACE1_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020418 ComponentUUID=269
-Output Desc="ACE2_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020420 ComponentUUID=321
-Output Desc="ACE3_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020428 ComponentUUID=444
-Output Desc="ACE3_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020430 ComponentUUID=571
-Output Desc="Dynamic_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020438 ComponentUUID=1881
-Output Desc="Dynamic_optimal" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=5102043C ComponentUUID=1880
-Output Desc="LFC_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020440 ComponentUUID=1877
-Output Desc="RemoteLFC" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020444 ComponentUUID=1878
-Output Desc="UFLS_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020448 ComponentUUID=1879
-Output Desc="RemoteUFLS" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=5102044C ComponentUUID=1934
-Output Desc="dF1_3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020450 ComponentUUID=158
-Output Desc="dF1_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020458 ComponentUUID=264
-Output Desc="dF3_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020460 ComponentUUID=439
-Output Desc="tl1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020468 ComponentUUID=810
-Output Desc="tl2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020470 ComponentUUID=824
-Output Desc="tl3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020478 ComponentUUID=839
+Output Desc="ACE1_3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020418 ComponentUUID=163
+Output Desc="ACE1_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020420 ComponentUUID=214
+Output Desc="ACE1_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020428 ComponentUUID=269
+Output Desc="ACE2_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020430 ComponentUUID=321
+Output Desc="ACE3_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020438 ComponentUUID=444
+Output Desc="ACE3_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020440 ComponentUUID=571
+Output Desc="Dynamic_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020448 ComponentUUID=1881
+Output Desc="Dynamic_optimal" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=5102044C ComponentUUID=1880
+Output Desc="Dynamic_remote" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020450 ComponentUUID=1982
+Output Desc="LFC_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020454 ComponentUUID=1877
+Output Desc="RemoteLFC" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020458 ComponentUUID=1878
+Output Desc="UFLS_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=5102045C ComponentUUID=1879
+Output Desc="RemoteUFLS" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020460 ComponentUUID=1934
+Output Desc="dF1_3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020468 ComponentUUID=158
+Output Desc="dF1_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020470 ComponentUUID=264
+Output Desc="dF3_2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020478 ComponentUUID=439
+Output Desc="tl1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020480 ComponentUUID=810
+Output Desc="tl2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020488 ComponentUUID=824
+Output Desc="tl3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020490 ComponentUUID=839
 Output Desc="Pmon12" Group="Subsystem #1|Loads|DL12" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510205A0 ComponentUUID=639
 Output Desc="Pmon15" Group="Subsystem #1|Loads|DL15" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020680 ComponentUUID=634
 Output Desc="Pmon16" Group="Subsystem #1|Loads|DL16" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020770 ComponentUUID=632
@@ -261,19 +264,20 @@ Slider Desc="CONSPD" Group="Subsystem #1|Machines|BUS39x1" Type=IEEE Units="Hz" 
 Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS39x1" Type=IEEE Units="Deg" InitValue=359.991241 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004160 ComponentUUID=399
 Slider Desc="Ef10" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.064371 Min=0.000000 Max=1.200000 Rack=1 Adr=54004168 ComponentUUID=406
 Slider Desc="Tm10" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.003656 Min=0.000000 Max=1.200000 Rack=1 Adr=54004170 ComponentUUID=408
-Switch Desc="DLAA" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=54004178 ComponentUUID=1881
+Switch Desc="DLAA" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004178 ComponentUUID=1881
 Switch Desc="DLAA_optimal" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=5400417C ComponentUUID=1880
-Switch Desc="LFC" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004180 ComponentUUID=1877
-Switch Desc="Remote_LFC" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004184 ComponentUUID=1878
-Switch Desc="UFLS" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004188 ComponentUUID=1879
-Switch Desc="UFLS_remote" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=5400418C ComponentUUID=1934
+Switch Desc="DLAA_remote" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004180 ComponentUUID=1982
+Switch Desc="LFC" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004184 ComponentUUID=1877
+Switch Desc="Remote_LFC" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004188 ComponentUUID=1878
+Switch Desc="UFLS" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=5400418C ComponentUUID=1879
+Switch Desc="UFLS_remote" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004190 ComponentUUID=1934
 String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\LFC with network\LFC with network.rtfx"
-String Desc="Draft file modification date" Group="Time tags" InitValue="2025/02/19 01:31:52"
-String Desc="Compile date" Group="Time tags" InitValue="2025/02/19 01:31:54"
+String Desc="Draft file modification date" Group="Time tags" InitValue="2025/02/23 22:45:48"
+String Desc="Compile date" Group="Time tags" InitValue="2025/02/23 22:45:49"
 
 
 CHECKSUM_INFORMATION:
-checksum_record: subsystem=1 checksum=F89D45FD
+checksum_record: subsystem=1 checksum=36705F19
 
 
 COMPONENT_TIMING_INFORMATION:
@@ -283,89 +287,88 @@ timing_record: subsystem=1 processor=2 processor_type=NOVACOR
 timing_record: subsystem=1 processor=3 processor_type=NOVACOR
 timing_record: subsystem=1 processor=4 processor_type=NOVACOR
 timing_record: timing_name=1::_1 component_type=netsolCB subsystem=1 processor=0 processor_type=NOVACOR clock_index=1 enabled=true use=PSYS lf=300.000000 description=NetworkSolution
-timing_record: timing_name=(null) component_type=dnp_v6 subsystem=1 processor=1 processor_type=NOVACOR clock_index=1 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1379
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=2 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=312
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=3 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=429
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=4 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=557
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=5 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=149
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=6 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=139
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=7 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=199
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=8 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=254
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=9 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=508
-timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=10 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=67
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=11 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=430
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=12 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=150
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=13 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=140
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=14 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=255
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=15 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=509
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=16 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=68
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=87 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=904
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=88 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=909
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=89 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=914
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=90 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=922
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=91 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=924
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=92 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=932
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=93 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=934
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=94 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=942
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=95 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=947
-timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=96 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=953
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=97 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1002
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=98 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1005
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=99 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1007
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=100 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1031
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=101 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1055
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=102 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1675
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=103 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=742
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=104 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=784
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=105 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=788
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=106 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=791
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=107 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=795
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=108 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=962
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=109 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=966
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=110 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=970
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=111 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=972
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=112 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=977
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=113 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=981
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=114 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=985
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=115 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=989
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=116 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=993
-timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=117 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=997
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=118 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1032
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=119 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1053
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=120 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1685
-timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=121 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1711
-timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=122 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1723
-timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=123 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1728
-timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=124 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1733
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=125 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1029
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=126 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1056
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=127 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1531
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=128 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1538
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=129 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1545
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=130 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1559
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=131 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1566
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=132 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1572
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=133 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1578
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=134 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1584
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=135 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1590
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=136 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1596
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=137 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1604
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=138 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1610
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=139 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1616
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=140 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1622
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=141 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1626
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=142 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1638
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=143 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1683
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=144 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1690
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=145 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=181
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=146 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=231
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=147 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=287
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=148 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=342
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=149 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=462
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=150 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=588
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=151 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=812
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=152 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=826
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=153 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=841
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=1 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=312
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=2 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=429
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=3 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=557
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=4 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=149
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=5 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=139
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=6 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=199
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=7 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=254
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=8 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=508
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=9 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=67
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=10 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=430
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=11 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=150
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=12 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=140
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=13 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=255
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=14 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=509
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=15 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=68
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=86 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=904
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=87 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=909
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=88 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=914
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=89 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=922
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=90 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=924
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=91 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=932
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=92 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=934
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=93 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=942
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=94 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=947
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=95 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=953
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=96 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1002
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=97 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1005
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=98 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1007
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=99 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1031
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=100 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1055
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=101 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1675
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=102 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=742
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=103 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=784
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=104 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=788
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=105 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=791
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=106 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=795
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=107 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=962
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=108 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=966
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=109 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=970
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=110 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=972
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=111 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=977
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=112 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=981
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=113 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=985
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=114 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=989
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=115 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=993
+timing_record: timing_name=(null) component_type=sched subsystem=1 processor=1 processor_type=NOVACOR clock_index=116 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=997
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=117 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1032
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=118 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1053
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=119 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1685
+timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=120 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1711
+timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=121 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1723
+timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=122 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1728
+timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=123 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1733
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=124 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1029
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=125 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1056
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=126 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1531
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=127 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1538
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=128 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1545
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=129 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1559
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=130 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1566
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=131 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1572
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=132 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1578
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=133 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1584
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=134 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1590
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=135 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1596
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=136 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1604
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=137 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1610
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=138 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1616
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=139 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1622
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=140 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1626
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=141 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1638
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=142 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1683
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=143 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1690
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=144 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=181
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=145 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=231
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=146 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=287
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=147 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=342
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=148 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=462
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=149 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=588
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=150 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=812
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=151 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=826
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=152 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=841
 timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=160 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1038
 timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=161 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1049
 timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=162 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=158
@@ -375,75 +378,78 @@ timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=
 timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=166 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=339
 timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=167 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=439
 timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=168 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=566
-timing_record: timing_name=(null) component_type=compareX03 subsystem=1 processor=1 processor_type=NOVACOR clock_index=171 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1911
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=172 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1023
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=173 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1057
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=174 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1681
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=175 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=171
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=176 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=221
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=177 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=277
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=178 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=322
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=179 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=452
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=180 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=578
-timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=181 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1036
-timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=182 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1043
-timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=183 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1689
-timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=184 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1777
-timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=185 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1040
-timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=186 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1051
-timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=187 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1680
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=188 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1027
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=189 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1046
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=190 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1696
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=191 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=806
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=192 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=820
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=193 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=835
-timing_record: timing_name=(null) component_type=table_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=194 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1709
-timing_record: timing_name=(null) component_type=time_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=195 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1918
-timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=196 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=810
-timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=197 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=824
-timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=198 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=839
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=199 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1024
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=200 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1042
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=201 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1682
-timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=202 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1920
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=203 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=159
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=204 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1902
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=205 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=210
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=206 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=265
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=207 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=327
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=208 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=440
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=209 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=567
-timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=210 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=173
-timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=211 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=223
-timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=212 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=279
-timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=213 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=340
-timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=214 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=454
-timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=215 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=580
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=216 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1876
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=217 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1929
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=218 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=166
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=219 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=216
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=220 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=272
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=221 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=331
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=222 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=447
-timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=223 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=574
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=224 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=238
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=225 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=352
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=226 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=593
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=227 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=163
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=228 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=214
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=229 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=269
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=230 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=321
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=231 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=444
-timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=232 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=571
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=233 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1467
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=234 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1470
-timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=235 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1472
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=236 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=313
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=237 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=558
-timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=238 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=200
-timing_record: timing_name=CONTROL_GROUP_1 component_type=CONTROL_GROUP_1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=239 enabled=true use=CTLS lf=0.000000
+timing_record: timing_name=(null) component_type=dnp_v6 subsystem=1 processor=1 processor_type=NOVACOR clock_index=171 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1379
+timing_record: timing_name=(null) component_type=compareX03 subsystem=1 processor=1 processor_type=NOVACOR clock_index=172 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1911
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=173 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1023
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=174 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1057
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=175 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1681
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=176 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=171
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=177 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=221
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=178 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=277
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=179 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=322
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=180 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=452
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=181 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=578
+timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=182 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1036
+timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=183 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1043
+timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=184 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1689
+timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=1 processor_type=NOVACOR clock_index=185 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1777
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=186 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1040
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=187 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1051
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=188 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1680
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=189 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1973
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=190 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1978
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=191 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1027
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=192 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1046
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=193 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1696
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=194 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=806
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=195 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=820
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=196 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=835
+timing_record: timing_name=(null) component_type=table_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=197 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1709
+timing_record: timing_name=(null) component_type=time_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=198 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1918
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=199 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=810
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=200 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=824
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=201 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=839
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=202 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1024
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=203 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1042
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=204 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1682
+timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=205 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1920
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=206 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=159
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=207 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1902
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=208 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=210
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=209 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=265
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=210 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=327
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=211 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=440
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=212 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=567
+timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=213 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=173
+timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=214 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=223
+timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=215 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=279
+timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=216 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=340
+timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=217 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=454
+timing_record: timing_name=(null) component_type=intgl_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=218 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=580
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=219 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1876
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=220 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1929
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=221 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=166
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=222 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=216
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=223 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=272
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=224 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=331
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=225 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=447
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=226 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=574
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=227 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=238
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=228 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=352
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=229 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=593
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=230 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=163
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=231 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=214
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=232 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=269
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=233 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=321
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=234 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=444
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=235 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=571
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=236 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1467
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=237 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1470
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=238 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=1472
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=239 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=313
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=240 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=558
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=241 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=200
+timing_record: timing_name=CONTROL_GROUP_1 component_type=CONTROL_GROUP_1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=242 enabled=true use=CTLS lf=0.000000
 timing_record: timing_name=BUS31x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=1 enabled=true use=PSYS lf=20.000000
 timing_record: timing_name=BUS34x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=2 enabled=true use=PSYS lf=20.000000
 timing_record: timing_name=BUS38x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=3 enabled=true use=PSYS lf=20.000000
