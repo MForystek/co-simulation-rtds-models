@@ -499,7 +499,7 @@
 
 
 RISC CONTROLS COMPONENTS(proc 0) --> NovaCor Core #1 
-numberOfModels = 3
+numberOfModels = 4
 
 Subsystem 1, Network Solution on core 1 Statistics:
 Number of nodes: 90
@@ -510,7 +510,7 @@ Number of columns dynamically decomposed: 54
 
 
 RISC CONTROLS COMPONENTS(proc 1) --> NovaCor Core #2 
-numberOfModels = 241
+numberOfModels = 325
 
 
 RISC CONTROLS COMPONENTS(proc 2) --> NovaCor Core #3 

@@ -46,14 +46,32 @@
       <Hitem revision="41" when="2025/02/21 20:28:52" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="42" when="2025/02/21 20:29:04" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="43" when="2025/02/21 20:37:38" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
-      <Hitem revision="44" when="2025/02/21 20:44:02" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="45" when="2025/02/21 20:50:56" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="46" when="2025/02/21 20:57:49" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="47" when="2025/02/23 13:09:07" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="48" when="2025/02/23 21:50:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="49" when="2025/02/23 22:08:30" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="50" when="2025/02/23 22:14:43" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="51" when="2025/02/23 22:31:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="44" when="2025/02/21 20:44:02" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="45" when="2025/02/21 20:50:56" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="46" when="2025/02/21 20:57:49" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="47" when="2025/02/23 13:09:07" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="48" when="2025/02/23 21:50:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="49" when="2025/02/23 22:08:30" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="50" when="2025/02/23 22:14:43" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="51" when="2025/02/23 22:31:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="52" when="2025/03/06 15:31:25" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="53" when="2025/03/06 23:44:19" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="54" when="2025/03/06 23:44:31" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="55" when="2025/03/08 10:32:33" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="56" when="2025/03/08 10:34:04" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="57" when="2025/03/08 10:45:04" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="58" when="2025/03/08 10:45:16" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="59" when="2025/03/08 10:50:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="60" when="2025/03/08 10:51:10" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="61" when="2025/03/08 10:52:31" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="62" when="2025/03/08 10:53:47" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="63" when="2025/03/08 14:59:50" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="64" when="2025/03/09 13:34:14" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="65" when="2025/03/09 17:28:27" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="66" when="2025/03/11 22:25:18" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="67" when="2025/03/11 23:18:08" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="68" when="2025/03/12 17:26:11" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="69" when="2025/03/12 17:26:20" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
     </History> 
   </Header>  
   <Outstation name="Main" inst="1" desc="RTDS DNP3 interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="DNPv6" configVersion="2.0"> 
@@ -244,8 +262,113 @@
     </BinaryControlPoints>  
     <AnalogControlPoints maxEvents=""> 
       <!--Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS) AO: DNP_address variable_name default_value [serializer_name] class_num static_var event_var-->  
-      <AO DNP_address="0" variable_name="Load4_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="1" variable_name="Load20_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/> 
+      <AO DNP_address="0" variable_name="Load15_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="1" variable_name="Load16_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="2" variable_name="Load20_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="3" variable_name="Load21_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="4" variable_name="Load3_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="5" variable_name="Load18_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="6" variable_name="Load25_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="7" variable_name="Load4_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="8" variable_name="Load7_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="9" variable_name="Load8_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
     </AnalogControlPoints> 
-  </Outstation> 
+  </Outstation>  
+  <Outstation name="Attack2" inst="3" desc="RTDS DNP3 interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="DNPv6" configVersion="2.0">
+    <DNPSetup NumChannels="1">
+      <Master inst="1" enable="true" MasterIP="*.*.*.*" Port="20002" udpPort="3671"/>
+      <Master inst="2" enable="false" MasterIP="*.*.*.*" Port="20000" udpPort="3672"/>
+      <Channel Nmode="TCP/UDP" inst="1" IpIndex="3">
+        <OutstationConfiguration>
+          <P type="maxControlsPerRequest">16</P>
+          <P type="maxRxFragSize">2048</P>
+          <P type="maxTxFragSize">2048</P>
+          <P type="allowUnsolicited">false</P>
+          <P type="selectTimeout">10000</P>
+          <P type="solConfirmTimeout">10000</P>
+          <P type="unsolConfirmTimeout">10000</P>
+          <P type="unsolRetries">3</P>
+        </OutstationConfiguration>
+        <Sessions NumSessions="1">
+          <LinkLayer inst="1" masterInst="1">
+            <P type="remoteAddr">1</P>
+            <P type="localAddr">2</P>
+            <P type="responseTimeout">10000</P>
+            <P type="keepAliveTimeout">5000</P>
+          </LinkLayer>
+          <LinkLayer inst="2" masterInst="1">
+            <P type="remoteAddr">2</P>
+            <P type="localAddr">1025</P>
+            <P type="responseTimeout">10000</P>
+            <P type="keepAliveTimeout">5000</P>
+          </LinkLayer>
+        </Sessions>
+      </Channel>
+      <Channel Nmode="TCP/UDP" inst="2" IpIndex="3">
+        <OutstationConfiguration>
+          <P type="maxControlsPerRequest">16</P>
+          <P type="maxRxFragSize">2048</P>
+          <P type="maxTxFragSize">2048</P>
+          <P type="allowUnsolicited">false</P>
+          <P type="selectTimeout">10000</P>
+          <P type="solConfirmTimeout">10000</P>
+          <P type="unsolConfirmTimeout">10000</P>
+          <P type="unsolRetries">3</P>
+        </OutstationConfiguration>
+        <Sessions NumSessions="1">
+          <LinkLayer inst="1" masterInst="2">
+            <P type="remoteAddr">1</P>
+            <P type="localAddr">1024</P>
+            <P type="responseTimeout">10000</P>
+            <P type="keepAliveTimeout">5000</P>
+          </LinkLayer>
+          <LinkLayer inst="2" masterInst="2">
+            <P type="remoteAddr">2</P>
+            <P type="localAddr">1025</P>
+            <P type="responseTimeout">10000</P>
+            <P type="keepAliveTimeout">5000</P>
+          </LinkLayer>
+        </Sessions>
+      </Channel>
+    </DNPSetup>
+    <BinaryStatusPoints maxEvents="200">
+      <!--Binary Input Objects 1,2 in DNP Specification (Outputs from RTDS) BI: DNP_address user_label bitmap_name bitmap_bit_num class_num static_var event_var-->
+    </BinaryStatusPoints>
+    <DPointStatusPoints maxEvents="100">
+      <!--DPos Input Objects 3,4 in DNP Specification (Outputs from RTDS) DPI: point_num user_label bitmap_name bitmap_start_bit_num class_num static_var event_var-->
+    </DPointStatusPoints>
+    <Counters maxEvents="10">
+      <!--Binary Counter Input Objects 20,22 in DNP Specification (Outputs from RTDS) CNT: DNP_address variable_name default_value class_num static_var event_var-->
+    </Counters>
+    <FrozenCounters maxEvents="10">
+      <!--Frozen Binary Counter Input Objects 21,23 in DNP Specification (Outputs from RTDS) FC: DNP_address variable_name default_value class_num static_var event_var-->
+    </FrozenCounters>
+    <AnalogStatusPoints maxEvents="50">
+      <!--Analog Input Objects 30,32 in DNP Specification (Outputs from RTDS) AI: DNP_address variable_name deadband% [serializer_name] class_num static_var event_var-->
+      <AI DNP_address="0" variable_name="FREQ1" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="1" variable_name="FREQ2" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="2" variable_name="FREQ3" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="3" variable_name="FREQ4" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="4" variable_name="FREQ5" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="5" variable_name="FREQ6" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="6" variable_name="FREQ7" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="7" variable_name="FREQ8" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="8" variable_name="FREQ9" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+      <AI DNP_address="9" variable_name="FREQ10" deadband="0.001" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>
+    </AnalogStatusPoints>
+    <BinaryControlPoints maxEvents="">
+      <!--Binary Output Objects 10, 12 in DNP Specification (Inputs to RTDS) BO: DNP_address user_label bitmap_name bitmap_bit_num default_state class_num static_var event_var-->
+    </BinaryControlPoints>
+    <AnalogControlPoints maxEvents="">
+      <!--Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS) AO: DNP_address variable_name default_value [serializer_name] class_num static_var event_var-->
+      <AO DNP_address="0" variable_name="Load23_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="1" variable_name="Load24_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="2" variable_name="Load26_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="3" variable_name="Load27_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="4" variable_name="Load28_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="5" variable_name="Load29_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="6" variable_name="Load12_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+      <AO DNP_address="7" variable_name="Load39_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>
+    </AnalogControlPoints>
+  </Outstation>
 </root>

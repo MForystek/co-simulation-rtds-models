@@ -8,8 +8,8 @@ RTDSPC version = 6.6
 
 Using configuration file: C:\Users\forystmj\Documents\RSCAD\HDWR\config_file_03.txt
 OPENED 'GTNET_DNP-dnp.log' file for writing.
-While parsing the XML file 'DNP3_database.xml', a total number of '2' oustations were found. 
- memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '1432'
+While parsing the XML file 'DNP3_database.xml', a total number of '3' oustations were found. 
+ memset(Outstations, 0, *numIEDs*sizeof(sOutstation) '2148'
  malloc(sizeof(struct sDNPSetup) '12'
  malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sMaster) '104'
  malloc(MAX_NUM_DNPv6_CHANNELSv2 * sizeof(struct sChannel) '104'
@@ -39,6 +39,7 @@ While parsing the XML file 'DNP3_database.xml', a total number of '2' oustations
  malloc(sizeof(struct sAO) '260'
 Validated GTNET DNP XML configVersion GTNET IED 1
 Validated GTNET DNP XML configVersion GTNET IED 2
+Validated GTNET DNP XML configVersion GTNET IED 3
 Validated DNPSetup element for GTNET IED 1
 Validated BinaryStatusPoints element for GTNET IED 1
 Validated DPointStatusPoints element for GTNET IED 1
@@ -55,6 +56,14 @@ Validated FrozenCounters element for GTNET IED 2
 Validated AnalogStatusPoints element for GTNET IED 2
 Validated BinaryControlPoints element for GTNET IED 2
 Validated AnalogControlPoints element for GTNET IED 2
-End of process. Peak memory usage = 23748608 bytes
+Validated DNPSetup element for GTNET IED 3
+Validated BinaryStatusPoints element for GTNET IED 3
+Validated DPointStatusPoints element for GTNET IED 3
+Validated Counters element for GTNET IED 3
+Validated FrozenCounters element for GTNET IED 3
+Validated AnalogStatusPoints element for GTNET IED 3
+Validated BinaryControlPoints element for GTNET IED 3
+Validated AnalogControlPoints element for GTNET IED 3
+End of process. Peak memory usage = 26210304 bytes
 
 Compile completed successfully.

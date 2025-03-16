@@ -11,5 +11,13 @@ AI: 8 FREQ9 0.001%
 AI: 9 FREQ10 0.001% 
 
 # AO: Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS)
-AO: 0 Load4_P 0.0 
-AO: 1 Load20_P 0.0 
+AO: 0 Load15_P 0.0 
+AO: 1 Load16_P 0.0 
+AO: 2 Load20_P 0.0 
+AO: 3 Load21_P 0.0 
+AO: 4 Load3_P 0.0 
+AO: 5 Load18_P 0.0 
+AO: 6 Load25_P 0.0 
+AO: 7 Load4_P 0.0 
+AO: 8 Load7_P 0.0 
+AO: 9 Load8_P 0.0 
