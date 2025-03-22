@@ -131,24 +131,24 @@ Element 'Outstation' with attribute 'inst' = '1' found
 Outstation 1 AnalogStatusPoints 
 ------------------------------------
 Outstation->AnalogStatusPoints->maxEvents: 50
-AI:0 DNP_address:0 variable_name:W1 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:1 DNP_address:1 variable_name:W2 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:2 DNP_address:2 variable_name:W3 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:3 DNP_address:3 variable_name:W4 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:4 DNP_address:4 variable_name:W5 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:5 DNP_address:5 variable_name:W6 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:6 DNP_address:6 variable_name:W7 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:7 DNP_address:7 variable_name:W8 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:8 DNP_address:8 variable_name:W9 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:9 DNP_address:9 variable_name:W10 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:10 DNP_address:10 variable_name:TL_13_T19 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:11 DNP_address:11 variable_name:TL_12_T21 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:12 DNP_address:12 variable_name:TL_23_T05 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:13 DNP_address:13 variable_name:TL_23_T02 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:14 DNP_address:14 variable_name:TL_31_T19 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:15 DNP_address:15 variable_name:TL_21_T21 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:16 DNP_address:16 variable_name:TL_32_T05 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:17 DNP_address:17 variable_name:TL_32_T02 deadband:0.01 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
+AI:0 DNP_address:0 variable_name:W1 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:1 DNP_address:1 variable_name:W2 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:2 DNP_address:2 variable_name:W3 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:3 DNP_address:3 variable_name:W4 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:4 DNP_address:4 variable_name:W5 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:5 DNP_address:5 variable_name:W6 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:6 DNP_address:6 variable_name:W7 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:7 DNP_address:7 variable_name:W8 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:8 DNP_address:8 variable_name:W9 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:9 DNP_address:9 variable_name:W10 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:10 DNP_address:10 variable_name:TL_13_T19 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:11 DNP_address:11 variable_name:TL_12_T21 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:12 DNP_address:12 variable_name:TL_23_T05 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:13 DNP_address:13 variable_name:TL_23_T02 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
+AI:14 DNP_address:14 variable_name:TL_31_T19 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
+AI:15 DNP_address:15 variable_name:TL_21_T21 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
+AI:16 DNP_address:16 variable_name:TL_32_T05 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
+AI:17 DNP_address:17 variable_name:TL_32_T02 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
 ------------------------------------
 Validated AnalogStatusPoints element for GTNET IED 1
 Element 'Outstation' with attribute 'inst' = '1' found
@@ -237,16 +237,16 @@ Element 'Outstation' with attribute 'inst' = '2' found
 Outstation 2 AnalogStatusPoints 
 ------------------------------------
 Outstation->AnalogStatusPoints->maxEvents: 50
-AI:0 DNP_address:0 variable_name:FREQ1 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:1 DNP_address:1 variable_name:FREQ2 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:2 DNP_address:2 variable_name:FREQ3 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:3 DNP_address:3 variable_name:FREQ4 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:4 DNP_address:4 variable_name:FREQ5 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:5 DNP_address:5 variable_name:FREQ6 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:6 DNP_address:6 variable_name:FREQ7 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:7 DNP_address:7 variable_name:FREQ8 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:8 DNP_address:8 variable_name:FREQ9 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:9 DNP_address:9 variable_name:FREQ10 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:0 DNP_address:0 variable_name:FREQ1_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:1 DNP_address:1 variable_name:FREQ2_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:2 DNP_address:2 variable_name:FREQ3_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:3 DNP_address:3 variable_name:FREQ4_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:4 DNP_address:4 variable_name:FREQ5_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:5 DNP_address:5 variable_name:FREQ6_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:6 DNP_address:6 variable_name:FREQ7_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:7 DNP_address:7 variable_name:FREQ8_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:8 DNP_address:8 variable_name:FREQ9_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:9 DNP_address:9 variable_name:FREQ10_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
 ------------------------------------
 Validated AnalogStatusPoints element for GTNET IED 2
 Element 'Outstation' with attribute 'inst' = '2' found
@@ -341,16 +341,16 @@ Element 'Outstation' with attribute 'inst' = '3' found
 Outstation 3 AnalogStatusPoints 
 ------------------------------------
 Outstation->AnalogStatusPoints->maxEvents: 50
-AI:0 DNP_address:0 variable_name:FREQ1 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:1 DNP_address:1 variable_name:FREQ2 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:2 DNP_address:2 variable_name:FREQ3 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:3 DNP_address:3 variable_name:FREQ4 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:4 DNP_address:4 variable_name:FREQ5 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:5 DNP_address:5 variable_name:FREQ6 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:6 DNP_address:6 variable_name:FREQ7 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:7 DNP_address:7 variable_name:FREQ8 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:8 DNP_address:8 variable_name:FREQ9 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:9 DNP_address:9 variable_name:FREQ10 deadband:0.001 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:0 DNP_address:0 variable_name:FREQ1_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:1 DNP_address:1 variable_name:FREQ2_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:2 DNP_address:2 variable_name:FREQ3_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:3 DNP_address:3 variable_name:FREQ4_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:4 DNP_address:4 variable_name:FREQ5_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:5 DNP_address:5 variable_name:FREQ6_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:6 DNP_address:6 variable_name:FREQ7_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:7 DNP_address:7 variable_name:FREQ8_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:8 DNP_address:8 variable_name:FREQ9_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:9 DNP_address:9 variable_name:FREQ10_big deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
 ------------------------------------
 Validated AnalogStatusPoints element for GTNET IED 3
 Element 'Outstation' with attribute 'inst' = '3' found
