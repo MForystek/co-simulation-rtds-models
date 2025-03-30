@@ -66040,7 +66040,7 @@ bff00000
 587013b8
 587013c0
 00000001
-0000000d
+0000000e
 0000000a
 00000000
 00000001
@@ -67248,7 +67248,7 @@ bff00000
 0000000e
 00000062
 00001e61
-00000e89
+00002328
 00000002
 00000002
 454e5447
@@ -69077,7 +69077,7 @@ bff00000
 00000000
 3f0a36e2
 eb1c432d
-520b0000
+520b4000
 58700f00
 58701648
 58700f00
@@ -69678,7 +69678,7 @@ eb1c432d
 58700f00
 58700f00
 58700f00
-62600000
+62680000
 58700f08
 58700f08
 58700f08
@@ -185388,15 +185388,15 @@ d2f1a9fc
 
 %WIF_REQUIREMENT
 00000001
-003000000401040B "ERROR: GTNETSKT model on proc 1B in subsystem 1 for GTNETSKT card 1 on port GT13 requires min GTWIFOS ver 4.0104 build B."
+003000000401040B "ERROR: GTNETSKT model on proc 1B in subsystem 1 for GTNETSKT card 1 on port GT14 requires min GTWIFOS ver 4.0104 build B."
 ** GTNETX2_SKT version requirement:
 
 %GTIO_REQUIREMENT
-%PORT 13
+%PORT 14
 00000001
 00000097
 00000001
-0020000000000031 "GTNET-SKT model on RISC proc 1B in subsystem 1 requires GTNETX2-SKT card 1 on port GT13 with min S/W version 1.17"
+0020000000000031 "GTNET-SKT model on RISC proc 1B in subsystem 1 requires GTNETX2-SKT card 1 on port GT14 with min S/W version 1.17"
 
 
 
@@ -185405,14 +185405,14 @@ d2f1a9fc
 
 ** GTNET_SKT configuration:
 **   - GPC RISC card number:  1
-**   - Fiber port number:     13
+**   - Fiber port number:     14
 **   - GTNET_SKT number on port: 1
 %GTNET_SKT
-%PORT 13
+%PORT 14
 00000001
 00000001
 00000000
-1E610E89
+1E612328
 18AC620E
 00000002
 0000000A
@@ -185421,7 +185421,7 @@ d2f1a9fc
 * Serial Output Special Character enable
 * 
 %SERIAL_OUTPUT_SC_ENABLE
-%PORT 13 
+%PORT 14 
 00000000 
 00000002 
 00000000 
@@ -185725,13 +185725,13 @@ d2f1a9fc
 00000000 
 
 ** Serial port input configuration:
-** port 13 (of 1 to 25)
+** port 14 (of 1 to 25)
 
 %SERIAL_INPUT_CONFIG
-%PORT 13 
+%PORT 14 
 00000002 
 00000001 
-520B0000 
+520B4000 
 00000000 
 00000000 
 00000000 

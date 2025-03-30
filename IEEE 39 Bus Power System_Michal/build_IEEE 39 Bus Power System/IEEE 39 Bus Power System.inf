@@ -242,12 +242,12 @@ Slider Desc="Tm10" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitVal
 Switch Desc="SW1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE P0=0.0000 P1=1.0000 InitValue=1.000000 OnText="ON" OffText="OFF" Rack=1 Adr=54004180 ComponentUUID=1511
 Switch Desc="SW2" Group="Subsystem #1|CTLs|Inputs" Type=IEEE P0=0.0000 P1=1.0000 InitValue=0.000000 OnText="ON" OffText="OFF" Rack=1 Adr=54004188 ComponentUUID=1512
 String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\IEEE 39 Bus Power System_Michal\IEEE 39 Bus Power System.rtfx"
-String Desc="Draft file modification date" Group="Time tags" InitValue="2025/01/19 13:20:14"
-String Desc="Compile date" Group="Time tags" InitValue="2025/01/19 13:24:45"
+String Desc="Draft file modification date" Group="Time tags" InitValue="2025/03/30 11:53:57"
+String Desc="Compile date" Group="Time tags" InitValue="2025/03/30 11:53:57"
 
 
 CHECKSUM_INFORMATION:
-checksum_record: subsystem=1 checksum=AAB9725F
+checksum_record: subsystem=1 checksum=DCE91FAE
 
 
 COMPONENT_TIMING_INFORMATION:

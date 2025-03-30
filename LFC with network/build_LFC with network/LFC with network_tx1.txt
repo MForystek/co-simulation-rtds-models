@@ -11,241 +11,242 @@
 
        Flag T2
        *******
-           1  XXX    Local     SS1  named_signal_prc  "Dynamic_optimal" from core  1  
-           2  XXX    Local     SS1      node_voltage  "            A25" from core  1  for node = 1     
-           3  XXX    Local     SS1      node_voltage  "            B25" from core  1  for node = 2     
-           4  XXX    Local     SS1      node_voltage  "            C25" from core  1  for node = 3     
-           5  XXX    Local     SS1      node_voltage  "             A2" from core  1  for node = 4     
-           6  XXX    Local     SS1      node_voltage  "             B2" from core  1  for node = 5     
-           7  XXX    Local     SS1      node_voltage  "             C2" from core  1  for node = 6     
-           8  XXX    Local     SS1      node_voltage  "            A19" from core  1  for node = 7     
-           9  XXX    Local     SS1      node_voltage  "            B19" from core  1  for node = 8     
-          10  XXX    Local     SS1      node_voltage  "            C19" from core  1  for node = 9     
-          11  XXX    Local     SS1      node_voltage  "            A20" from core  1  for node = 10    
-          12  XXX    Local     SS1      node_voltage  "            B20" from core  1  for node = 11    
-          13  XXX    Local     SS1      node_voltage  "            C20" from core  1  for node = 12    
-          14  XXX    Local     SS1      node_voltage  "            A10" from core  1  for node = 13    
-          15  XXX    Local     SS1      node_voltage  "            B10" from core  1  for node = 14    
-          16  XXX    Local     SS1      node_voltage  "            C10" from core  1  for node = 15    
-          17  XXX    Local     SS1      node_voltage  "            A29" from core  1  for node = 16    
-          18  XXX    Local     SS1      node_voltage  "            B29" from core  1  for node = 17    
-          19  XXX    Local     SS1      node_voltage  "            C29" from core  1  for node = 18    
-          20  XXX    Local     SS1      node_voltage  "             A6" from core  1  for node = 19    
-          21  XXX    Local     SS1      node_voltage  "             B6" from core  1  for node = 20    
-          22  XXX    Local     SS1      node_voltage  "             C6" from core  1  for node = 21    
-          23  XXX    Local     SS1      node_voltage  "            A23" from core  1  for node = 22    
-          24  XXX    Local     SS1      node_voltage  "            B23" from core  1  for node = 23    
-          25  XXX    Local     SS1      node_voltage  "            C23" from core  1  for node = 24    
-          26  XXX    Local     SS1      node_voltage  "            A22" from core  1  for node = 25    
-          27  XXX    Local     SS1      node_voltage  "            B22" from core  1  for node = 26    
-          28  XXX    Local     SS1      node_voltage  "            C22" from core  1  for node = 27    
-          29  XXX    Local     SS1      node_voltage  "            A26" from core  1  for node = 28    
-          30  XXX    Local     SS1      node_voltage  "            B26" from core  1  for node = 29    
-          31  XXX    Local     SS1      node_voltage  "            C26" from core  1  for node = 30    
-          32  XXX    Local     SS1      node_voltage  "            A39" from core  1  for node = 31    
-          33  XXX    Local     SS1      node_voltage  "            B39" from core  1  for node = 32    
-          34  XXX    Local     SS1      node_voltage  "            C39" from core  1  for node = 33    
-          35  XXX    Local     SS1      node_voltage  "            A28" from core  1  for node = 34    
-          36  XXX    Local     SS1      node_voltage  "            B28" from core  1  for node = 35    
-          37  XXX    Local     SS1      node_voltage  "            C28" from core  1  for node = 36    
-          38  XXX    Local     SS1      node_voltage  "            A27" from core  1  for node = 37    
-          39  XXX    Local     SS1      node_voltage  "            B27" from core  1  for node = 38    
-          40  XXX    Local     SS1      node_voltage  "            C27" from core  1  for node = 39    
-          41  XXX    Local     SS1      node_voltage  "            A18" from core  1  for node = 40    
-          42  XXX    Local     SS1      node_voltage  "            B18" from core  1  for node = 41    
-          43  XXX    Local     SS1      node_voltage  "            C18" from core  1  for node = 42    
-          44  XXX    Local     SS1      node_voltage  "            A17" from core  1  for node = 43    
-          45  XXX    Local     SS1      node_voltage  "            B17" from core  1  for node = 44    
-          46  XXX    Local     SS1      node_voltage  "            C17" from core  1  for node = 45    
-          47  XXX    Local     SS1      node_voltage  "             A1" from core  1  for node = 46    
-          48  XXX    Local     SS1      node_voltage  "             B1" from core  1  for node = 47    
-          49  XXX    Local     SS1      node_voltage  "             C1" from core  1  for node = 48    
-          50  XXX    Local     SS1      node_voltage  "            A24" from core  1  for node = 49    
-          51  XXX    Local     SS1      node_voltage  "            B24" from core  1  for node = 50    
-          52  XXX    Local     SS1      node_voltage  "            C24" from core  1  for node = 51    
-          53  XXX    Local     SS1      node_voltage  "             A3" from core  1  for node = 52    
-          54  XXX    Local     SS1      node_voltage  "             B3" from core  1  for node = 53    
-          55  XXX    Local     SS1      node_voltage  "             C3" from core  1  for node = 54    
-          56  XXX    Local     SS1      node_voltage  "            A16" from core  1  for node = 55    
-          57  XXX    Local     SS1      node_voltage  "            B16" from core  1  for node = 56    
-          58  XXX    Local     SS1      node_voltage  "            C16" from core  1  for node = 57    
-          59  XXX    Local     SS1      node_voltage  "            A21" from core  1  for node = 58    
-          60  XXX    Local     SS1      node_voltage  "            B21" from core  1  for node = 59    
-          61  XXX    Local     SS1      node_voltage  "            C21" from core  1  for node = 60    
-          62  XXX    Local     SS1      node_voltage  "            A15" from core  1  for node = 61    
-          63  XXX    Local     SS1      node_voltage  "            B15" from core  1  for node = 62    
-          64  XXX    Local     SS1      node_voltage  "            C15" from core  1  for node = 63    
-          65  XXX    Local     SS1      node_voltage  "             A4" from core  1  for node = 64    
-          66  XXX    Local     SS1      node_voltage  "             B4" from core  1  for node = 65    
-          67  XXX    Local     SS1      node_voltage  "             C4" from core  1  for node = 66    
-          68  XXX    Local     SS1      node_voltage  "            A14" from core  1  for node = 67    
-          69  XXX    Local     SS1      node_voltage  "            B14" from core  1  for node = 68    
-          70  XXX    Local     SS1      node_voltage  "            C14" from core  1  for node = 69    
-          71  XXX    Local     SS1      node_voltage  "             A5" from core  1  for node = 70    
-          72  XXX    Local     SS1      node_voltage  "             B5" from core  1  for node = 71    
-          73  XXX    Local     SS1      node_voltage  "             C5" from core  1  for node = 72    
-          74  XXX    Local     SS1      node_voltage  "            A12" from core  1  for node = 73    
-          75  XXX    Local     SS1      node_voltage  "            B12" from core  1  for node = 74    
-          76  XXX    Local     SS1      node_voltage  "            C12" from core  1  for node = 75    
-          77  XXX    Local     SS1      node_voltage  "            A13" from core  1  for node = 76    
-          78  XXX    Local     SS1      node_voltage  "            B13" from core  1  for node = 77    
-          79  XXX    Local     SS1      node_voltage  "            C13" from core  1  for node = 78    
-          80  XXX    Local     SS1      node_voltage  "             A7" from core  1  for node = 79    
-          81  XXX    Local     SS1      node_voltage  "             B7" from core  1  for node = 80    
-          82  XXX    Local     SS1      node_voltage  "             C7" from core  1  for node = 81    
-          83  XXX    Local     SS1      node_voltage  "             A9" from core  1  for node = 82    
-          84  XXX    Local     SS1      node_voltage  "             B9" from core  1  for node = 83    
-          85  XXX    Local     SS1      node_voltage  "             C9" from core  1  for node = 84    
-          86  XXX    Local     SS1      node_voltage  "             A8" from core  1  for node = 85    
-          87  XXX    Local     SS1      node_voltage  "             B8" from core  1  for node = 86    
-          88  XXX    Local     SS1      node_voltage  "             C8" from core  1  for node = 87    
-          89  XXX    Local     SS1      node_voltage  "            A11" from core  1  for node = 88    
-          90  XXX    Local     SS1      node_voltage  "            B11" from core  1  for node = 89    
-          91  XXX    Local     SS1      node_voltage  "            C11" from core  1  for node = 90    
-          92  XXX    Local     SS1  named_signal_prc  "         ACE1_1" from core  2  
-          93  XXX    Local     SS1  named_signal_prc  "         ACE2_1" from core  2  
-          94  XXX    Local     SS1  named_signal_prc  "         ACE3_1" from core  2  
-          95  XXX    Local     SS1  named_signal_prc  "  ShedParRemote" from core  2  
-          96  XXX    Local     SS1  named_signal_prc  "       Load15_P" from core  2  
-          97  XXX    Local     SS1  named_signal_prc  "       Load16_P" from core  2  
-          98  XXX    Local     SS1  named_signal_prc  "       Load20_P" from core  2  
-          99  XXX    Local     SS1  named_signal_prc  "       Load21_P" from core  2  
-         100  XXX    Local     SS1  named_signal_prc  "        Load3_P" from core  2  
-         101  XXX    Local     SS1  named_signal_prc  "       Load18_P" from core  2  
-         102  XXX    Local     SS1  named_signal_prc  "       Load25_P" from core  2  
-         103  XXX    Local     SS1  named_signal_prc  "        Load4_P" from core  2  
-         104  XXX    Local     SS1  named_signal_prc  "        Load7_P" from core  2  
-         105  XXX    Local     SS1  named_signal_prc  "        Load8_P" from core  2  
-         106  XXX    Local     SS1  named_signal_prc  "       Load23_P" from core  2  
-         107  XXX    Local     SS1  named_signal_prc  "       Load24_P" from core  2  
-         108  XXX    Local     SS1  named_signal_prc  "       Load26_P" from core  2  
-         109  XXX    Local     SS1  named_signal_prc  "       Load27_P" from core  2  
-         110  XXX    Local     SS1  named_signal_prc  "       Load28_P" from core  2  
-         111  XXX    Local     SS1  named_signal_prc  "       Load29_P" from core  2  
-         112  XXX    Local     SS1  named_signal_prc  "       Load12_P" from core  2  
-         113  XXX    Local     SS1  named_signal_prc  "       Load39_P" from core  2  
-         114  XXX    Local     SS1  named_signal_prc  "            EF1" from core  2  
-         115  XXX    Local     SS1  named_signal_prc  "            EF2" from core  2  
-         116  XXX    Local     SS1  named_signal_prc  "            EF3" from core  2  
-         117  XXX    Local     SS1  named_signal_prc  "            EF4" from core  2  
-         118  XXX    Local     SS1  named_signal_prc  "            EF5" from core  2  
-         119  XXX    Local     SS1  named_signal_prc  "            EF6" from core  2  
-         120  XXX    Local     SS1  named_signal_prc  "            EF7" from core  2  
-         121  XXX    Local     SS1  named_signal_prc  "            EF8" from core  2  
-         122  XXX    Local     SS1  named_signal_prc  "            EF9" from core  2  
-         123  XXX    Local     SS1  named_signal_prc  "            TM1" from core  2  
-         124  XXX    Local     SS1  named_signal_prc  "            TM2" from core  2  
-         125  XXX    Local     SS1  named_signal_prc  "            TM3" from core  2  
-         126  XXX    Local     SS1  named_signal_prc  "            TM4" from core  2  
-         127  XXX    Local     SS1  named_signal_prc  "            TM5" from core  2  
-         128  XXX    Local     SS1  named_signal_prc  "            TM6" from core  2  
-         129  XXX    Local     SS1  named_signal_prc  "            TM7" from core  2  
-         130  XXX    Local     SS1  named_signal_prc  "            TM8" from core  2  
-         131  XXX    Local     SS1  named_signal_prc  "            TM9" from core  2  
-         132  XXX    Local     SS1  named_signal_prc  "          FREQ1" from core  2  
-         133  XXX    Local     SS1  named_signal_prc  "          FREQ2" from core  2  
-         134  XXX    Local     SS1  named_signal_prc  "          FREQ4" from core  2  
-         135  XXX    Local     SS1  named_signal_prc  "          FREQ3" from core  2  
-         136  XXX    Local     SS1  named_signal_prc  "          FREQ7" from core  2  
-         137  XXX    Local     SS1  named_signal_prc  "          FREQ6" from core  2  
-         138  XXX    Local     SS1  named_signal_prc  "          FREQ9" from core  2  
-         139  XXX    Local     SS1  named_signal_prc  "          FREQ8" from core  2  
-         140  XXX    Local     SS1  named_signal_prc  "          FREQ5" from core  2  
-         141  XXX    Local     SS1  named_signal_prc  "         FREQ10" from core  2  
-         142  XXX    Local     SS1  named_signal_prc  "      FREQ2_big" from core  2  
-         143  XXX    Local     SS1  named_signal_prc  "      FREQ1_big" from core  2  
-         144  XXX    Local     SS1  named_signal_prc  "      FREQ3_big" from core  2  
-         145  XXX    Local     SS1  named_signal_prc  "      FREQ4_big" from core  2  
-         146  XXX    Local     SS1  named_signal_prc  "      FREQ5_big" from core  2  
-         147  XXX    Local     SS1  named_signal_prc  "      FREQ6_big" from core  2  
-         148  XXX    Local     SS1  named_signal_prc  "      FREQ7_big" from core  2  
-         149  XXX    Local     SS1  named_signal_prc  "      FREQ8_big" from core  2  
-         150  XXX    Local     SS1  named_signal_prc  "      FREQ9_big" from core  2  
-         151  XXX    Local     SS1  named_signal_prc  "     FREQ10_big" from core  2  
-         152  XXX    Local     SS1  named_signal_prc  "        ShedPar" from core  2  
-         153  XXX    Local     SS1  named_signal_prc  "         ACE1_3" from core  2  
-         154  XXX    Local     SS1  named_signal_prc  "     ACE1_local" from core  2  
-         155  XXX    Local     SS1  named_signal_prc  "         ACE1_2" from core  2  
-         156  XXX    Local     SS1  named_signal_prc  "     ACE2_local" from core  2  
-         157  XXX    Local     SS1  named_signal_prc  "         ACE3_2" from core  2  
-         158  XXX    Local     SS1  named_signal_prc  "     ACE3_local" from core  2  
-         159  XXX    Local     SS1  named_signal_prc  "     Dynamic_on" from core  2  
-         160  XXX    Local     SS1  named_signal_prc  " Dynamic_remote" from core  2  
-         161  XXX    Local     SS1  named_signal_prc  "         LFC_on" from core  2  
-         162  XXX    Local     SS1  named_signal_prc  "      RemoteLFC" from core  2  
-         163  XXX    Local     SS1  named_signal_prc  "        UFLS_on" from core  2  
-         164  XXX    Local     SS1  named_signal_prc  "     RemoteUFLS" from core  2  
-         165  XXX    Local     SS1  named_signal_prc  "          dF1_3" from core  2  
-         166  XXX    Local     SS1  named_signal_prc  "          dF1_2" from core  2  
-         167  XXX    Local     SS1  named_signal_prc  "          dF3_2" from core  2  
-         168  XXX    Local     SS1  named_signal_prc  "            tl1" from core  2  
-         169  XXX    Local     SS1  named_signal_prc  "            tl2" from core  2  
-         170  XXX    Local     SS1  named_signal_prc  "            tl3" from core  2  
-         171  XXX    Local     SS1  named_signal_prc  "             W2" from core  3  
-         172  XXX    Local     SS1  named_signal_prc  "           VGB2" from core  3  
-         173  XXX    Local     SS1  named_signal_prc  "             P2" from core  3  
-         174  XXX    Local     SS1  named_signal_prc  "             Q2" from core  3  
-         175  XXX    Local     SS1  named_signal_prc  "             W5" from core  3  
-         176  XXX    Local     SS1  named_signal_prc  "           VGB5" from core  3  
-         177  XXX    Local     SS1  named_signal_prc  "             P5" from core  3  
-         178  XXX    Local     SS1  named_signal_prc  "             Q5" from core  3  
-         179  XXX    Local     SS1  named_signal_prc  "             W9" from core  3  
-         180  XXX    Local     SS1  named_signal_prc  "           VGB9" from core  3  
-         181  XXX    Local     SS1  named_signal_prc  "             P9" from core  3  
-         182  XXX    Local     SS1  named_signal_prc  "             Q9" from core  3  
-         183  XXX    Local     SS1  named_signal_prc  "            W10" from core  3  
-         184  XXX    Local     SS1  named_signal_prc  "          VGB10" from core  3  
-         185  XXX    Local     SS1  named_signal_prc  "            P10" from core  3  
-         186  XXX    Local     SS1  named_signal_prc  "            Q10" from core  3  
-         187  XXX    Local     SS1  named_signal_prc  "      TL_23_T02" from core  3  
-         188  XXX    Local     SS1  named_signal_prc  "      TL_32_T02" from core  3  
-         189  XXX    Local     SS1  named_signal_prc  "           EF10" from core  3  
-         190  XXX    Local     SS1  named_signal_prc  "           TM10" from core  3  
-         191  XXX    Local     SS1  named_signal_prc  "         Pmon12" from core  3  
-         192  XXX    Local     SS1  named_signal_prc  "         Pmon18" from core  3  
-         193  XXX    Local     SS1  named_signal_prc  "         Pmon23" from core  3  
-         194  XXX    Local     SS1  named_signal_prc  "         Pmon26" from core  3  
-         195  XXX    Local     SS1  named_signal_prc  "         Pmon29" from core  3  
-         196  XXX    Local     SS1  named_signal_prc  "          Pmon4" from core  3  
-         197  XXX    Local     SS1  named_signal_prc  "             W3" from core  4  
-         198  XXX    Local     SS1  named_signal_prc  "           VGB3" from core  4  
-         199  XXX    Local     SS1  named_signal_prc  "             P3" from core  4  
-         200  XXX    Local     SS1  named_signal_prc  "             Q3" from core  4  
-         201  XXX    Local     SS1  named_signal_prc  "             W6" from core  4  
-         202  XXX    Local     SS1  named_signal_prc  "           VGB6" from core  4  
-         203  XXX    Local     SS1  named_signal_prc  "             P6" from core  4  
-         204  XXX    Local     SS1  named_signal_prc  "             Q6" from core  4  
-         205  XXX    Local     SS1  named_signal_prc  "             W8" from core  4  
-         206  XXX    Local     SS1  named_signal_prc  "           VGB8" from core  4  
-         207  XXX    Local     SS1  named_signal_prc  "             P8" from core  4  
-         208  XXX    Local     SS1  named_signal_prc  "             Q8" from core  4  
-         209  XXX    Local     SS1  named_signal_prc  "      TL_31_T19" from core  4  
-         210  XXX    Local     SS1  named_signal_prc  "      TL_13_T19" from core  4  
-         211  XXX    Local     SS1  named_signal_prc  "      TL_12_T21" from core  4  
-         212  XXX    Local     SS1  named_signal_prc  "      TL_21_T21" from core  4  
-         213  XXX    Local     SS1  named_signal_prc  "         Pmon15" from core  4  
-         214  XXX    Local     SS1  named_signal_prc  "         Pmon20" from core  4  
-         215  XXX    Local     SS1  named_signal_prc  "         Pmon24" from core  4  
-         216  XXX    Local     SS1  named_signal_prc  "         Pmon27" from core  4  
-         217  XXX    Local     SS1  named_signal_prc  "          Pmon3" from core  4  
-         218  XXX    Local     SS1  named_signal_prc  "          Pmon7" from core  4  
-         219  XXX    Local     SS1  named_signal_prc  "          Pmon8" from core  4  
-         220  XXX    Local     SS1  named_signal_prc  "             W1" from core  5  
-         221  XXX    Local     SS1  named_signal_prc  "           VGB1" from core  5  
-         222  XXX    Local     SS1  named_signal_prc  "             P1" from core  5  
-         223  XXX    Local     SS1  named_signal_prc  "             Q1" from core  5  
-         224  XXX    Local     SS1  named_signal_prc  "             W4" from core  5  
-         225  XXX    Local     SS1  named_signal_prc  "           VGB4" from core  5  
-         226  XXX    Local     SS1  named_signal_prc  "             P4" from core  5  
-         227  XXX    Local     SS1  named_signal_prc  "             Q4" from core  5  
-         228  XXX    Local     SS1  named_signal_prc  "             W7" from core  5  
-         229  XXX    Local     SS1  named_signal_prc  "           VGB7" from core  5  
-         230  XXX    Local     SS1  named_signal_prc  "             P7" from core  5  
-         231  XXX    Local     SS1  named_signal_prc  "             Q7" from core  5  
-         232  XXX    Local     SS1  named_signal_prc  "      TL_23_T05" from core  5  
-         233  XXX    Local     SS1  named_signal_prc  "      TL_32_T05" from core  5  
-         234  XXX    Local     SS1  named_signal_prc  "         Pmon16" from core  5  
-         235  XXX    Local     SS1  named_signal_prc  "         Pmon21" from core  5  
-         236  XXX    Local     SS1  named_signal_prc  "         Pmon25" from core  5  
-         237  XXX    Local     SS1  named_signal_prc  "         Pmon28" from core  5  
-         238  XXX    Local     SS1  named_signal_prc  "         Pmon39" from core  5  
+           1  XXX    Local     SS1      node_voltage  "           A25" from core  1  for node = 1     
+           2  XXX    Local     SS1      node_voltage  "           B25" from core  1  for node = 2     
+           3  XXX    Local     SS1      node_voltage  "           C25" from core  1  for node = 3     
+           4  XXX    Local     SS1      node_voltage  "            A2" from core  1  for node = 4     
+           5  XXX    Local     SS1      node_voltage  "            B2" from core  1  for node = 5     
+           6  XXX    Local     SS1      node_voltage  "            C2" from core  1  for node = 6     
+           7  XXX    Local     SS1      node_voltage  "           A19" from core  1  for node = 7     
+           8  XXX    Local     SS1      node_voltage  "           B19" from core  1  for node = 8     
+           9  XXX    Local     SS1      node_voltage  "           C19" from core  1  for node = 9     
+          10  XXX    Local     SS1      node_voltage  "           A20" from core  1  for node = 10    
+          11  XXX    Local     SS1      node_voltage  "           B20" from core  1  for node = 11    
+          12  XXX    Local     SS1      node_voltage  "           C20" from core  1  for node = 12    
+          13  XXX    Local     SS1      node_voltage  "           A10" from core  1  for node = 13    
+          14  XXX    Local     SS1      node_voltage  "           B10" from core  1  for node = 14    
+          15  XXX    Local     SS1      node_voltage  "           C10" from core  1  for node = 15    
+          16  XXX    Local     SS1      node_voltage  "           A29" from core  1  for node = 16    
+          17  XXX    Local     SS1      node_voltage  "           B29" from core  1  for node = 17    
+          18  XXX    Local     SS1      node_voltage  "           C29" from core  1  for node = 18    
+          19  XXX    Local     SS1      node_voltage  "            A6" from core  1  for node = 19    
+          20  XXX    Local     SS1      node_voltage  "            B6" from core  1  for node = 20    
+          21  XXX    Local     SS1      node_voltage  "            C6" from core  1  for node = 21    
+          22  XXX    Local     SS1      node_voltage  "           A23" from core  1  for node = 22    
+          23  XXX    Local     SS1      node_voltage  "           B23" from core  1  for node = 23    
+          24  XXX    Local     SS1      node_voltage  "           C23" from core  1  for node = 24    
+          25  XXX    Local     SS1      node_voltage  "           A22" from core  1  for node = 25    
+          26  XXX    Local     SS1      node_voltage  "           B22" from core  1  for node = 26    
+          27  XXX    Local     SS1      node_voltage  "           C22" from core  1  for node = 27    
+          28  XXX    Local     SS1      node_voltage  "           A26" from core  1  for node = 28    
+          29  XXX    Local     SS1      node_voltage  "           B26" from core  1  for node = 29    
+          30  XXX    Local     SS1      node_voltage  "           C26" from core  1  for node = 30    
+          31  XXX    Local     SS1      node_voltage  "           A39" from core  1  for node = 31    
+          32  XXX    Local     SS1      node_voltage  "           B39" from core  1  for node = 32    
+          33  XXX    Local     SS1      node_voltage  "           C39" from core  1  for node = 33    
+          34  XXX    Local     SS1      node_voltage  "           A28" from core  1  for node = 34    
+          35  XXX    Local     SS1      node_voltage  "           B28" from core  1  for node = 35    
+          36  XXX    Local     SS1      node_voltage  "           C28" from core  1  for node = 36    
+          37  XXX    Local     SS1      node_voltage  "           A27" from core  1  for node = 37    
+          38  XXX    Local     SS1      node_voltage  "           B27" from core  1  for node = 38    
+          39  XXX    Local     SS1      node_voltage  "           C27" from core  1  for node = 39    
+          40  XXX    Local     SS1      node_voltage  "           A18" from core  1  for node = 40    
+          41  XXX    Local     SS1      node_voltage  "           B18" from core  1  for node = 41    
+          42  XXX    Local     SS1      node_voltage  "           C18" from core  1  for node = 42    
+          43  XXX    Local     SS1      node_voltage  "           A17" from core  1  for node = 43    
+          44  XXX    Local     SS1      node_voltage  "           B17" from core  1  for node = 44    
+          45  XXX    Local     SS1      node_voltage  "           C17" from core  1  for node = 45    
+          46  XXX    Local     SS1      node_voltage  "            A1" from core  1  for node = 46    
+          47  XXX    Local     SS1      node_voltage  "            B1" from core  1  for node = 47    
+          48  XXX    Local     SS1      node_voltage  "            C1" from core  1  for node = 48    
+          49  XXX    Local     SS1      node_voltage  "           A24" from core  1  for node = 49    
+          50  XXX    Local     SS1      node_voltage  "           B24" from core  1  for node = 50    
+          51  XXX    Local     SS1      node_voltage  "           C24" from core  1  for node = 51    
+          52  XXX    Local     SS1      node_voltage  "            A3" from core  1  for node = 52    
+          53  XXX    Local     SS1      node_voltage  "            B3" from core  1  for node = 53    
+          54  XXX    Local     SS1      node_voltage  "            C3" from core  1  for node = 54    
+          55  XXX    Local     SS1      node_voltage  "           A16" from core  1  for node = 55    
+          56  XXX    Local     SS1      node_voltage  "           B16" from core  1  for node = 56    
+          57  XXX    Local     SS1      node_voltage  "           C16" from core  1  for node = 57    
+          58  XXX    Local     SS1      node_voltage  "           A21" from core  1  for node = 58    
+          59  XXX    Local     SS1      node_voltage  "           B21" from core  1  for node = 59    
+          60  XXX    Local     SS1      node_voltage  "           C21" from core  1  for node = 60    
+          61  XXX    Local     SS1      node_voltage  "           A15" from core  1  for node = 61    
+          62  XXX    Local     SS1      node_voltage  "           B15" from core  1  for node = 62    
+          63  XXX    Local     SS1      node_voltage  "           C15" from core  1  for node = 63    
+          64  XXX    Local     SS1      node_voltage  "            A4" from core  1  for node = 64    
+          65  XXX    Local     SS1      node_voltage  "            B4" from core  1  for node = 65    
+          66  XXX    Local     SS1      node_voltage  "            C4" from core  1  for node = 66    
+          67  XXX    Local     SS1      node_voltage  "           A14" from core  1  for node = 67    
+          68  XXX    Local     SS1      node_voltage  "           B14" from core  1  for node = 68    
+          69  XXX    Local     SS1      node_voltage  "           C14" from core  1  for node = 69    
+          70  XXX    Local     SS1      node_voltage  "            A5" from core  1  for node = 70    
+          71  XXX    Local     SS1      node_voltage  "            B5" from core  1  for node = 71    
+          72  XXX    Local     SS1      node_voltage  "            C5" from core  1  for node = 72    
+          73  XXX    Local     SS1      node_voltage  "           A12" from core  1  for node = 73    
+          74  XXX    Local     SS1      node_voltage  "           B12" from core  1  for node = 74    
+          75  XXX    Local     SS1      node_voltage  "           C12" from core  1  for node = 75    
+          76  XXX    Local     SS1      node_voltage  "           A13" from core  1  for node = 76    
+          77  XXX    Local     SS1      node_voltage  "           B13" from core  1  for node = 77    
+          78  XXX    Local     SS1      node_voltage  "           C13" from core  1  for node = 78    
+          79  XXX    Local     SS1      node_voltage  "            A7" from core  1  for node = 79    
+          80  XXX    Local     SS1      node_voltage  "            B7" from core  1  for node = 80    
+          81  XXX    Local     SS1      node_voltage  "            C7" from core  1  for node = 81    
+          82  XXX    Local     SS1      node_voltage  "            A9" from core  1  for node = 82    
+          83  XXX    Local     SS1      node_voltage  "            B9" from core  1  for node = 83    
+          84  XXX    Local     SS1      node_voltage  "            C9" from core  1  for node = 84    
+          85  XXX    Local     SS1      node_voltage  "            A8" from core  1  for node = 85    
+          86  XXX    Local     SS1      node_voltage  "            B8" from core  1  for node = 86    
+          87  XXX    Local     SS1      node_voltage  "            C8" from core  1  for node = 87    
+          88  XXX    Local     SS1      node_voltage  "           A11" from core  1  for node = 88    
+          89  XXX    Local     SS1      node_voltage  "           B11" from core  1  for node = 89    
+          90  XXX    Local     SS1      node_voltage  "           C11" from core  1  for node = 90    
+          91  XXX    Local     SS1  named_signal_prc  "        ACE1_1" from core  2  
+          92  XXX    Local     SS1  named_signal_prc  "        ACE2_1" from core  2  
+          93  XXX    Local     SS1  named_signal_prc  "        ACE3_1" from core  2  
+          94  XXX    Local     SS1  named_signal_prc  " ShedParRemote" from core  2  
+          95  XXX    Local     SS1  named_signal_prc  "      Load15_P" from core  2  
+          96  XXX    Local     SS1  named_signal_prc  "      Load16_P" from core  2  
+          97  XXX    Local     SS1  named_signal_prc  "      Load20_P" from core  2  
+          98  XXX    Local     SS1  named_signal_prc  "      Load21_P" from core  2  
+          99  XXX    Local     SS1  named_signal_prc  "       Load3_P" from core  2  
+         100  XXX    Local     SS1  named_signal_prc  "      Load18_P" from core  2  
+         101  XXX    Local     SS1  named_signal_prc  "      Load25_P" from core  2  
+         102  XXX    Local     SS1  named_signal_prc  "       Load4_P" from core  2  
+         103  XXX    Local     SS1  named_signal_prc  "       Load7_P" from core  2  
+         104  XXX    Local     SS1  named_signal_prc  "       Load8_P" from core  2  
+         105  XXX    Local     SS1  named_signal_prc  "      Load23_P" from core  2  
+         106  XXX    Local     SS1  named_signal_prc  "      Load24_P" from core  2  
+         107  XXX    Local     SS1  named_signal_prc  "      Load26_P" from core  2  
+         108  XXX    Local     SS1  named_signal_prc  "      Load27_P" from core  2  
+         109  XXX    Local     SS1  named_signal_prc  "      Load28_P" from core  2  
+         110  XXX    Local     SS1  named_signal_prc  "      Load29_P" from core  2  
+         111  XXX    Local     SS1  named_signal_prc  "      Load12_P" from core  2  
+         112  XXX    Local     SS1  named_signal_prc  "      Load39_P" from core  2  
+         113  XXX    Local     SS1  named_signal_prc  "           EF1" from core  2  
+         114  XXX    Local     SS1  named_signal_prc  "           EF2" from core  2  
+         115  XXX    Local     SS1  named_signal_prc  "           EF3" from core  2  
+         116  XXX    Local     SS1  named_signal_prc  "           EF4" from core  2  
+         117  XXX    Local     SS1  named_signal_prc  "           EF5" from core  2  
+         118  XXX    Local     SS1  named_signal_prc  "           EF6" from core  2  
+         119  XXX    Local     SS1  named_signal_prc  "           EF7" from core  2  
+         120  XXX    Local     SS1  named_signal_prc  "           EF8" from core  2  
+         121  XXX    Local     SS1  named_signal_prc  "           EF9" from core  2  
+         122  XXX    Local     SS1  named_signal_prc  "           TM1" from core  2  
+         123  XXX    Local     SS1  named_signal_prc  "           TM2" from core  2  
+         124  XXX    Local     SS1  named_signal_prc  "           TM3" from core  2  
+         125  XXX    Local     SS1  named_signal_prc  "           TM4" from core  2  
+         126  XXX    Local     SS1  named_signal_prc  "           TM5" from core  2  
+         127  XXX    Local     SS1  named_signal_prc  "           TM6" from core  2  
+         128  XXX    Local     SS1  named_signal_prc  "           TM7" from core  2  
+         129  XXX    Local     SS1  named_signal_prc  "           TM8" from core  2  
+         130  XXX    Local     SS1  named_signal_prc  "           TM9" from core  2  
+         131  XXX    Local     SS1  named_signal_prc  "         FREQ1" from core  2  
+         132  XXX    Local     SS1  named_signal_prc  "         FREQ2" from core  2  
+         133  XXX    Local     SS1  named_signal_prc  "         FREQ4" from core  2  
+         134  XXX    Local     SS1  named_signal_prc  "         FREQ3" from core  2  
+         135  XXX    Local     SS1  named_signal_prc  "         FREQ7" from core  2  
+         136  XXX    Local     SS1  named_signal_prc  "         FREQ6" from core  2  
+         137  XXX    Local     SS1  named_signal_prc  "         FREQ9" from core  2  
+         138  XXX    Local     SS1  named_signal_prc  "         FREQ8" from core  2  
+         139  XXX    Local     SS1  named_signal_prc  "         FREQ5" from core  2  
+         140  XXX    Local     SS1  named_signal_prc  "        FREQ10" from core  2  
+         141  XXX    Local     SS1  named_signal_prc  "    ACE1_local" from core  2  
+         142  XXX    Local     SS1  named_signal_prc  "     FREQ2_big" from core  2  
+         143  XXX    Local     SS1  named_signal_prc  "     FREQ1_big" from core  2  
+         144  XXX    Local     SS1  named_signal_prc  "     FREQ3_big" from core  2  
+         145  XXX    Local     SS1  named_signal_prc  "     FREQ4_big" from core  2  
+         146  XXX    Local     SS1  named_signal_prc  "     FREQ5_big" from core  2  
+         147  XXX    Local     SS1  named_signal_prc  "     FREQ6_big" from core  2  
+         148  XXX    Local     SS1  named_signal_prc  "     FREQ7_big" from core  2  
+         149  XXX    Local     SS1  named_signal_prc  "     FREQ8_big" from core  2  
+         150  XXX    Local     SS1  named_signal_prc  "     FREQ9_big" from core  2  
+         151  XXX    Local     SS1  named_signal_prc  "    FREQ10_big" from core  2  
+         152  XXX    Local     SS1  named_signal_prc  "    ACE2_local" from core  2  
+         153  XXX    Local     SS1  named_signal_prc  "    ACE3_local" from core  2  
+         154  XXX    Local     SS1  named_signal_prc  "     DLAA_time" from core  2  
+         155  XXX    Local     SS1  named_signal_prc  "     PulseOut1" from core  2  
+         156  XXX    Local     SS1  named_signal_prc  "       ShedPar" from core  2  
+         157  XXX    Local     SS1  named_signal_prc  "        ACE1_3" from core  2  
+         158  XXX    Local     SS1  named_signal_prc  "        ACE1_2" from core  2  
+         159  XXX    Local     SS1  named_signal_prc  "        ACE3_2" from core  2  
+         160  XXX    Local     SS1  named_signal_prc  "    Dynamic_on" from core  2  
+         161  XXX    Local     SS1  named_signal_prc  "Dynamic_remote" from core  2  
+         162  XXX    Local     SS1  named_signal_prc  "        LFC_on" from core  2  
+         163  XXX    Local     SS1  named_signal_prc  "     RemoteLFC" from core  2  
+         164  XXX    Local     SS1  named_signal_prc  "       UFLS_on" from core  2  
+         165  XXX    Local     SS1  named_signal_prc  "    RemoteUFLS" from core  2  
+         166  XXX    Local     SS1  named_signal_prc  "         dF1_3" from core  2  
+         167  XXX    Local     SS1  named_signal_prc  "         dF1_2" from core  2  
+         168  XXX    Local     SS1  named_signal_prc  "         dF3_2" from core  2  
+         169  XXX    Local     SS1  named_signal_prc  "           tl1" from core  2  
+         170  XXX    Local     SS1  named_signal_prc  "           tl2" from core  2  
+         171  XXX    Local     SS1  named_signal_prc  "           tl3" from core  2  
+         172  XXX    Local     SS1  named_signal_prc  "            W2" from core  3  
+         173  XXX    Local     SS1  named_signal_prc  "          VGB2" from core  3  
+         174  XXX    Local     SS1  named_signal_prc  "            P2" from core  3  
+         175  XXX    Local     SS1  named_signal_prc  "            Q2" from core  3  
+         176  XXX    Local     SS1  named_signal_prc  "            W5" from core  3  
+         177  XXX    Local     SS1  named_signal_prc  "          VGB5" from core  3  
+         178  XXX    Local     SS1  named_signal_prc  "            P5" from core  3  
+         179  XXX    Local     SS1  named_signal_prc  "            Q5" from core  3  
+         180  XXX    Local     SS1  named_signal_prc  "            W9" from core  3  
+         181  XXX    Local     SS1  named_signal_prc  "          VGB9" from core  3  
+         182  XXX    Local     SS1  named_signal_prc  "            P9" from core  3  
+         183  XXX    Local     SS1  named_signal_prc  "            Q9" from core  3  
+         184  XXX    Local     SS1  named_signal_prc  "           W10" from core  3  
+         185  XXX    Local     SS1  named_signal_prc  "         VGB10" from core  3  
+         186  XXX    Local     SS1  named_signal_prc  "           P10" from core  3  
+         187  XXX    Local     SS1  named_signal_prc  "           Q10" from core  3  
+         188  XXX    Local     SS1  named_signal_prc  "     TL_23_T02" from core  3  
+         189  XXX    Local     SS1  named_signal_prc  "     TL_32_T02" from core  3  
+         190  XXX    Local     SS1  named_signal_prc  "          EF10" from core  3  
+         191  XXX    Local     SS1  named_signal_prc  "          TM10" from core  3  
+         192  XXX    Local     SS1  named_signal_prc  "        Pmon12" from core  3  
+         193  XXX    Local     SS1  named_signal_prc  "        Pmon18" from core  3  
+         194  XXX    Local     SS1  named_signal_prc  "        Pmon23" from core  3  
+         195  XXX    Local     SS1  named_signal_prc  "        Pmon26" from core  3  
+         196  XXX    Local     SS1  named_signal_prc  "        Pmon29" from core  3  
+         197  XXX    Local     SS1  named_signal_prc  "         Pmon4" from core  3  
+         198  XXX    Local     SS1  named_signal_prc  "            W3" from core  4  
+         199  XXX    Local     SS1  named_signal_prc  "          VGB3" from core  4  
+         200  XXX    Local     SS1  named_signal_prc  "            P3" from core  4  
+         201  XXX    Local     SS1  named_signal_prc  "            Q3" from core  4  
+         202  XXX    Local     SS1  named_signal_prc  "            W6" from core  4  
+         203  XXX    Local     SS1  named_signal_prc  "          VGB6" from core  4  
+         204  XXX    Local     SS1  named_signal_prc  "            P6" from core  4  
+         205  XXX    Local     SS1  named_signal_prc  "            Q6" from core  4  
+         206  XXX    Local     SS1  named_signal_prc  "            W8" from core  4  
+         207  XXX    Local     SS1  named_signal_prc  "          VGB8" from core  4  
+         208  XXX    Local     SS1  named_signal_prc  "            P8" from core  4  
+         209  XXX    Local     SS1  named_signal_prc  "            Q8" from core  4  
+         210  XXX    Local     SS1  named_signal_prc  "     TL_31_T19" from core  4  
+         211  XXX    Local     SS1  named_signal_prc  "     TL_13_T19" from core  4  
+         212  XXX    Local     SS1  named_signal_prc  "     TL_12_T21" from core  4  
+         213  XXX    Local     SS1  named_signal_prc  "     TL_21_T21" from core  4  
+         214  XXX    Local     SS1  named_signal_prc  "        Pmon15" from core  4  
+         215  XXX    Local     SS1  named_signal_prc  "        Pmon20" from core  4  
+         216  XXX    Local     SS1  named_signal_prc  "        Pmon24" from core  4  
+         217  XXX    Local     SS1  named_signal_prc  "        Pmon27" from core  4  
+         218  XXX    Local     SS1  named_signal_prc  "         Pmon3" from core  4  
+         219  XXX    Local     SS1  named_signal_prc  "         Pmon7" from core  4  
+         220  XXX    Local     SS1  named_signal_prc  "         Pmon8" from core  4  
+         221  XXX    Local     SS1  named_signal_prc  "            W1" from core  5  
+         222  XXX    Local     SS1  named_signal_prc  "          VGB1" from core  5  
+         223  XXX    Local     SS1  named_signal_prc  "            P1" from core  5  
+         224  XXX    Local     SS1  named_signal_prc  "            Q1" from core  5  
+         225  XXX    Local     SS1  named_signal_prc  "            W4" from core  5  
+         226  XXX    Local     SS1  named_signal_prc  "          VGB4" from core  5  
+         227  XXX    Local     SS1  named_signal_prc  "            P4" from core  5  
+         228  XXX    Local     SS1  named_signal_prc  "            Q4" from core  5  
+         229  XXX    Local     SS1  named_signal_prc  "            W7" from core  5  
+         230  XXX    Local     SS1  named_signal_prc  "          VGB7" from core  5  
+         231  XXX    Local     SS1  named_signal_prc  "            P7" from core  5  
+         232  XXX    Local     SS1  named_signal_prc  "            Q7" from core  5  
+         233  XXX    Local     SS1  named_signal_prc  "     TL_23_T05" from core  5  
+         234  XXX    Local     SS1  named_signal_prc  "     TL_32_T05" from core  5  
+         235  XXX    Local     SS1  named_signal_prc  "        Pmon16" from core  5  
+         236  XXX    Local     SS1  named_signal_prc  "        Pmon21" from core  5  
+         237  XXX    Local     SS1  named_signal_prc  "        Pmon25" from core  5  
+         238  XXX    Local     SS1  named_signal_prc  "        Pmon28" from core  5  
+         239  XXX    Local     SS1  named_signal_prc  "        Pmon39" from core  5  

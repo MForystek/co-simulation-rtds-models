@@ -25,8 +25,8 @@ function runTCPServer(filename, numofelements, timestep, steps)
     msglen = 0;
 
     % Network configuration
-    GTNetIP='172.24.14.204'; % Address of GTNet Card used as a TCP Server in RTDS
-    port = 7777; % Specify the opened port
+    GTNetIP = '172.24.14.231'; % Address of GTNet Card used as a TCP Server in RTDS
+    port = 9876; % Specify the opened port
     
     % Create TCP server
     server = tcpserver('0.0.0.0', port);
@@ -38,7 +38,7 @@ function runTCPServer(filename, numofelements, timestep, steps)
     % Configure callback for incoming data
     configureCallback(server, "byte", 4*numofelements, ...
         @(src, ~) serverCallback(src, numofelements, file_w, timestep, steps));
-    
+
     % Run the server
     disp("TCP Server is running. Waiting for the data...");
     disp(['Total measurement time: ', num2str(steps*timestep), ' seconds']);

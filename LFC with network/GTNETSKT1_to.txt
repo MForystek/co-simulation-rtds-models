@@ -1,6 +1,10 @@
-ACE1_1	float
-ACE2_1	float
-ACE3_1	float
-ACE1_local	float
-ACE2_local	float
-ACE3_local	float
+FREQ1	float
+FREQ2	float
+FREQ3	float
+FREQ4	float
+FREQ5	float
+FREQ6	float
+FREQ7	float
+FREQ8	float
+FREQ9	float
+FREQ10	float
