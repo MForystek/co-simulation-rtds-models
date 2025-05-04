@@ -1,0 +1,388 @@
+RTDS TECHNOLOGIES INC. POWER FLOW PROGRAM: Thu Apr 03 14:35:57 2025
+Power Flow Data File Name:   C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\LFC with network\LFC with network16913008015593795639.raw
+Power Flow Output File Name: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\LFC with network\LFC with network.lfo
+System Base Power (in MVA):  100.00
+
+Successful solution reached!
+
+
+=================================================================================================================
+Sub-system  1 
+-----------------------------------------------------------------------------------------------------------------
+                                      The Information of Buses and Branches
+-----------------------------------------------------------------------------------------------------------------
+ BUS_NO   NAME    BASE_KV  AREA CKT   P(MW) Q(MVAR) PLOSS(MW) QLOSS(MVAR) BUS_KV(p.u.)/PHASE(deg.) 
+-----------------------------------------------------------------------------------------------------------------
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   1     BUS1      345.0    1                                       361.79(1.049PU)/  -8.21  
+TO   12      BUS2  345.0    1    1  -123.8   -34.0    0.48    5.71   362.98(1.052PU)/  -5.58   1.00000(tap on 0) 
+TO   33     BUS39  345.0    1    1   123.8    34.0    0.19    4.76   355.35(1.030PU)/  -9.81   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   2     BUS10     345.0    1                                       354.22(1.027PU)/  -5.32  
+TO   26   BUS32x1   13.8    1    1  -650.0   -68.0   -0.00   92.78    13.57(0.983PU)/ -27.40   1.07000(tap on 2) 
+TO    3     BUS11  345.0    1    1   366.1    22.8    0.51    5.50   353.38(1.024PU)/  -6.18   1.00000(tap on 0) 
+TO    5     BUS13  345.0    1    1   283.9    45.1    0.31    3.39   353.15(1.024PU)/  -5.98   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   3     BUS11     345.0    1                                       353.38(1.024PU)/  -6.18  
+TO    2     BUS10  345.0    1    1  -365.6   -25.0    0.51    5.50   354.22(1.027PU)/  -5.32   1.00000(tap on 0) 
+TO    4     BUS12  345.0    1    1    -0.3    46.1    0.03    0.87   348.80(1.011PU)/  -6.13   0.99404(tap on 0) 
+TO   36      BUS6  345.0    1    1   365.8   -21.0    0.89   10.47   353.04(1.023PU)/  -7.82   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   4     BUS12     345.0    1                                       348.80(1.011PU)/  -6.13  
+TO    3     BUS11  345.0    1    1     0.3   -45.2    0.03    0.87   353.38(1.024PU)/  -6.18   0.99404(tap on 0) 
+TO    5     BUS13  345.0    1    1    -7.8   -42.8    0.03    0.82   353.15(1.024PU)/  -5.98   1.00600(tap on 0) 
+TO LOAD-PQ                             7.5    88.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   5     BUS13     345.0    1                                       353.15(1.024PU)/  -5.98  
+TO    4     BUS12  345.0    1    1     7.8    43.6    0.03    0.82   348.80(1.011PU)/  -6.13   1.00600(tap on 0) 
+TO    2     BUS10  345.0    1    1  -283.6   -49.4    0.31    3.39   354.22(1.027PU)/  -5.32   1.00000(tap on 0) 
+TO    6     BUS14  345.0    1    1   275.8     5.8    0.65    7.35   351.94(1.020PU)/  -7.50   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   6     BUS14     345.0    1                                       351.94(1.020PU)/  -7.50  
+TO    5     BUS13  345.0    1    1  -275.1   -16.4    0.65    7.35   353.15(1.024PU)/  -5.98   1.00000(tap on 0) 
+TO   34      BUS4  345.0    1    1   270.3    20.9    0.57    9.15   350.18(1.015PU)/  -9.42   1.00000(tap on 0) 
+TO    7     BUS15  345.0    1    1     4.9    -4.5    0.00    0.05   350.84(1.017PU)/  -7.54   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   7     BUS15     345.0    1                                       350.84(1.017PU)/  -7.54  
+TO    6     BUS14  345.0    1    1    -4.9   -33.4    0.00    0.05   351.94(1.020PU)/  -7.50   1.00000(tap on 0) 
+TO    8     BUS16  345.0    1    1  -315.1  -119.6    0.97   10.14   355.47(1.030PU)/  -5.98   1.00000(tap on 0) 
+TO LOAD-PQ                           320.0   153.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   8     BUS16     345.0    1                                       355.47(1.030PU)/  -5.98  
+TO    7     BUS15  345.0    1    1   316.1   111.8    0.97   10.14   350.84(1.017PU)/  -7.54   1.00000(tap on 0) 
+TO    9     BUS17  345.0    1    1   229.8  -104.7    0.41    5.22   357.90(1.037PU)/  -7.11   1.00000(tap on 0) 
+TO   11     BUS19  345.0    1    1  -502.7   -52.8    3.82   46.61   362.02(1.049PU)/  -0.81   1.00000(tap on 0) 
+TO   14     BUS21  345.0    1    1  -330.8    14.6    0.83   14.01   355.40(1.030PU)/  -3.56   1.00000(tap on 0) 
+TO   17     BUS24  345.0    1    1   -41.4    63.4    0.02    0.35   354.19(1.027PU)/  -5.83   1.00000(tap on 0) 
+TO LOAD-PQ                           329.0   -32.3
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+   9     BUS17     345.0    1                                       357.90(1.037PU)/  -7.11  
+TO    8     BUS16  345.0    1    1  -229.4    95.5    0.41    5.22   355.47(1.030PU)/  -5.98   1.00000(tap on 0) 
+TO   10     BUS18  345.0    1    1   210.8   -43.8    0.30    3.49   358.46(1.039PU)/  -8.04   1.00000(tap on 0) 
+TO   20     BUS27  345.0    1    1    18.5   -51.8    0.02    0.25   359.81(1.043PU)/  -7.30   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  10     BUS18     345.0    1                                       358.46(1.039PU)/  -8.04  
+TO    9     BUS17  345.0    1    1  -210.5    33.1    0.30    3.49   357.90(1.037PU)/  -7.11   1.00000(tap on 0) 
+TO   23      BUS3  345.0    1    1    52.5    -3.1    0.03    0.35   357.90(1.037PU)/  -8.41   1.00000(tap on 0) 
+TO LOAD-PQ                           158.0   -30.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  11     BUS19     345.0    1                                       362.02(1.049PU)/  -0.81  
+TO    8     BUS16  345.0    1    1   506.5    66.5    3.82   46.61   355.47(1.030PU)/  -5.98   1.00000(tap on 0) 
+TO   13     BUS20  110.0    1    1   122.6   -12.0    0.11    2.14   109.00(0.991PU)/  -1.81   1.06000(tap on 0) 
+TO   27   BUS33x1   13.8    1    1  -629.1   -54.5    2.90   58.87    13.76(0.997PU)/ -25.59   1.07000(tap on 11) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  12     BUS2      345.0    1                                       362.98(1.052PU)/  -5.58  
+TO    1      BUS1  345.0    1    1   124.3   -37.6    0.48    5.71   361.79(1.049PU)/  -8.21   1.00000(tap on 0) 
+TO   18     BUS25  345.0    1    1  -238.7    85.6    4.16    5.11   365.92(1.061PU)/  -4.19   1.00000(tap on 0) 
+TO   24   BUS30x1   13.8    1    1  -250.0  -114.0   -0.00   12.97    14.46(1.048PU)/ -33.16   1.02500(tap on 12) 
+TO   23      BUS3  345.0    1    1   364.4    65.9    1.63   18.98   357.90(1.037PU)/  -8.41   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  13     BUS20     110.0    1                                       109.00(0.991PU)/  -1.81  
+TO   11     BUS19  345.0    1    1  -122.5    14.1    0.11    2.14   362.02(1.049PU)/  -0.81   1.06000(tap on 0) 
+TO   28   BUS34x1   13.8    1    1  -505.5  -117.1    2.51   50.25    13.97(1.012PU)/ -26.62   1.00900(tap on 13) 
+TO LOAD-PQ                           628.0   103.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  14     BUS21     345.0    1                                       355.40(1.030PU)/  -3.56  
+TO    8     BUS16  345.0    1    1   331.6   -27.6    0.83   14.01   355.47(1.030PU)/  -5.98   1.00000(tap on 0) 
+TO   15     BUS22  345.0    1    1  -605.6   -87.4    2.80   49.08   361.58(1.048PU)/   0.91   1.00000(tap on 0) 
+TO LOAD-PQ                           274.0   115.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  15     BUS22     345.0    1                                       361.58(1.048PU)/   0.91  
+TO   14     BUS21  345.0    1    1   608.4   108.8    2.80   49.08   355.40(1.030PU)/  -3.56   1.00000(tap on 0) 
+TO   16     BUS23  345.0    1    1    41.6    54.7    0.03    0.52   359.45(1.042PU)/   0.73   1.00000(tap on 0) 
+TO   29   BUS35x1   13.8    1    1  -650.0  -163.5   -0.00   61.44    14.48(1.049PU)/ -24.12   1.02500(tap on 15) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  16     BUS23     345.0    1                                       359.45(1.042PU)/   0.73  
+TO   15     BUS22  345.0    1    1   -41.5   -74.3    0.03    0.52   361.58(1.048PU)/   0.91   1.00000(tap on 0) 
+TO   17     BUS24  345.0    1    1   352.6    23.9    2.55   40.61   354.19(1.027PU)/  -5.83   1.00000(tap on 0) 
+TO   30   BUS36x1   13.8    1    1  -558.6   -34.1    1.44   78.47    14.68(1.063PU)/ -21.40   1.00000(tap on 16) 
+TO LOAD-PQ                           247.5    84.6
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  17     BUS24     345.0    1                                       354.19(1.027PU)/  -5.83  
+TO   16     BUS23  345.0    1    1  -350.0   -21.9    2.55   40.61   359.45(1.042PU)/   0.73   1.00000(tap on 0) 
+TO    8     BUS16  345.0    1    1    41.4   -70.3    0.02    0.35   355.47(1.030PU)/  -5.98   1.00000(tap on 0) 
+TO LOAD-PQ                           308.6    92.2
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  18     BUS25     345.0    1                                       365.92(1.061PU)/  -4.19  
+TO   12      BUS2  345.0    1    1   242.8   -96.8    4.16    5.11   362.98(1.052PU)/  -5.58   1.00000(tap on 0) 
+TO   19     BUS26  345.0    1    1    71.5   -27.4    0.14    1.47   365.10(1.058PU)/  -5.36   1.00000(tap on 0) 
+TO   31   BUS37x1   13.8    1    1  -538.3    77.0    1.66   64.08    14.18(1.028PU)/ -27.42   1.02500(tap on 18) 
+TO LOAD-PQ                           224.0    47.2
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  19     BUS26     345.0    1                                       365.10(1.058PU)/  -5.36  
+TO   18     BUS25  345.0    1    1   -71.4   -28.8    0.14    1.47   365.92(1.061PU)/  -4.19   1.00000(tap on 0) 
+TO   21     BUS28  345.0    1    1  -140.7   -37.1    0.75    8.35   366.65(1.063PU)/  -1.97   1.00000(tap on 0) 
+TO   20     BUS27  345.0    1    1   263.5    76.4    0.97   10.16   359.81(1.043PU)/  -7.30   1.00000(tap on 0) 
+TO   22     BUS29  345.0    1    1  -190.4   -27.5    1.85   20.52   364.52(1.057PU)/   0.77   1.00000(tap on 0) 
+TO LOAD-PQ                           139.0    17.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  20     BUS27     345.0    1                                       359.81(1.043PU)/  -7.30  
+TO    9     BUS17  345.0    1    1   -18.5    17.2    0.02    0.25   357.90(1.037PU)/  -7.11   1.00000(tap on 0) 
+TO   19     BUS26  345.0    1    1  -262.5   -92.7    0.97   10.16   365.10(1.058PU)/  -5.36   1.00000(tap on 0) 
+TO LOAD-PQ                           281.0    75.5
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  21     BUS28     345.0    1                                       366.65(1.063PU)/  -1.97  
+TO   19     BUS26  345.0    1    1   141.5   -42.6    0.75    8.35   365.10(1.058PU)/  -5.36   1.00000(tap on 0) 
+TO   22     BUS29  345.0    1    1  -347.5    70.2    1.58   17.08   364.52(1.057PU)/   0.77   1.00000(tap on 0) 
+TO LOAD-PQ                           206.0   -27.6
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  22     BUS29     345.0    1                                       364.52(1.057PU)/   0.77  
+TO   19     BUS26  345.0    1    1   192.2   -67.6    1.85   20.52   365.10(1.058PU)/  -5.36   1.00000(tap on 0) 
+TO   21     BUS28  345.0    1    1   349.1   -81.1    1.58   17.08   366.65(1.063PU)/  -1.97   1.00000(tap on 0) 
+TO   32   BUS38x1   13.8    1    1  -824.8   121.8    5.23  102.05    14.17(1.027PU)/ -22.19   1.02500(tap on 22) 
+TO LOAD-PQ                           283.5    26.9
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  23     BUS3      345.0    1                                       357.90(1.037PU)/  -8.41  
+TO   10     BUS18  345.0    1    1   -52.5   -19.6    0.03    0.35   358.46(1.039PU)/  -8.04   1.00000(tap on 0) 
+TO   12      BUS2  345.0    1    1  -362.7   -75.0    1.63   18.98   362.98(1.052PU)/  -5.58   1.00000(tap on 0) 
+TO   34      BUS4  345.0    1    1    93.3    92.3    0.24    3.87   350.18(1.015PU)/  -9.42   1.00000(tap on 0) 
+TO LOAD-PQ                           322.0     2.4
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  24     BUS30x1    13.8    1                                        14.46(1.048PU)/ -33.16  
+TO   12      BUS2  345.0    1    1   250.0   127.0   -0.00   12.97   362.98(1.052PU)/  -5.58   1.02500(tap on 12) 
+GENERATION                           250.0   127.0 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  25     BUS31x1    13.8    1                                        13.55(0.982PU)/ -30.00  
+TO   36      BUS6  345.0    1    1   511.1   135.6    0.00   72.50   353.04(1.023PU)/  -7.82   1.07000(tap on 36) 
+TO SHUNT                               9.2     4.6
+GENERATION                           520.3   140.2 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  26     BUS32x1    13.8    1                                        13.57(0.983PU)/ -27.40  
+TO    2     BUS10  345.0    1    1   650.0   160.7   -0.00   92.78   354.22(1.027PU)/  -5.32   1.07000(tap on 2) 
+GENERATION                           650.0   160.7 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  27     BUS33x1    13.8    1                                        13.76(0.997PU)/ -25.59  
+TO   11     BUS19  345.0    1    1   632.0   113.4    2.90   58.87   362.02(1.049PU)/  -0.81   1.07000(tap on 11) 
+GENERATION                           632.0   113.4 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  28     BUS34x1    13.8    1                                        13.97(1.012PU)/ -26.62  
+TO   13     BUS20  110.0    1    1   508.0   167.4    2.51   50.25   109.00(0.991PU)/  -1.81   1.00900(tap on 13) 
+GENERATION                           508.0   167.4 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  29     BUS35x1    13.8    1                                        14.48(1.049PU)/ -24.12  
+TO   15     BUS22  345.0    1    1   650.0   224.9   -0.00   61.44   361.58(1.048PU)/   0.91   1.02500(tap on 15) 
+GENERATION                           650.0   224.9 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  30     BUS36x1    13.8    1                                        14.68(1.063PU)/ -21.40  
+TO   16     BUS23  345.0    1    1   560.0   112.6    1.44   78.47   359.45(1.042PU)/   0.73   1.00000(tap on 16) 
+GENERATION                           560.0   112.6 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  31     BUS37x1    13.8    1                                        14.18(1.028PU)/ -27.42  
+TO   18     BUS25  345.0    1    1   540.0   -12.9    1.66   64.08   365.92(1.061PU)/  -4.19   1.02500(tap on 18) 
+GENERATION                           540.0   -12.9 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  32     BUS38x1    13.8    1                                        14.17(1.027PU)/ -22.19  
+TO   22     BUS29  345.0    1    1   830.0   -19.8    5.23  102.05   364.52(1.057PU)/   0.77   1.02500(tap on 22) 
+GENERATION                           830.0   -19.8 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  33     BUS39     345.0    1                                       355.35(1.030PU)/  -9.81  
+TO    1      BUS1  345.0    1    1  -123.6  -110.4    0.19    4.76   361.79(1.049PU)/  -8.21   1.00000(tap on 0) 
+TO   39      BUS9  345.0    1    1    19.6   -92.9    0.01    0.29   357.71(1.037PU)/ -10.09   1.00000(tap on 0) 
+TO LOAD-PQ                          1104.0   250.0
+GENERATION                          1000.0    46.7 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  34     BUS4      345.0    1                                       350.18(1.015PU)/  -9.42  
+TO    6     BUS14  345.0    1    1  -269.7   -26.1    0.57    9.15   351.94(1.020PU)/  -7.50   1.00000(tap on 0) 
+TO   23      BUS3  345.0    1    1   -93.0  -111.7    0.24    3.87   357.90(1.037PU)/  -8.41   1.00000(tap on 0) 
+TO   35      BUS5  345.0    1    1  -137.3   -46.2    0.16    2.53   352.31(1.021PU)/  -8.46   1.00000(tap on 0) 
+TO LOAD-PQ                           500.0   184.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  35     BUS5      345.0    1                                       352.31(1.021PU)/  -8.46  
+TO   34      BUS4  345.0    1    1   137.4    34.8    0.16    2.53   350.18(1.015PU)/  -9.42   1.00000(tap on 0) 
+TO   36      BUS6  345.0    1    1  -453.6   -48.6    0.40    5.18   353.04(1.023PU)/  -7.82   1.00000(tap on 0) 
+TO   38      BUS8  345.0    1    1   316.1    13.8    0.77   10.78   350.84(1.017PU)/ -10.41   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  36     BUS6      345.0    1                                       353.04(1.023PU)/  -7.82  
+TO    3     BUS11  345.0    1    1  -364.9    16.9    0.89   10.47   353.38(1.024PU)/  -6.18   1.00000(tap on 0) 
+TO   35      BUS5  345.0    1    1   454.0    49.3    0.40    5.18   352.31(1.021PU)/  -8.46   1.00000(tap on 0) 
+TO   25   BUS31x1   13.8    1    1  -511.1   -63.1    0.00   72.50    13.55(0.982PU)/ -30.00   1.07000(tap on 36) 
+TO   37      BUS7  345.0    1    1   422.1    -3.1    1.02   15.65   352.35(1.021PU)/  -9.95   1.00000(tap on 0) 
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  37     BUS7      345.0    1                                       352.35(1.021PU)/  -9.95  
+TO   36      BUS6  345.0    1    1  -421.1     6.9    1.02   15.65   353.04(1.023PU)/  -7.82   1.00000(tap on 0) 
+TO   38      BUS8  345.0    1    1   187.3    77.1    0.16    1.84   350.84(1.017PU)/ -10.41   1.00000(tap on 0) 
+TO LOAD-PQ                           233.8   -84.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  38     BUS8      345.0    1                                       350.84(1.017PU)/ -10.41  
+TO   35      BUS5  345.0    1    1  -315.4   -18.4    0.77   10.78   352.31(1.021PU)/  -8.46   1.00000(tap on 0) 
+TO   37      BUS7  345.0    1    1  -187.1   -83.3    0.16    1.84   352.35(1.021PU)/  -9.95   1.00000(tap on 0) 
+TO   39      BUS9  345.0    1    1   -19.5   -74.3    0.07    1.18   357.71(1.037PU)/ -10.09   1.00000(tap on 0) 
+TO LOAD-PQ                           522.0   176.0
+
+BUS_NUM  BUS_NAME  BASE_KV AREA CKT   MW     MVAR     PLOSS   QLOSS  BUS_VOL(PU)/PHASE        TRXF_RATIO     TRXF_ANGLE
+  39     BUS9      345.0    1                                       357.71(1.037PU)/ -10.09  
+TO   38      BUS8  345.0    1    1    19.6    35.3    0.07    1.18   350.84(1.017PU)/ -10.41   1.00000(tap on 0) 
+TO   33     BUS39  345.0    1    1   -19.6   -35.3    0.01    0.29   355.35(1.030PU)/  -9.81   1.00000(tap on 0) 
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+======================================================================================
+                       The information of sub-system  1
+--------------------------------------------------------------------------------------
+
+
+SYSTEM COMPONENT SUMMARY
+======================================================================================
+Total of buses:                             39   
+Total of branches:                          46   
+Total of generators:                        10   
+Total of shunts:                            0    
+Total of special transformers:              9    
+Total of unified power flow controllers:    0    
+======================================================================================
+
+=======================================================================================
+
+
+
+AREA TOTAL POWER SUMMARY
+=======================================================================================      
+             FROM       TO   TO BUS  TO LINE     FROM      TO    
+AREA   GENERATION     LOAD    SHUNT    SHUNT CHARGING  NET INT   LOSSES 
+  1        6140.3   6087.9      9.2      0.0      0.0      0.0     43.2   MW  
+           1060.3   1240.9      4.6      0.0   1122.4      0.0    937.2   MVAR
+
+Total      6140.3   6087.9      9.2      0.0      0.0      0.0     43.2   MW  
+           1060.3   1240.9      4.6      0.0   1122.4      0.0    937.2   MVAR
+=======================================================================================
+'BUS SHUNT' loads are bus connected reactor(positive) and capacitor(negative). 
+'LINE SHUNT' loads are the line connected reactor(positive) and capacitor(negative).
+'CHARGING' are the line connected shunt (B/2 at each end) capacitors(positive).
+'NET INT' are net interchange power out of the area. 
+'CHARGING' are the line connected shunt (B/2 at each end) capacitors(positive).
+ Charging in a tie line is calculated as the charging of area with the non-metered bus.
+'LOSSES' are losses in (R+jX) of transmission lines and transformers. 
+ Losses in a tie line is calculated as the losses of area with the non-metered bus.
+
+
+
+ZONE TOTAL POWER SUMMARY
+=======================================================================================
+             FROM       TO   TO BUS  TO LINE     FROM      TO    
+ZONE   GENERATION     LOAD    SHUNT    SHUNT CHARGING  NET INT   LOSSES 
+  1        6140.3   6087.9      9.2      0.0      0.0      0.0     43.2   MW  
+           1060.3   1240.9      4.6      0.0   1122.4      0.0    937.2   MVAR
+
+Total      6140.3   6087.9      9.2      0.0      0.0      0.0     43.2   MW  
+           1060.3   1240.9      4.6      0.0   1122.4      0.0    937.2   MVAR
+=======================================================================================
+'BUS SHUNT' loads are bus connected reactor(positive) and capacitor(negative). 
+'LINE SHUNT' loads are the line connected reactor(positive) and capacitor(negative).
+'CHARGING' are the line connected shunt (B/2 at each end) capacitors(positive).
+'NET INT' are net interchange power out of the area. 
+'CHARGING' are the line connected shunt (B/2 at each end) capacitors(positive).
+ Charging in a tie line is calculated as the charging of area with the non-metered bus.
+'LOSSES' are losses in (R+jX) of transmission lines and transformers. 
+ Losses in a tie line is calculated as the losses of area with the non-metered bus.
+=============================================================================================================================
+                          Transformer information
+-----------------------------------------------------------------------------------------------------------------------------
+Phase shifter(  1)     BUS10(   2)<---> BUS32x1(  26)
+Num: 0        Angle:  30.00000   Power:-650.00MW(-6.500PU)
+
+Phase shifter(  2)     BUS19(  11)<---> BUS33x1(  27)
+Num: 0        Angle:  30.00000   Power:-629.10MW(-6.291PU)
+
+Phase shifter(  3)      BUS2(  12)<---> BUS30x1(  24)
+Num: 0        Angle:  30.00000   Power:-250.00MW(-2.500PU)
+
+Phase shifter(  4)     BUS20(  13)<---> BUS34x1(  28)
+Num: 0        Angle:  30.00000   Power:-505.49MW(-5.055PU)
+
+Phase shifter(  5)     BUS22(  15)<---> BUS35x1(  29)
+Num: 0        Angle:  30.00000   Power:-650.00MW(-6.500PU)
+
+Phase shifter(  6)     BUS23(  16)<---> BUS36x1(  30)
+Num: 0        Angle:  30.00000   Power:-558.56MW(-5.586PU)
+
+Phase shifter(  7)     BUS25(  18)<---> BUS37x1(  31)
+Num: 0        Angle:  30.00000   Power:-538.34MW(-5.383PU)
+
+Phase shifter(  8)     BUS29(  22)<---> BUS38x1(  32)
+Num: 0        Angle:  30.00000   Power:-824.77MW(-8.248PU)
+
+Phase shifter(  9)      BUS6(  36)<---> BUS31x1(  25)
+Num: 0        Angle:  30.00000   Power:-511.14MW(-5.111PU)
+
+
+
+
+=============================================================================================================================
+                                                Power Exchanges Between Areas
+-----------------------------------------------------------------------------------------------------------------------------
+FROM AREA      1                                                 AREA TIE LINE 
+                                                                  INTERCHANGE                                                                 ------  ------
+ Total from area    1                                              0.0     0.0
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+=============================================================================================================================
+                                                Total Power Exchanges Between Areas
+-----------------------------------------------------------------------------------------------------------------------------
+                                         AREA TIE LINE INTERCHANGE 
+                                                   MW    MVAR 
+ Total from area    1                              0.0     0.0
+                                                ------  ------ 
+ Total summation                                   0.0     0.0
+=============================================================================================================================
+
+
+
+=============================================================================================================================
+                                                Power Exchanges Between Zones
+-----------------------------------------------------------------------------------------------------------------------------
+FROM ZONE      1                                                 ZONE TIE LINE 
+                                                                  INTERCHANGE                                                                 ------  ------
+ Total from zone    1                                              0.0     0.0
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+=============================================================================================================================
+                                                Total Power Exchanges Between Zones
+-----------------------------------------------------------------------------------------------------------------------------
+                                         ZONE TIE LINE INTERCHANGE 
+                                                   MW    MVAR 
+ Total from zone    1                              0.0     0.0
+                                                ------  ------ 
+ Total summation                                   0.0     0.0
+=============================================================================================================================

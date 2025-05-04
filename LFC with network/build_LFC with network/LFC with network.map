@@ -510,19 +510,19 @@ Number of columns dynamically decomposed: 54
 
 
 RISC CONTROLS COMPONENTS(proc 1) --> NovaCor Core #2 
-numberOfModels = 306
+numberOfModels = 295
 
 
 RISC CONTROLS COMPONENTS(proc 2) --> NovaCor Core #3 
-numberOfModels = 133
+numberOfModels = 127
 
 
 RISC-based MAC_V3 Machine model named: BUS31x1
    in subsystem: #1
 
       RPC-GPC Synchronous Machine model "BUS31x1" 
-      Initial Mechanical Torque required: 0.524107 PU
-      Initial Field Voltage required:     2.229448 NORM
+      Initial Mechanical Torque required: 0.523589 PU
+      Initial Field Voltage required:     2.107667 NORM
 
       D axis circuit parameters
       -------------------------
@@ -552,7 +552,7 @@ RISC-based MAC_V3 Machine model named: BUS34x1
 
       RPC-GPC Synchronous Machine model "BUS34x1" 
       Initial Mechanical Torque required: 0.511451 PU
-      Initial Field Voltage required:     3.991441 NORM
+      Initial Field Voltage required:     3.997763 NORM
 
       D axis circuit parameters
       -------------------------
@@ -582,7 +582,7 @@ RISC-based MAC_V3 Machine model named: BUS38x1
 
       RPC-GPC Synchronous Machine model "BUS38x1" 
       Initial Mechanical Torque required: 0.833595 PU
-      Initial Field Voltage required:     2.017686 NORM
+      Initial Field Voltage required:     1.973322 NORM
 
       D axis circuit parameters
       -------------------------
@@ -611,8 +611,8 @@ RISC-based MAC_V3 Machine model named: BUS39x1
    in subsystem: #1
 
       RPC-GPC Synchronous Machine model "BUS39x1" 
-      Initial Mechanical Torque required: 1.003656 PU
-      Initial Field Voltage required:     1.064361 NORM
+      Initial Mechanical Torque required: 1.003655 PU
+      Initial Field Voltage required:     1.056544 NORM
 
       D axis circuit parameters
       -------------------------
@@ -638,15 +638,15 @@ RISC-based MAC_V3 Machine model named: BUS39x1
 
 
 RISC CONTROLS COMPONENTS(proc 3) --> NovaCor Core #4 
-numberOfModels = 31
+numberOfModels = 24
 
 
 RISC-based MAC_V3 Machine model named: BUS32x1
    in subsystem: #1
 
       RPC-GPC Synchronous Machine model "BUS32x1" 
-      Initial Mechanical Torque required: 0.653282 PU
-      Initial Field Voltage required:     2.246158 NORM
+      Initial Mechanical Torque required: 0.653280 PU
+      Initial Field Voltage required:     2.167570 NORM
 
       D axis circuit parameters
       -------------------------
@@ -676,7 +676,7 @@ RISC-based MAC_V3 Machine model named: BUS35x1
 
       RPC-GPC Synchronous Machine model "BUS35x1" 
       Initial Mechanical Torque required: 0.653724 PU
-      Initial Field Voltage required:     2.239158 NORM
+      Initial Field Voltage required:     2.264144 NORM
 
       D axis circuit parameters
       -------------------------
@@ -706,7 +706,7 @@ RISC-based MAC_V3 Machine model named: BUS37x1
 
       RPC-GPC Synchronous Machine model "BUS37x1" 
       Initial Mechanical Torque required: 0.543556 PU
-      Initial Field Voltage required:     1.845560 NORM
+      Initial Field Voltage required:     1.825149 NORM
 
       D axis circuit parameters
       -------------------------
@@ -732,7 +732,7 @@ RISC-based MAC_V3 Machine model named: BUS37x1
 
 
 RISC CONTROLS COMPONENTS(proc 4) --> NovaCor Core #5 
-numberOfModels = 29
+numberOfModels = 24
 
 
 RISC-based MAC_V3 Machine model named: BUS30x1
@@ -740,7 +740,7 @@ RISC-based MAC_V3 Machine model named: BUS30x1
 
       RPC-GPC Synchronous Machine model "BUS30x1" 
       Initial Mechanical Torque required: 0.253667 PU
-      Initial Field Voltage required:     1.441182 NORM
+      Initial Field Voltage required:     1.419809 NORM
 
       D axis circuit parameters
       -------------------------
@@ -770,7 +770,7 @@ RISC-based MAC_V3 Machine model named: BUS33x1
 
       RPC-GPC Synchronous Machine model "BUS33x1" 
       Initial Mechanical Torque required: 0.635367 PU
-      Initial Field Voltage required:     2.106069 NORM
+      Initial Field Voltage required:     2.111924 NORM
 
       D axis circuit parameters
       -------------------------
@@ -799,8 +799,8 @@ RISC-based MAC_V3 Machine model named: BUS36x1
    in subsystem: #1
 
       RPC-GPC Synchronous Machine model "BUS36x1" 
-      Initial Mechanical Torque required: 0.563806 PU
-      Initial Field Voltage required:     2.069826 NORM
+      Initial Mechanical Torque required: 0.563807 PU
+      Initial Field Voltage required:     2.092862 NORM
 
       D axis circuit parameters
       -------------------------

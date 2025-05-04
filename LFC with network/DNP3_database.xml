@@ -78,7 +78,11 @@
       <Hitem revision="73" when="2025/03/21 11:02:00" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="74" when="2025/03/21 11:02:40" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="75" when="2025/03/21 12:50:04" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
-      <Hitem revision="76" when="2025/03/29 09:55:44" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="76" when="2025/03/29 09:55:44" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="77" when="2025/04/16 22:12:22" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="78" when="2025/04/16 22:12:51" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="79" when="2025/04/16 22:22:05" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="80" when="2025/04/16 22:23:07" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
     </History> 
   </Header>  
   <Outstation name="Main" inst="1" desc="RTDS DNP3 interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="DNPv6" configVersion="2.0"> 
@@ -269,16 +273,16 @@
     </BinaryControlPoints>  
     <AnalogControlPoints maxEvents=""> 
       <!--Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS) AO: DNP_address variable_name default_value [serializer_name] class_num static_var event_var-->  
-      <AO DNP_address="0" variable_name="Load15_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="1" variable_name="Load16_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="2" variable_name="Load20_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="3" variable_name="Load21_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="4" variable_name="Load3_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="5" variable_name="Load18_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="6" variable_name="Load25_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="7" variable_name="Load4_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="8" variable_name="Load7_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="9" variable_name="Load8_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/> 
+      <AO DNP_address="0" variable_name="Load15_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="1" variable_name="Load16_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="2" variable_name="Load20_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="3" variable_name="Load21_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="4" variable_name="Load3_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="5" variable_name="Load18_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="6" variable_name="Load25_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="7" variable_name="Load4_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="8" variable_name="Load7_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="9" variable_name="Load8_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/> 
     </AnalogControlPoints> 
   </Outstation>  
   <Outstation name="Attack2" inst="3" desc="RTDS DNP3 interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="DNPv6" configVersion="2.0"> 
@@ -368,14 +372,14 @@
     </BinaryControlPoints>  
     <AnalogControlPoints maxEvents=""> 
       <!--Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS) AO: DNP_address variable_name default_value [serializer_name] class_num static_var event_var-->  
-      <AO DNP_address="0" variable_name="Load23_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="1" variable_name="Load24_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="2" variable_name="Load26_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="3" variable_name="Load27_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="4" variable_name="Load28_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="5" variable_name="Load29_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="6" variable_name="Load12_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
-      <AO DNP_address="7" variable_name="Load39_P" default_value="0.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/> 
+      <AO DNP_address="0" variable_name="Load23_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="1" variable_name="Load24_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="2" variable_name="Load26_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="3" variable_name="Load27_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="4" variable_name="Load28_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="5" variable_name="Load29_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="6" variable_name="Load12_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/>  
+      <AO DNP_address="7" variable_name="Load39_P" default_value="1.0" serializer_name="" class_num="Class2" static_var="Group40Var4" event_var="Group42Var6"/> 
     </AnalogControlPoints> 
   </Outstation> 
 </root>

@@ -2,10 +2,8 @@ close all;
 clear all;
 clc;
 
-scenarios_names;
-
 % File configuration
-filename = "halo.txt";
+filename = "freqs.txt";
 
 % Time configuration
 numofelements = 10; 
@@ -20,17 +18,17 @@ plotResults(filename, numofelements, timestep);
 
 %% Functions
 function runTCPServer(filename, numofelements, timestep, steps)
-    global server callnum msglen;
+    global callnum msglen done;
     callnum = 0;
     msglen = 0;
+    done = false;
 
     % Network configuration
     GTNetIP = '172.24.14.231'; % Address of GTNet Card used as a TCP Server in RTDS
     port = 9876; % Specify the opened port
     
     % Create TCP server
-    server = tcpserver('0.0.0.0', port);
-    server.ByteOrder = "big-endian";
+    server = tcpserver('172.24.14.98', port, 'ByteOrder', 'big-endian');
     
     % Open the output file
     file_w = fopen(filename, 'w');
@@ -42,6 +40,7 @@ function runTCPServer(filename, numofelements, timestep, steps)
     % Run the server
     disp("TCP Server is running. Waiting for the data...");
     disp(['Total measurement time: ', num2str(steps*timestep), ' seconds']);
+    
     pause;
     
     % Close the server and the output file
@@ -55,9 +54,21 @@ end
 
 % Callback function
 function serverCallback(src, numofelements, file_w, timestep, steps, ~)
-    global server callnum msglen;
+    global callnum msglen done;
 
-    fprintf("CALLBACK!!!");
+    if callnum >= steps
+        if done == false
+            if msglen ~= 0
+                fprintf(repmat('\b', 1, msglen))
+            end
+            msg = append("There are ", num2str((steps - callnum)*timestep), " seconds left");
+            msglen = fprintf(msg);
+            fprintf('\nMaximum number of calls reached. Stopping the server.');
+            fprintf('\nPress any key to display results...');
+            done = true;
+        end
+        return;
+    end
 
     if mod(callnum, 1/timestep) == 0
         if msglen ~= 0
@@ -65,15 +76,6 @@ function serverCallback(src, numofelements, file_w, timestep, steps, ~)
         end
         msg = append("There are ", num2str((steps - callnum)*timestep), " seconds left");
         msglen = fprintf(msg);
-    end
-
-    if callnum >= steps
-        fprintf('\nMaximum number of calls reached. Stopping the server.');
-        fprintf('\nPress any key to display results...');
-        delete(server);
-        clear server;
-        beep;
-        return;
     end
 
     % Read available data as float

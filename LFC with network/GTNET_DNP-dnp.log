@@ -261,16 +261,16 @@ Element 'Outstation' with attribute 'inst' = '2' found
 Outstation 2 AnalogControlPoints 
 ------------------------------------
 Outstation->AnalogControlPoints->maxEvents: 
-AO:0 DNP_address:0 variable_name:Load15_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:1 DNP_address:1 variable_name:Load16_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:2 DNP_address:2 variable_name:Load20_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:3 DNP_address:3 variable_name:Load21_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:4 DNP_address:4 variable_name:Load3_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:5 DNP_address:5 variable_name:Load18_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:6 DNP_address:6 variable_name:Load25_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:7 DNP_address:7 variable_name:Load4_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:8 DNP_address:8 variable_name:Load7_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:9 DNP_address:9 variable_name:Load8_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:0 DNP_address:0 variable_name:Load15_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:1 DNP_address:1 variable_name:Load16_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:2 DNP_address:2 variable_name:Load20_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:3 DNP_address:3 variable_name:Load21_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:4 DNP_address:4 variable_name:Load3_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:5 DNP_address:5 variable_name:Load18_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:6 DNP_address:6 variable_name:Load25_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:7 DNP_address:7 variable_name:Load4_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:8 DNP_address:8 variable_name:Load7_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:9 DNP_address:9 variable_name:Load8_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
 ------------------------------------
 Validated AnalogControlPoints element for GTNET IED 2
 Element 'Outstation' with attribute 'inst' = '3' found
@@ -365,13 +365,13 @@ Element 'Outstation' with attribute 'inst' = '3' found
 Outstation 3 AnalogControlPoints 
 ------------------------------------
 Outstation->AnalogControlPoints->maxEvents: 
-AO:0 DNP_address:0 variable_name:Load23_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:1 DNP_address:1 variable_name:Load24_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:2 DNP_address:2 variable_name:Load26_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:3 DNP_address:3 variable_name:Load27_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:4 DNP_address:4 variable_name:Load28_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:5 DNP_address:5 variable_name:Load29_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:6 DNP_address:6 variable_name:Load12_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
-AO:7 DNP_address:7 variable_name:Load39_P default_value:0 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:0 DNP_address:0 variable_name:Load23_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:1 DNP_address:1 variable_name:Load24_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:2 DNP_address:2 variable_name:Load26_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:3 DNP_address:3 variable_name:Load27_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:4 DNP_address:4 variable_name:Load28_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:5 DNP_address:5 variable_name:Load29_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:6 DNP_address:6 variable_name:Load12_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
+AO:7 DNP_address:7 variable_name:Load39_P default_value:1 serializer_name: class_num:Class2 static_var:Group40Var4 event_var:Group42Var6
 ------------------------------------
 Validated AnalogControlPoints element for GTNET IED 3
