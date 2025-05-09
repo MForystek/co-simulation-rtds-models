@@ -1,0 +1,183 @@
+CASE: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\Kundur Two Area Power System\Two Area Power System 
+Delt: 50.000000 us
+Rack: 1 NoRealTime: 0 
+Distribution_mode: 0
+RTDSPC_VERSION:  6.6
+SERIAL_INPUT_OVERFLOW_ADDRESS:  54005FF0
+String Desc="CircuitTitle Annotation" Group="Annotation" InitValue="Test Circuit"
+Output Desc="EF1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020100 ComponentUUID=25
+Output Desc="EF2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020108 ComponentUUID=88
+Output Desc="EF3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020110 ComponentUUID=136
+Output Desc="EF4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020118 ComponentUUID=108
+Output Desc="VS1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020120 ComponentUUID=15
+Output Desc="VS2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020128 ComponentUUID=80
+Output Desc="VS3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020130 ComponentUUID=132
+Output Desc="VS4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020138 ComponentUUID=104
+Output Desc="TM1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020140 ComponentUUID=12
+Output Desc="TM2" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020148 ComponentUUID=84
+Output Desc="TM3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020150 ComponentUUID=126
+Output Desc="TM4" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020158 ComponentUUID=98
+Output Desc="W1" Group="Subsystem #1|Machines|BUS1x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020200 ComponentUUID=7
+Output Desc="VGB1" Group="Subsystem #1|Machines|BUS1x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020208 ComponentUUID=7
+Output Desc="P1" Group="Subsystem #1|Machines|BUS1x1" Units="MW     " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020210 ComponentUUID=7
+Output Desc="Q1" Group="Subsystem #1|Machines|BUS1x1" Units="MVAR   " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020218 ComponentUUID=7
+Output Desc="W2" Group="Subsystem #1|Machines|BUS2x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020220 ComponentUUID=72
+Output Desc="VGB2" Group="Subsystem #1|Machines|BUS2x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020228 ComponentUUID=72
+Output Desc="P2" Group="Subsystem #1|Machines|BUS2x1" Units="MW     " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020230 ComponentUUID=72
+Output Desc="Q2" Group="Subsystem #1|Machines|BUS2x1" Units="MVAR   " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020238 ComponentUUID=72
+Output Desc="W3" Group="Subsystem #1|Machines|BUS3x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020240 ComponentUUID=121
+Output Desc="VGB3" Group="Subsystem #1|Machines|BUS3x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020248 ComponentUUID=121
+Output Desc="P3" Group="Subsystem #1|Machines|BUS3x1" Units="MW     " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020250 ComponentUUID=121
+Output Desc="Q3" Group="Subsystem #1|Machines|BUS3x1" Units="MVAR   " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020258 ComponentUUID=121
+Output Desc="W4" Group="Subsystem #1|Machines|BUS4x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020260 ComponentUUID=93
+Output Desc="VGB4" Group="Subsystem #1|Machines|BUS4x1" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020268 ComponentUUID=93
+Output Desc="P4" Group="Subsystem #1|Machines|BUS4x1" Units="MW     " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020270 ComponentUUID=93
+Output Desc="Q4" Group="Subsystem #1|Machines|BUS4x1" Units="MVAR   " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020278 ComponentUUID=93
+Output Desc="Ptie1" Group="Subsystem #1|TLINES|T31" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020280 ComponentUUID=141
+Output Desc="Ptie2" Group="Subsystem #1|TLINES|T32" Units="MW" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020288 ComponentUUID=166
+Output Desc="FREQ" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020160 ComponentUUID=349
+Output Desc="LGFLT" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020168 ComponentUUID=158
+Output Desc="coeff" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020170 ComponentUUID=335
+Output Desc="SLAA1" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020178 ComponentUUID=347
+Output Desc="SLAA2" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020180 ComponentUUID=401
+Output Desc="DLAA_on1" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020188 ComponentUUID=354
+Output Desc="DLAA_on2" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=5102018C ComponentUUID=405
+Output Desc="S1) A5" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020000 ComponentUUID=24
+Output Desc="S1) B5" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020008 ComponentUUID=24
+Output Desc="S1) C5" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020010 ComponentUUID=24
+Output Desc="S1) A10" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020018 ComponentUUID=67
+Output Desc="S1) B10" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020020 ComponentUUID=67
+Output Desc="S1) C10" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020028 ComponentUUID=67
+Output Desc="S1) A6" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020030 ComponentUUID=3
+Output Desc="S1) B6" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020038 ComponentUUID=3
+Output Desc="S1) C6" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020040 ComponentUUID=3
+Output Desc="S1) A11" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020048 ComponentUUID=115
+Output Desc="S1) B11" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020050 ComponentUUID=115
+Output Desc="S1) C11" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020058 ComponentUUID=115
+Output Desc="S1) A7" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020060 ComponentUUID=34
+Output Desc="S1) B7" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020068 ComponentUUID=34
+Output Desc="S1) C7" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020070 ComponentUUID=34
+Output Desc="S1) A8" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020078 ComponentUUID=46
+Output Desc="S1) B8" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020080 ComponentUUID=46
+Output Desc="S1) C8" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020088 ComponentUUID=46
+Output Desc="S1) A9" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020090 ComponentUUID=54
+Output Desc="S1) B9" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020098 ComponentUUID=54
+Output Desc="S1) C9" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510200A0 ComponentUUID=54
+Slider Desc="V_BUS1x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.049465 Min=0.000000 Max=1.200000 Rack=1 Adr=54004000 ComponentUUID=25
+Slider Desc="V_BUS2x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.030262 Min=0.000000 Max=1.200000 Rack=1 Adr=54004008 ComponentUUID=88
+Slider Desc="V_BUS3x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.049600 Min=0.000000 Max=1.200000 Rack=1 Adr=54004010 ComponentUUID=136
+Slider Desc="V_BUS4x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.029795 Min=0.000000 Max=1.200000 Rack=1 Adr=54004018 ComponentUUID=108
+Switch Desc="PSS_BUS1x1" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="On" OffText="Off" Rack=1 Adr=54004020 ComponentUUID=15
+Switch Desc="PSS_BUS2x1" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="On" OffText="Off" Rack=1 Adr=54004024 ComponentUUID=80
+Switch Desc="PSS_BUS3x1" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="On" OffText="Off" Rack=1 Adr=54004028 ComponentUUID=132
+Switch Desc="PSS_BUS4x1" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="On" OffText="Off" Rack=1 Adr=5400402C ComponentUUID=104
+Slider Desc="P_BUS1x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=0.039070 Min=0.000000 Max=1.200000 Rack=1 Adr=54004030 ComponentUUID=12
+Slider Desc="P_BUS2x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=0.039063 Min=0.000000 Max=1.200000 Rack=1 Adr=54004038 ComponentUUID=84
+Slider Desc="P_BUS3x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=0.040121 Min=0.000000 Max=1.200000 Rack=1 Adr=54004040 ComponentUUID=126
+Slider Desc="P_BUS4x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=0.039063 Min=0.000000 Max=1.200000 Rack=1 Adr=54004048 ComponentUUID=98
+Switch Desc="LockFree" Group="Subsystem #1|Machines|BUS1x1" Type=INT P0=0 P1=1 InitValue=0 OnText="Free" OffText="Lock" Rack=1 Adr=54004050 ComponentUUID=7
+Slider Desc="CONSPD" Group="Subsystem #1|Machines|BUS1x1" Type=IEEE Units="Hz" InitValue=60.000000 Min=0.000000 Max=100.000000 Rack=1 Adr=54004058 ComponentUUID=7
+Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS1x1" Type=IEEE Units="Deg" InitValue=40.280796 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004060 ComponentUUID=7
+Switch Desc="LockFree" Group="Subsystem #1|Machines|BUS2x1" Type=INT P0=0 P1=1 InitValue=0 OnText="Free" OffText="Lock" Rack=1 Adr=54004068 ComponentUUID=72
+Slider Desc="CONSPD" Group="Subsystem #1|Machines|BUS2x1" Type=IEEE Units="Hz" InitValue=60.000000 Min=0.000000 Max=100.000000 Rack=1 Adr=54004070 ComponentUUID=72
+Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS2x1" Type=IEEE Units="Deg" InitValue=29.470089 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004078 ComponentUUID=72
+Switch Desc="LockFree" Group="Subsystem #1|Machines|BUS3x1" Type=INT P0=0 P1=1 InitValue=0 OnText="Free" OffText="Lock" Rack=1 Adr=54004080 ComponentUUID=121
+Slider Desc="CONSPD" Group="Subsystem #1|Machines|BUS3x1" Type=IEEE Units="Hz" InitValue=60.000000 Min=0.000000 Max=100.000000 Rack=1 Adr=54004088 ComponentUUID=121
+Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS3x1" Type=IEEE Units="Deg" InitValue=14.425981 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004090 ComponentUUID=121
+Switch Desc="LockFree" Group="Subsystem #1|Machines|BUS4x1" Type=INT P0=0 P1=1 InitValue=0 OnText="Free" OffText="Lock" Rack=1 Adr=54004098 ComponentUUID=93
+Slider Desc="CONSPD" Group="Subsystem #1|Machines|BUS4x1" Type=IEEE Units="Hz" InitValue=60.000000 Min=0.000000 Max=100.000000 Rack=1 Adr=540040A0 ComponentUUID=93
+Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS4x1" Type=IEEE Units="Deg" InitValue=3.314594 Min=-360.000000 Max=360.000000 Rack=1 Adr=540040A8 ComponentUUID=93
+Turnpot Desc="LGFLT" Group="Subsystem #1|CTLs|Inputs" Type=INT Positions=7 InitValue=2 P1=0 P2=1 P3=2 P4=4 P5=3 P6=6 P7=7 Rack=1 Adr=540040B0 ComponentUUID=156
+Pushbutton Desc="LGFLT" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 Rack=1 Adr=540040B4 ComponentUUID=154
+Slider Desc="DLAA_coeff" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="unit" InitValue=0.000000 Min=-100.000000 Max=0.000000 Rack=1 Adr=540040B8 ComponentUUID=335
+Slider Desc="LGFTIME" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="cycles" InitValue=1.000000 Min=0.000000 Max=10.000000 Rack=1 Adr=540040C0 ComponentUUID=161
+Slider Desc="SLAA1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="unit" InitValue=0.000000 Min=-1.000000 Max=1.000000 Rack=1 Adr=540040C8 ComponentUUID=347
+Slider Desc="SLAA2" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="unit" InitValue=0.000000 Min=-1.000000 Max=1.000000 Rack=1 Adr=540040D0 ComponentUUID=401
+Switch Desc="DLAA1" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=540040D8 ComponentUUID=354
+Switch Desc="DLAA2" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=540040DC ComponentUUID=405
+String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\Kundur Two Area Power System\Two Area Power System.rtfx"
+String Desc="Draft file modification date" Group="Time tags" InitValue="2025/05/08 22:53:40"
+String Desc="Compile date" Group="Time tags" InitValue="2025/05/08 22:53:40"
+
+
+CHECKSUM_INFORMATION:
+checksum_record: subsystem=1 checksum=C81CAE9F
+
+
+COMPONENT_TIMING_INFORMATION:
+timing_record: subsystem=1 processor=0 processor_type=NOVACOR
+timing_record: subsystem=1 processor=1 processor_type=NOVACOR
+timing_record: subsystem=1 processor=2 processor_type=NOVACOR
+timing_record: subsystem=1 processor=3 processor_type=NOVACOR
+timing_record: subsystem=1 processor=4 processor_type=NOVACOR
+timing_record: timing_name=1::_1 component_type=netsolCB subsystem=1 processor=0 processor_type=NOVACOR clock_index=1 enabled=true use=PSYS lf=300.000000 description=NetworkSolution
+timing_record: timing_name=(null) component_type=dnp_v6 subsystem=1 processor=1 processor_type=NOVACOR clock_index=1 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=416
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=2 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=15
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=3 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=80
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=4 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=132
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=5 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=104
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=6 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=12
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=7 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=84
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=8 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=126
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=9 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=98
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=19 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=349
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=20 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=159
+timing_record: timing_name=(null) component_type=monoX01 subsystem=1 processor=1 processor_type=NOVACOR clock_index=21 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=155
+timing_record: timing_name=(null) component_type=mul_A subsystem=1 processor=1 processor_type=NOVACOR clock_index=22 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=158
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=28 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=344
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=29 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=381
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=32 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=337
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=33 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=383
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=36 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=25
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=37 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=88
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=38 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=136
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=39 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=108
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=40 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=340
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=41 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=393
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=42 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=345
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=43 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=394
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=44 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=336
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=45 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=387
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=46 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=333
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=47 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=341
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=48 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=397
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=49 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=400
+timing_record: timing_name=CONTROL_GROUP_1 component_type=CONTROL_GROUP_1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=50 enabled=true use=CTLS lf=0.000000
+timing_record: timing_name=BUS1x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=1 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=BUS2x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=2 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=BUS3x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=3 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=BUS4x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=4 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=T1d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=5 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T1 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=6 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T2d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=7 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T2 component_type=tln_mdl_03 subsystem=1 processor=2 processor_type=NOVACOR clock_index=8 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T31d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=9 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T31 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=10 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T32d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=11 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T32 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=12 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T41d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=13 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T41 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=14 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T42d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=15 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T42 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=16 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T5d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=17 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T5 component_type=tln_mdl_03 subsystem=1 processor=2 processor_type=NOVACOR clock_index=18 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T6d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=19 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T6 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=20 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T1RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=21 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T1SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=22 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T2RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=23 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T2SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=24 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T31RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=25 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T31SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=26 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T32RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=27 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T32SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=28 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T41RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=29 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T41SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=30 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T42RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=31 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T42SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=32 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T5RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=33 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T5SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=34 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T6RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=35 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T6SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=36 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=DL1 component_type=_dyLoad112 subsystem=1 processor=2 processor_type=NOVACOR clock_index=37 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=DL2 component_type=_dyLoad112 subsystem=1 processor=2 processor_type=NOVACOR clock_index=38 enabled=true use=PSYS lf=10.000000

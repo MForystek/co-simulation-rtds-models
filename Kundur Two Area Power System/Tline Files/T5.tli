@@ -1,0 +1,19 @@
+!RTDS_REVISION = 3
+Line Summary:
+  {
+  Steady State Frequency = 60.0
+  }
+RLC Options:
+  {
+  Data Entry Format                      = 1
+  MVA Base                               = 100.0
+  Rated Voltage                          = 230.0
+  Shunt Capacitance Known                = 1
+  Positive Sequence Series Resistance    = 0.001
+  Positive Sequence Series Ind Reactance = 0.01
+  Positive Sequence Series Cap Reactance = 57.142857
+  Zero Sequence Series Resistance        = 0.015
+  Zero Sequence Series Ind Reactance     = 0.035
+  Zero Sequence Series Cap Reactance     = 102.040816
+  Number of Phases                       = 3
+  }

@@ -34,25 +34,25 @@ Output Desc="S1) A23" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE 
 Output Desc="S1) B23" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020020 ComponentUUID=169
 Output Desc="S1) C23" Group="Subsystem #1|Node Voltages" Units="kV" Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020028 ComponentUUID=169
 Slider Desc="V_BUS35x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.069300 Min=0.000000 Max=1.200000 Rack=1 Adr=54004000 ComponentUUID=44
-Slider Desc="V_BUS36x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.135248 Min=0.000000 Max=1.200000 Rack=1 Adr=54004008 ComponentUUID=181
-Slider Desc="P_BUS36x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=0.028190 Min=0.000000 Max=1.200000 Rack=1 Adr=54004010 ComponentUUID=182
+Slider Desc="V_BUS36x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.118357 Min=0.000000 Max=1.200000 Rack=1 Adr=54004008 ComponentUUID=181
+Slider Desc="P_BUS36x1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=0.025378 Min=0.000000 Max=1.200000 Rack=1 Adr=54004010 ComponentUUID=182
 Switch Desc="LockFree" Group="Subsystem #1|Machines|BUS35x1" Type=INT P0=0 P1=1 InitValue=0 OnText="Free" OffText="Lock" Rack=1 Adr=54004018 ComponentUUID=183
 Slider Desc="CONSPD" Group="Subsystem #1|Machines|BUS35x1" Type=IEEE Units="Hz" InitValue=60.000000 Min=0.000000 Max=100.000000 Rack=1 Adr=54004020 ComponentUUID=183
-Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS35x1" Type=IEEE Units="Deg" InitValue=19.701027 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004028 ComponentUUID=183
+Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS35x1" Type=IEEE Units="Deg" InitValue=356.307983 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004028 ComponentUUID=183
 Switch Desc="LockFree" Group="Subsystem #1|Machines|BUS36x1" Type=INT P0=0 P1=1 InitValue=0 OnText="Free" OffText="Lock" Rack=1 Adr=54004030 ComponentUUID=173
 Slider Desc="CONSPD" Group="Subsystem #1|Machines|BUS36x1" Type=IEEE Units="Hz" InitValue=60.000000 Min=0.000000 Max=100.000000 Rack=1 Adr=54004038 ComponentUUID=173
-Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS36x1" Type=IEEE Units="Deg" InitValue=27.060087 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004040 ComponentUUID=173
+Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS36x1" Type=IEEE Units="Deg" InitValue=5.533530 Min=-360.000000 Max=360.000000 Rack=1 Adr=54004040 ComponentUUID=173
 Slider Desc="SL" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="unit" InitValue=0.000000 Min=-100.000000 Max=0.000000 Rack=1 Adr=54004048 ComponentUUID=206
 Switch Desc="DLAA_on1" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=54004050 ComponentUUID=81
 Switch Desc="DLAA_on2" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=54004054 ComponentUUID=239
 Switch Desc="LFC_on" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=54004058 ComponentUUID=82
 String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\TwoBusTest\TwoBusTest.rtfx"
-String Desc="Draft file modification date" Group="Time tags" InitValue="2025/05/04 19:26:48"
-String Desc="Compile date" Group="Time tags" InitValue="2025/05/04 19:26:48"
+String Desc="Draft file modification date" Group="Time tags" InitValue="2025/05/08 14:58:43"
+String Desc="Compile date" Group="Time tags" InitValue="2025/05/08 14:58:44"
 
 
 CHECKSUM_INFORMATION:
-checksum_record: subsystem=1 checksum=35A41D55
+checksum_record: subsystem=1 checksum=D2BAC03E
 
 
 COMPONENT_TIMING_INFORMATION:

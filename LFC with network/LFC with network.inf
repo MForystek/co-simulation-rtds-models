@@ -293,8 +293,8 @@ Switch Desc="Remote_LFC" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 Ini
 Switch Desc="UFLS" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=54004190 ComponentUUID=1879
 Switch Desc="UFLS_remote" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004194 ComponentUUID=1934
 String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\LFC with network\LFC with network.rtfx"
-String Desc="Draft file modification date" Group="Time tags" InitValue="2025/05/03 09:35:58"
-String Desc="Compile date" Group="Time tags" InitValue="2025/05/03 09:35:59"
+String Desc="Draft file modification date" Group="Time tags" InitValue="2025/05/08 14:39:24"
+String Desc="Compile date" Group="Time tags" InitValue="2025/05/08 14:39:25"
 
 
 CHECKSUM_INFORMATION:

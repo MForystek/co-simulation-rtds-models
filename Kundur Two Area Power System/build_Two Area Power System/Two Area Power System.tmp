@@ -1,0 +1,71 @@
+timing_record: timing_name=1::_1 component_type=netsolCB subsystem=1 processor=0 processor_type=NOVACOR clock_index=1 enabled=true use=PSYS lf=300.000000 description=NetworkSolution
+timing_record: timing_name=(null) component_type=dnp_v6 subsystem=1 processor=1 processor_type=NOVACOR clock_index=1 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=416
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=2 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=15
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=3 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=80
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=4 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=132
+timing_record: timing_name=(null) component_type=STAB1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=5 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=104
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=6 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=12
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=7 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=84
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=8 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=126
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=1 processor_type=NOVACOR clock_index=9 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=98
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=19 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=349
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=20 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=159
+timing_record: timing_name=(null) component_type=monoX01 subsystem=1 processor=1 processor_type=NOVACOR clock_index=21 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=155
+timing_record: timing_name=(null) component_type=mul_A subsystem=1 processor=1 processor_type=NOVACOR clock_index=22 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=158
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=28 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=344
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=29 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=381
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=32 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=337
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=33 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=383
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=36 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=25
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=37 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=88
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=38 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=136
+timing_record: timing_name=(null) component_type=ESAC4Ax subsystem=1 processor=1 processor_type=NOVACOR clock_index=39 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=108
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=40 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=340
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=41 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=393
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=42 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=345
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=43 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=394
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=44 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=336
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=1 processor_type=NOVACOR clock_index=45 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=387
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=46 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=333
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=47 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=341
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=48 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=397
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=1 processor_type=NOVACOR clock_index=49 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=400
+timing_record: timing_name=CONTROL_GROUP_1 component_type=CONTROL_GROUP_1 subsystem=1 processor=1 processor_type=NOVACOR clock_index=50 enabled=true use=CTLS lf=0.000000
+timing_record: timing_name=BUS1x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=1 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=BUS2x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=2 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=BUS3x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=3 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=BUS4x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=NOVACOR clock_index=4 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=T1d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=5 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T1 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=6 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T2d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=7 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T2 component_type=tln_mdl_03 subsystem=1 processor=2 processor_type=NOVACOR clock_index=8 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T31d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=9 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T31 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=10 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T32d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=11 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T32 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=12 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T41d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=13 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T41 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=14 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T42d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=15 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T42 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=16 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T5d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=17 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T5 component_type=tln_mdl_03 subsystem=1 processor=2 processor_type=NOVACOR clock_index=18 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T6d component_type=tln_logic subsystem=1 processor=2 processor_type=NOVACOR clock_index=19 enabled=true use=PSYS lf=0.000000 description=Tline
+timing_record: timing_name=T6 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=NOVACOR clock_index=20 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T1RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=21 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T1SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=22 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T2RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=23 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T2SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=24 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T31RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=25 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T31SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=26 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T32RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=27 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T32SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=28 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T41RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=29 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T41SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=30 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T42RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=31 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T42SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=32 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T5RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=33 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T5SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=34 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T6RE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=35 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=T6SE component_type=TLterm subsystem=1 processor=2 processor_type=NOVACOR clock_index=36 enabled=true use=PSYS lf=0.000000
+timing_record: timing_name=DL1 component_type=_dyLoad112 subsystem=1 processor=2 processor_type=NOVACOR clock_index=37 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=DL2 component_type=_dyLoad112 subsystem=1 processor=2 processor_type=NOVACOR clock_index=38 enabled=true use=PSYS lf=10.000000
