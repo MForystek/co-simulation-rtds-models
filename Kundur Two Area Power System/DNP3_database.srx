@@ -1,4 +1,8 @@
 # AI: Analog Input Objects 30,32 in DNP Specification (Outputs from RTDS)
-AI: 0 FREQ 0% 
+AI: 0 FREQ_big5 0% 
+AI: 1 FREQ_big6 0% 
+AI: 2 FREQ_big10 0% 
+AI: 3 FREQ_big11 0% 
 
 # AO: Analog Output Objects 40,41 in DNP Specification (Inputs to RTDS)
+AO: 0 Load1 1.0 

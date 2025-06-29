@@ -116,13 +116,13 @@ Output Desc="FREQ9_big" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min
 Output Desc="FREQ10_big" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510204E0 ComponentUUID=2320
 Output Desc="ACE2_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510204E8 ComponentUUID=331
 Output Desc="ACE3_local" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=510204F0 ComponentUUID=574
-Output Desc="DLAA_time" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=510204F8 ComponentUUID=1994
+Output Desc="LAA_time" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=510204F8 ComponentUUID=1994
 Output Desc="PulseOut1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=510204FC ComponentUUID=2648
 Output Desc="ShedPar" Group="Subsystem #1|CTLs|Vars" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020500 ComponentUUID=1929
 Output Desc="EF10" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020690 ComponentUUID=406
 Output Desc="TM10" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=DOUBLE Min=0.0000 Max=1.0000 Rack=1 Adr=51020698 ComponentUUID=408
-Output Desc="Dynamic_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020508 ComponentUUID=1881
-Output Desc="Dynamic_remote" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=5102050C ComponentUUID=1982
+Output Desc="LAA_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020508 ComponentUUID=1881
+Output Desc="LAA_remote" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=5102050C ComponentUUID=1982
 Output Desc="LFC_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020510 ComponentUUID=1877
 Output Desc="RemoteLFC" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020514 ComponentUUID=1878
 Output Desc="UFLS_on" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=INT Min=0 Max=1 Rack=1 Adr=51020518 ComponentUUID=1879
@@ -286,19 +286,19 @@ Slider Desc="A_shift" Group="Subsystem #1|Machines|BUS39x1" Type=IEEE Units="Deg
 Slider Desc="Ef10" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.064371 Min=0.000000 Max=1.200000 Rack=1 Adr=54004168 ComponentUUID=406
 Slider Desc="SL1" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="sec" InitValue=0.010000 Min=0.010000 Max=1.000000 Rack=1 Adr=54004170 ComponentUUID=2640
 Slider Desc="Tm10" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="pu" InitValue=1.003656 Min=0.000000 Max=1.200000 Rack=1 Adr=54004178 ComponentUUID=408
-Switch Desc="DLAA" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004180 ComponentUUID=1881
-Switch Desc="DLAA_remote" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004184 ComponentUUID=1982
+Switch Desc="LAA" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004180 ComponentUUID=1881
+Switch Desc="LAA_remote" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004184 ComponentUUID=1982
 Switch Desc="LFC" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004188 ComponentUUID=1877
 Switch Desc="Remote_LFC" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=5400418C ComponentUUID=1878
 Switch Desc="UFLS" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=0 OnText="ON" OffText="OFF" Rack=1 Adr=54004190 ComponentUUID=1879
 Switch Desc="UFLS_remote" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 InitValue=1 OnText="ON" OffText="OFF" Rack=1 Adr=54004194 ComponentUUID=1934
 String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\Users\forystmj\Documents\RSCAD\RTDS_USER_FX\fileman\LFC with network\LFC with network.rtfx"
-String Desc="Draft file modification date" Group="Time tags" InitValue="2025/05/08 14:39:24"
-String Desc="Compile date" Group="Time tags" InitValue="2025/05/08 14:39:25"
+String Desc="Draft file modification date" Group="Time tags" InitValue="2025/06/18 06:07:01"
+String Desc="Compile date" Group="Time tags" InitValue="2025/06/18 06:07:03"
 
 
 CHECKSUM_INFORMATION:
-checksum_record: subsystem=1 checksum=688DBC67
+checksum_record: subsystem=1 checksum=ACF26C5A
 
 
 COMPONENT_TIMING_INFORMATION:

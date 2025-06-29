@@ -110,7 +110,7 @@ RISC CONTROLS COMPONENTS(proc 0) --> NovaCor Core #1
 numberOfModels = 3
 
 Subsystem 1, Network Solution on core 1 Statistics:
-Number of nodes: 21
+Number of nodes: 24
 Number of passed G values: 6
 Number of switched G overlays: 0
 Number of columns dynamically decomposed: 9
@@ -118,7 +118,7 @@ Number of columns dynamically decomposed: 9
 
 
 RISC CONTROLS COMPONENTS(proc 1) --> NovaCor Core #2 
-numberOfModels = 49
+numberOfModels = 74
 
 
 RISC CONTROLS COMPONENTS(proc 2) --> NovaCor Core #3 

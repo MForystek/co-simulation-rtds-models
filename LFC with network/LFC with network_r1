@@ -84163,7 +84163,7 @@ bff00000
 00000000
 3ff00000
 00000000
-41414c44
+0041414c
 00000001
 00000000
 00000000
@@ -84175,7 +84175,7 @@ bff00000
 0046464f
 58701f80
 00000000
-41414c44
+5f41414c
 00000001
 00000000
 00000000
@@ -134235,11 +134235,11 @@ ffffffff
 00000002
 00000002
 00000002
-00000001
-00000001
-00000001
-00000001
-00000001
+00000002
+00000002
+00000002
+00000002
+00000002
 00000002
 00000002
 00000002
@@ -316835,11 +316835,11 @@ d2f1a9fc
 00020606 //       Obj 30/32 10 - [23..16] Class - [15..8] Static variation - [7..0] event variation
 00020606 //       Obj 30/32 11 - [23..16] Class - [15..8] Static variation - [7..0] event variation
 00020606 //       Obj 30/32 12 - [23..16] Class - [15..8] Static variation - [7..0] event variation
-00010606 //       Obj 30/32 13 - [23..16] Class - [15..8] Static variation - [7..0] event variation
-00010606 //       Obj 30/32 14 - [23..16] Class - [15..8] Static variation - [7..0] event variation
-00010606 //       Obj 30/32 15 - [23..16] Class - [15..8] Static variation - [7..0] event variation
-00010606 //       Obj 30/32 16 - [23..16] Class - [15..8] Static variation - [7..0] event variation
-00010606 //       Obj 30/32 17 - [23..16] Class - [15..8] Static variation - [7..0] event variation
+00020606 //       Obj 30/32 13 - [23..16] Class - [15..8] Static variation - [7..0] event variation
+00020606 //       Obj 30/32 14 - [23..16] Class - [15..8] Static variation - [7..0] event variation
+00020606 //       Obj 30/32 15 - [23..16] Class - [15..8] Static variation - [7..0] event variation
+00020606 //       Obj 30/32 16 - [23..16] Class - [15..8] Static variation - [7..0] event variation
+00020606 //       Obj 30/32 17 - [23..16] Class - [15..8] Static variation - [7..0] event variation
 80000428 //    [31] Last object | [30..24] IED - [23..8] Num points - [7..0] Analog output
 00000000 //    [31..16] Start point in DB - [15..0] Start point in DNP
 00020406 //       Obj 40/42 0 - [23..16] Class - [15..8] Static variation - [7..0] event variation

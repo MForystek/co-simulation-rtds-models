@@ -1,0 +1,226 @@
+
+ T-Line "T1" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 454.49200  mode1 = 324.63700  mode2 = 324.63700  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 5.32 + j45.07 ohms
+                                      = 45.39 /_83.27 degree
+           Shunt Capacitive Reactance = 3009.52 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 79.75 + j157.77 ohms
+                                      = 176.78 /_63.18 degree
+           Shunt Capacitive Reactance = 5373.99 ohms
+
+ T-Line "T2" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 447.98600  mode1 = 319.99000  mode2 = 319.99000  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 9.04 + j48.78 ohms
+                                      = 49.61 /_79.51 degree
+           Shunt Capacitive Reactance = 3352.26 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 135.55 + j170.74 ohms
+                                      = 218.00 /_51.55 degree
+           Shunt Capacitive Reactance = 5986.00 ohms
+
+ T-Line "T3" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 825.83100  mode1 = 589.88000  mode2 = 589.88000  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 17.21 + j85.84 ohms
+                                      = 87.55 /_78.66 degree
+           Shunt Capacitive Reactance = 1735.94 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 258.13 + j300.45 ohms
+                                      = 396.11 /_49.33 degree
+           Shunt Capacitive Reactance = 3099.81 ohms
+
+ T-Line "T4" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 918.22200  mode1 = 655.87300  mode2 = 655.87300  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 21.05 + j90.80 ohms
+                                      = 93.21 /_76.95 degree
+           Shunt Capacitive Reactance = 1485.24 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 315.81 + j317.80 ohms
+                                      = 448.03 /_45.18 degree
+           Shunt Capacitive Reactance = 2652.13 ohms
+
+ T-Line "T5" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 384.80900  mode1 = 274.86300  mode2 = 274.86300  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 4.51 + j38.15 ohms
+                                      = 38.42 /_83.25 degree
+           Shunt Capacitive Reactance = 3553.62 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 67.69 + j133.54 ohms
+                                      = 149.72 /_63.12 degree
+           Shunt Capacitive Reactance = 6345.56 ohms
+
+ T-Line "T6" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 539.47500  mode1 = 385.33900  mode2 = 385.33900  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 6.34 + j53.51 ohms
+                                      = 53.88 /_83.24 degree
+           Shunt Capacitive Reactance = 2535.63 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 95.09 + j187.28 ohms
+                                      = 210.04 /_63.08 degree
+           Shunt Capacitive Reactance = 4527.77 ohms
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=53.750000 MW(R=864.494062 ohms)
+	Qinit=20.000000 MVar(L=0.853262 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=125.000000 MW(R=364.827586 ohms)
+	Qinit=50.000000 MVar(L=0.387094 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=62.500000 MW(R=729.655172 ohms)
+	Qinit=25.000000 MVar(L=0.774188 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=90.000000 MW(R=529.000000 ohms)
+	Qinit=30.000000 MVar(L=0.467739 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=45.000000 MW(R=1058.000000 ohms)
+	Qinit=15.000000 MVar(L=0.935477 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=56.250000 MW(R=822.990493 ohms)
+	Qinit=21.250000 MVar(L=0.824708 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=100.000000 MW(R=471.269488 ohms)
+	Qinit=35.000000 MVar(L=0.437528 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=50.000000 MW(R=942.538976 ohms)
+	Qinit=17.500000 MVar(L=0.875057 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=47.500000 MW(R=996.999380 ohms)
+	Qinit=16.250000 MVar(L=0.904739 H)
+	T= 0.010000	K1=0.002494	K2=0.995012
+	Tm= 0.003000	K1=0.008264	K2=0.983471
+
+
+RISC CONTROLS COMPONENTS(proc 0) --> NovaCor Core #1 
+numberOfModels = 3
+
+Subsystem 1, Network Solution on core 1 Statistics:
+Number of nodes: 36
+Number of passed G values: 27
+Number of switched G overlays: 0
+Number of columns dynamically decomposed: 27
+
+
+
+RISC CONTROLS COMPONENTS(proc 1) --> NovaCor Core #2 
+numberOfModels = 28
+
+
+RISC CONTROLS COMPONENTS(proc 2) --> NovaCor Core #3 
+numberOfModels = 38
+
+
+RISC-based MAC_V3 Machine model named: BUS1x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS1x1" 
+      Initial Mechanical Torque required: 0.720897 PU
+      Initial Field Voltage required:     1.081895 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.014600 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 0.131400 pu
+               Damper Leakage Reactance:  X3d= 2.619297 pu
+                      Damper Resistance:  R3d= 0.707020 pu
+                Field Leakage Reactance:  X2d= 0.071254 pu
+                       Field resistance:  R2d= 0.000060 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.014600 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 0.085400 pu
+           2nd Damper Leakage Reactance:  X3q= 0.101237 pu
+                  2nd Damper Resistance:  R3q= 0.048661 pu
+           1st damper Leakage Reactance:  X2q= 2.277724 pu
+                  1st Damper resistance:  R2q= 0.020232 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS2x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS2x1" 
+      Initial Mechanical Torque required: 1.633820 PU
+      Initial Field Voltage required:     1.790981 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.089580 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 0.806220 pu
+               Damper Leakage Reactance:  X3d= 0.060284 pu
+                      Damper Resistance:  R3d= 0.023834 pu
+                Field Leakage Reactance:  X2d= 0.032110 pu
+                       Field resistance:  R2d= 0.000376 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.089580 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 0.774920 pu
+           2nd Damper Leakage Reactance:  X3q= 0.024699 pu
+                  2nd Damper Resistance:  R3q= 0.034131 pu
+           1st damper Leakage Reactance:  X2q= 0.139013 pu
+                  1st Damper resistance:  R2q= 0.005021 pu
+
+
+
+RISC-based MAC_V3 Machine model named: BUS3x1
+   in subsystem: #1
+
+      RPC-GPC Synchronous Machine model "BUS3x1" 
+      Initial Mechanical Torque required: 0.853590 PU
+      Initial Field Voltage required:     1.405733 NORM
+
+      D axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.131250 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+  Field-Damper Mutual Leakage Reactance: X230= 0.000000 pu
+      Unsaturated magnetizing reactance: Xmd0= 1.181250 pu
+               Damper Leakage Reactance:  X3d= 1.775563 pu
+                      Damper Resistance:  R3d= 0.483768 pu
+                Field Leakage Reactance:  X2d= 0.052348 pu
+                       Field resistance:  R2d= 0.000556 pu
+
+      Q axis circuit parameters
+      -------------------------
+               Stator Leakage Reactance:  Xs1= 0.131250 pu
+                      Stator Resistance:  Rs1= 0.000125 pu
+                  Magnetizing Reactance:  Xmq= 1.126550 pu
+           2nd Damper Leakage Reactance:  X3q= 0.077623 pu
+                  2nd Damper Resistance:  R3q= 0.050435 pu
+           1st damper Leakage Reactance:  X2q= 0.148316 pu
+                  1st Damper resistance:  R2q= 0.006186 pu
+

@@ -3,18 +3,21 @@ clear all;
 clc;
 
 % File configuration
-filename = "freqs.txt";
+filename = "freqs/MDLAA_60_alt_LFC_UFLS_delay_400ms.txt";
+graph_filename = "graphics/SLAA_UFLS_then_LFC.pdf";
+legend_location = "southeast";
 
 % Time configuration
 numofelements = 10; 
-time = 1000; % sec
+time = 400; % sec
 timestep = 0.01; % sec
 steps = time/timestep;
 
 runTCPServer(filename, numofelements, timestep, steps);
 
 %% Plotting
-plotResults(filename, numofelements, timestep);
+fig1 = figure('Units', 'inches', 'Position', [0, 0, 6.4, 4.8]);
+plotResults(filename, graph_filename, legend_location, numofelements, timestep);
 
 %% Functions
 function runTCPServer(filename, numofelements, timestep, steps)
@@ -89,7 +92,7 @@ function serverCallback(src, numofelements, file_w, timestep, steps, ~)
     callnum = callnum + 1;
 end
 
-function plotResults(filename, numofelements, timestep)
+function plotResults(filename, graph_filename, legend_location, numofelements, timestep)
     area1_gens = [4, 5, 6, 7];
     area2_gens = [8, 9, 10];
     area3_gens = [1, 2, 3];
@@ -111,5 +114,14 @@ function plotResults(filename, numofelements, timestep)
         hold on;
         lege(i) = (cellstr(strcat('freq', num2str(i))));
     end
-    legend(lege);
+    set(gca, 'FontSize', 16);
+    set(gca,'FontName', 'Arial');
+    
+    yline(58.8, "b--"); yline(60.5, "b--");
+    yline(57.5, "g-."); yline(61.5, "g-.");
+    yline(57, "r:"); yline(62.5, "r:");
+    xlabel('Time [s]');
+    ylabel('Frequency [Hz]');
+    legend(lege, 'FontSize', 12, 'Location', legend_location);
+    %exportgraphics(fig1, strcat(graph_filename), 'Resolution', 600, 'ContentType', 'vector');
 end

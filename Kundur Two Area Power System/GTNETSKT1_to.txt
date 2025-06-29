@@ -1,0 +1,4 @@
+FREQ5	float
+FREQ6	float
+FREQ10	float
+FREQ11	float

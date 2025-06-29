@@ -81,8 +81,12 @@
       <Hitem revision="76" when="2025/03/29 09:55:44" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="77" when="2025/04/16 22:12:22" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
       <Hitem revision="78" when="2025/04/16 22:12:51" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
-      <Hitem revision="79" when="2025/04/16 22:22:05" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
-      <Hitem revision="80" when="2025/04/16 22:23:07" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
+      <Hitem revision="79" when="2025/04/16 22:22:05" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="80" when="2025/04/16 22:23:07" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="81" when="2025/06/14 21:25:54" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="82" when="2025/06/15 01:43:23" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="83" when="2025/06/15 01:44:59" who="forystmj" what="Database has been modified" why="User Saved Changes"/>  
+      <Hitem revision="84" when="2025/06/15 02:51:38" who="forystmj" what="Database has been modified" why="User Saved Changes"/>
     </History> 
   </Header>  
   <Outstation name="Main" inst="1" desc="RTDS DNP3 interface" type="Generic IED" manufacturer="RTDS Technologies" componentVersion="DNPv6" configVersion="2.0"> 
@@ -169,11 +173,11 @@
       <AI DNP_address="10" variable_name="TL_13_T19" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6" deadband_algorithm="other"/>  
       <AI DNP_address="11" variable_name="TL_12_T21" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6" deadband_algorithm="other"/>  
       <AI DNP_address="12" variable_name="TL_23_T05" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6" deadband_algorithm="other"/>  
-      <AI DNP_address="13" variable_name="TL_23_T02" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class1" static_var="Group30Var6" event_var="Group32Var6"/>  
-      <AI DNP_address="14" variable_name="TL_31_T19" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class1" static_var="Group30Var6" event_var="Group32Var6"/>  
-      <AI DNP_address="15" variable_name="TL_21_T21" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class1" static_var="Group30Var6" event_var="Group32Var6"/>  
-      <AI DNP_address="16" variable_name="TL_32_T05" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class1" static_var="Group30Var6" event_var="Group32Var6"/>  
-      <AI DNP_address="17" variable_name="TL_32_T02" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class1" static_var="Group30Var6" event_var="Group32Var6"/> 
+      <AI DNP_address="13" variable_name="TL_23_T02" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>  
+      <AI DNP_address="14" variable_name="TL_31_T19" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>  
+      <AI DNP_address="15" variable_name="TL_21_T21" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>  
+      <AI DNP_address="16" variable_name="TL_32_T05" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/>  
+      <AI DNP_address="17" variable_name="TL_32_T02" deadband="0" analog_deadband_algorithm="simple" serializer_name="" class_num="Class2" static_var="Group30Var6" event_var="Group32Var6"/> 
     </AnalogStatusPoints>  
     <BinaryControlPoints maxEvents=""> 
       <!--Binary Output Objects 10, 12 in DNP Specification (Inputs to RTDS) BO: DNP_address user_label bitmap_name bitmap_bit_num default_state class_num static_var event_var--> 

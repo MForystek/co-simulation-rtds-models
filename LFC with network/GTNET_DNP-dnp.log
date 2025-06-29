@@ -144,11 +144,11 @@ AI:9 DNP_address:9 variable_name:W10 deadband:0 deadband_algorithm:0 serializer_
 AI:10 DNP_address:10 variable_name:TL_13_T19 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
 AI:11 DNP_address:11 variable_name:TL_12_T21 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
 AI:12 DNP_address:12 variable_name:TL_23_T05 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
-AI:13 DNP_address:13 variable_name:TL_23_T02 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:14 DNP_address:14 variable_name:TL_31_T19 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:15 DNP_address:15 variable_name:TL_21_T21 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:16 DNP_address:16 variable_name:TL_32_T05 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
-AI:17 DNP_address:17 variable_name:TL_32_T02 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class1 static_var:Group30Var6 event_var:Group32Var6
+AI:13 DNP_address:13 variable_name:TL_23_T02 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:14 DNP_address:14 variable_name:TL_31_T19 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:15 DNP_address:15 variable_name:TL_21_T21 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:16 DNP_address:16 variable_name:TL_32_T05 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
+AI:17 DNP_address:17 variable_name:TL_32_T02 deadband:0 deadband_algorithm:0 serializer_name: class_num:Class2 static_var:Group30Var6 event_var:Group32Var6
 ------------------------------------
 Validated AnalogStatusPoints element for GTNET IED 1
 Element 'Outstation' with attribute 'inst' = '1' found
